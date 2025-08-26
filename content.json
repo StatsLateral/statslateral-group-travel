@@ -1,0 +1,224 @@
+{
+  "hero": {
+    "headline": "Turn your expertise into income",
+    "subheadline": "Vybri helps physiotherapists and sports wellness coaches scale their practice through digital care plans, client engagement tools, and passive income opportunities.",
+    "cta_primary": "Grow your practice",
+    "cta_secondary": "See How It Works",
+    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video_caption": "See how Vybri empowers movement health professionals",
+    "image_caption": "Vybri helps PTs and sports wellness coaches build scalable, digital-first practices"
+  },
+  "why_vybri": {
+    "title": "Why Choose Vybri",
+    "subtitle": "Transform your practice with our AI-powered platform",
+    "steps": [
+      {
+        "title": "Generate recurring, passive income",
+        "description": "Turn your protocols, videos, and guides into subscriptions and on-demand plans—so you earn between visits, not just during sessions."
+      },
+      {
+        "title": "Strengthen trust with personalized care",
+        "description": "Deliver rehab plans that auto-adapt to each client's goals, adherence, and feedback—with timely nudges that keep them on track and coming back."
+      },
+      {
+        "title": "Grow your brand on autopilot",
+        "description": "Full automation: AI repackages your content into blogs, social posts, podcasts, and videos that auto-publishes on schedule, and optimizes based on what's working—without costing client time."
+      }
+    ]
+  },
+  "setup_options": {
+    "title": "How To Get Started",
+    "subtitle": "Launching your digital practice on Vybri is easy. Set it up in 30 minutes or let us do it for you.",
+    "options": [
+      {
+        "option_title": "Option 1: Do It Yourself (Free)",
+        "steps": [
+          {
+            "title": "Create your profile",
+            "description": "Vybri AI helps you build a professional, SEO-optimized profile ready to link with Instagram, YouTube, or other platforms."
+          },
+          {
+            "title": "Add your services",
+            "description": "Upload your rehab plans, prehab protocols, exercise libraries, subscriptions, and supplements in one dashboard."
+          },
+          {
+            "title": "Invite clients",
+            "description": "Send invites to current and past clients with new digital care plans tailored to their recovery and performance goals."
+          },
+          {
+            "title": "Publish expert content",
+            "description": "Turn your notes and videos into posts, guides, and emails—generated instantly to grow your brand."
+          }
+        ],
+        "cta": "Get Started",
+        "cta_url": "https://calendly.com/statslateral/vybri_provider"
+      },
+      {
+        "option_title": "Option 2: We Set It Up (One-time fee: $990)",
+        "description": "Let our Digital Practice Concierge Service do the heavy lifting:",
+        "steps": [
+          "Done-for-you profile optimized for search and social media presence",
+          "Upload and organization of your services, rehab plans, and wellness product recommendations",
+          "Setup of your client base and invitations for care plan subscriptions",
+          "Launch content including blogs, videos, and social posts (up to 10 assets)*"
+        ],
+        "footnote": "*After setup, you continue to use Vybri to grow and scale your practice.",
+        "cta": "Schedule Setup Call",
+        "cta_url": "https://calendly.com/statslateral/vybri_provider"
+      }
+    ]
+  },
+  "features": {
+    "title": "Features Built for PTs & Sports Wellness Coaches",
+    "subtitle": "Everything you need to scale your high-quality digital practice.",
+    "categories": [
+      {
+        "category_title": "Content Creation & Hosting",
+        "items": [
+          {
+            "title": "Unified content library",
+            "description": "Keep text, voice, and video content neatly organized and searchable in one place."
+          },
+          {
+            "title": "Prehab videos from plain English",
+            "description": "Say what you want (\"5 ankle sprain prehab exercises\") and get AI-generated videos in minutes."
+          },
+          {
+            "title": "Instant content transformation",
+            "description": "Text ↔︎ voice ↔︎ video with one click, so every idea ships in the right format."
+          }
+        ]
+      },
+      {
+        "category_title": "Monetize & Grow",
+        "items": [
+          {
+            "title": "Subscriptions & Programs",
+            "description": "Launch monthly/annual subscriptions and on-demand programs to earn between and after visits."
+          },
+          {
+            "title": "Storefront for services & products",
+            "description": "Sell packages, digital downloads, wellness products/supplements—side by side."
+          },
+          {
+            "title": "Single secure checkout",
+            "description": "One interface to buy everything, with PCI-compliant payments and automated receipts."
+          }
+        ]
+      },
+      {
+        "category_title": "Publish Everywhere",
+        "items": [
+          {
+            "title": "Social & site integrations",
+            "description": "Instagram, TikTok, your website, podcast apps, and video platforms—auto-scheduler + publishing included."
+          },
+          {
+            "title": "National & global reach",
+            "description": "Best-in-breed digital workflows with built-in SEO and best digital practices so new clients can find you anywhere."
+          }
+        ]
+      },
+      {
+        "category_title": "Future-Proof Capabilities",
+        "items": [
+          {
+            "title": "Multi-model AI orchestration",
+            "description": "We connect to top models (e.g., OpenAI, Hippocratic, Google) and route tasks to the best one—no upgrade anxiety."
+          },
+          {
+            "title": "Plug-in, don't replace",
+            "description": "Works with your practice management, notes/EHR, email, and analytics—keep the tools you love."
+          },
+          {
+            "title": "HIPAA & compliance",
+            "description": "Privacy-first architecture with in-built HIPAA controls and audit trails designed for healthcare."
+          }
+        ]
+      },
+      {
+        "category_title": "Designed for Personalized Client Engagement",
+        "items": [
+          {
+            "title": "Adaptive care plans",
+            "description": "Each plan auto-personalizes to goals, compliance, and feedback; clients get nudges, check-ins, and progression tweaks that keep them moving."
+          },
+          {
+            "title": "Client progress dashboard",
+            "description": "See real-time adherence, outcomes, and at-risk clients so you can intervene before drop-off."
+          }
+        ]
+      }
+    ]
+  },
+  "client_experience": {
+    "title": "The Client Experience",
+    "subtitle": "How clients experience continuity of care, anywhere.",
+    "video_url": "https://www.youtube.com/embed/jNQXAC9IVRw",
+    "testimonial": {
+      "quote": "I finally had access to my PT’s guidance between sessions—stretch routines, reminders, and even progress checks. It kept me consistent and motivated.",
+      "author": "Jordan M.",
+      "position": "Amateur Soccer Player"
+    }
+  },
+  "cta": {
+    "title": "Join the Movement to Elevate Rehab Coaching",
+    "description": "Be among the first to build a modern, sustainable practice that grows with your clients.",
+    "button_text": "Get Early Access to Vybri"
+  },
+  "pricing-marketing": {
+    "title": "Pricing (Marketing and Branding)",
+    "subtitle": "Pick your style—text, audio, or video-based growth strategies.",
+    "plans": [
+      {
+        "name": "Starter Marketing",
+        "price": "$100/month",
+        "tagline": "Text-based marketing, optimized for PT blogs and wellness tips.",
+        "features": [
+          "AI-written blog content based on your session insights",
+          "Weekly drafts tailored for SEO and relevance",
+          "Auto-posting to Instagram, LinkedIn, and Facebook",
+          "Branded visuals with every post",
+          "Hashtag and posting time optimizer",
+          "Basic engagement metrics"
+        ],
+        "cta": "Get Starter Plan"
+      },
+      {
+        "name": "Pro Marketing",
+        "price": "$250/month",
+        "tagline": "Add audio & video—educate, inspire, and engage.",
+        "features": [
+          "Everything in Starter, plus:",
+          "AI-generated podcast scripts and audio editing",
+          "Podcast uploads to Spotify, Apple, etc.",
+          "Short videos (exercise tips, routines, rehab FAQs)",
+          "Video editing, captions, and YouTube posting",
+          "Multi-format content calendar (text/audio/video)",
+          "Advanced analytics on reach and engagement"
+        ],
+        "cta": "Get Pro Plan"
+      }
+    ],
+    "pricing-clients-engagement": {
+      "title": "Pricing (Client Engagement)",
+      "subtitle": "Start free and pay only as you grow.",
+      "plans": [
+        {
+          "name": "Client Engagement & Subscriptions",
+          "price": "Always free to start - $0/month",
+          "tagline": "20% per transaction, no monthly fees",
+          "features": [
+            "Invite and re-engage clients anytime",
+            "Create care plans with one click",
+            "Offer subscriptions, rehab kits, and supplements",
+            "Track check-ins and engagement",
+            "Built-in payments and scheduling",
+            "Personalized client dashboard"
+          ],
+          "cta": "Launch My Practice"
+        }
+      ]
+    }
+  }
+}

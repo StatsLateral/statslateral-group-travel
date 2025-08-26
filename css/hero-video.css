@@ -1,0 +1,30 @@
+/* Responsive 16:9 video embed for hero section */
+.hero-video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  aspect-ratio: 16/9;
+  background: #17492B;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+}
+.hero-video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 16px;
+}
+
+@media (max-width: 700px) {
+  .hero-video-wrapper {
+    max-width: 100vw;
+    border-radius: 8px;
+  }
+  .hero-video-wrapper iframe {
+    border-radius: 8px;
+  }
+}
