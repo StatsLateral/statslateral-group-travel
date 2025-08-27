@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://cancer-coach.vybri.ai/sitemap.xml
+Sitemap: https://www.vybri.ai/sitemap.xml

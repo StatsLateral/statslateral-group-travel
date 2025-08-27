@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "type": "article",
+      "title": "How wellness coaches scale with AI-powered care plans",
+      "summary": "A practical guide to turning your expertise into recurring revenue with digital care plans, nudges, and client engagement.",
+      "url": "https://medium.com/@vybri/example-how-coaches-scale"
+    },
+    {
+      "type": "video",
+      "title": "Designing client journeys that keep people engaged",
+      "summary": "A 10-minute walkthrough of building personalized plans that adapt to feedback and adherence in real time.",
+      "url": "https://youtu.be/dQw4w9WgXcQ"
+    },
+    {
+      "type": "podcast",
+      "title": "From 1:1 sessions to scalable programs",
+      "summary": "Interview with a coach who productized their method into a thriving subscription offering using Vybri.",
+      "url": "https://podcasts.example.com/vybri-ep1"
+    },
+    {
+      "type": "article",
+      "title": "Content that compounds: blogs, socials, and beyond",
+      "summary": "How AI repackages your core content into multi-channel assets that publish on schedule without extra effort.",
+      "url": "https://www.vybri.ai/blog/content-that-compounds"
+    },
+    {
+      "type": "video",
+      "title": "Monetizing expertise between visits",
+      "summary": "Strategies for passive income: subscriptions, on-demand plans, and hybrid support models.",
+      "url": "https://vimeo.com/0000001"
+    },
+    {
+      "type": "podcast",
+      "title": "Regulatory basics for digital wellness",
+      "summary": "A quick primer on compliance considerations when you digitize parts of your practice.",
+      "url": "https://podcasts.example.com/vybri-ep2"
+    },
+    {
+      "type": "article",
+      "title": "Setting up in 30 minutes: a step-by-step checklist",
+      "summary": "From creating your profile to publishing your first plan—everything you need to go live fast.",
+      "url": "https://www.vybri.ai/blog/30-minute-setup"
+    },
+    {
+      "type": "video",
+      "title": "Automating brand growth without losing your voice",
+      "summary": "See how tone-locked AI assistants draft posts and maintain consistency across channels.",
+      "url": "https://youtu.be/0000002"
+    },
+    {
+      "type": "podcast",
+      "title": "Pricing models that work for wellness",
+      "summary": "Memberships, bundles, and outcome-based pricing—what we’re seeing work in 2025.",
+      "url": "https://podcasts.example.com/vybri-ep3"
+    }
+  ]
+}

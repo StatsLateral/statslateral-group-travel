@@ -60,10 +60,9 @@
                         'container'      => false,
                         'fallback_cb'    => function() {
                             echo '<ul>';
-                            echo '<li><a href="#">Help Center</a></li>';
-                            echo '<li><a href="#">Contact Us</a></li>';
-                            echo '<li><a href="#">Privacy Policy</a></li>';
-                            echo '<li><a href="#">Terms of Service</a></li>';
+                            echo '<li><a href="https://calendly.com/statslateral/vybri_provider" target="_blank">Contact Us</a></li>';
+                            echo '<li><a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>';
+                            echo '<li><a href="/terms.html" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>';
                             echo '</ul>';
                         }
                     ));
@@ -73,6 +72,9 @@
         </div>
     </div>
 </footer>
+    <!-- Consent-managed Analytics -->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/cookie-consent.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/analytics.js"></script>
 
 <?php wp_footer(); ?> 
 </body>

@@ -4,8 +4,8 @@
     "subheadline": "Vybri helps wellness coaches scale their practice through digital care plans, client engagement tools, and passive income opportunities.",
     "cta_primary": "Grow your practice",
     "cta_secondary": "See How It Works",
-    "video_url": "https://share.descript.com/embed/oNgu257O4mG",
-    "video_caption": "See how Vybri empowers wellness professionals",
+    "video_url": "https://share.descript.com/embed/1w5lYztBYx0",
+    "video_caption": "",
     "image_caption": "Vybri helps wellness coaches build scalable, digital-first practices"
   },
   "why_vybri": {
@@ -14,11 +14,11 @@
     "steps": [
       {
         "title": "Generate recurring, passive income",
-        "description": "Turn your protocols, videos, and guides into subscriptions and on-demand plans—so you earn between visits, not just during sessions."
+        "description": "Turn your methodology, videos, and guides into subscriptions and on-demand plans—so you earn between visits, not just during sessions."
       },
       {
         "title": "Strengthen trust with personalized care",
-        "description": "Deliver rehab plans that auto-adapt to each client's goals, adherence, and feedback—with timely nudges that keep them on track and coming back."
+        "description": "Deliver care plans that auto-adapt to each client's goals, adherence, and feedback—with timely nudges that keep them on track and coming back."
       },
       {
         "title": "Grow your brand on autopilot",
@@ -39,7 +39,7 @@
           },
           {
             "title": "Add your services",
-            "description": "Upload your rehab plans, prehab protocols, exercise libraries, subscriptions, and supplements in one dashboard."
+            "description": "Upload your care plans, programs, exercise libraries, subscriptions, and supplements in one dashboard."
           },
           {
             "title": "Invite clients",
@@ -58,7 +58,7 @@
         "description": "Let our Digital Practice Concierge Service do the heavy lifting:",
         "steps": [
           "Done-for-you profile optimized for search and social media presence",
-          "Upload and organization of your services, rehab plans, and wellness product recommendations",
+          "Upload and organization of your services, care plans, and wellness product recommendations",
           "Setup of your client base and invitations for care plan subscriptions",
           "Launch content including blogs, videos, and social posts (up to 10 assets)*"
         ],
@@ -69,7 +69,7 @@
     ]
   },
   "features": {
-    "title": "Features Built for PTs & Sports Wellness Coaches",
+    "title": "Features Built for Wellness Coaches",
     "subtitle": "Everything you need to scale your high-quality digital practice.",
     "categories": [
       {
@@ -80,8 +80,8 @@
             "description": "Keep text, voice, and video content neatly organized and searchable in one place."
           },
           {
-            "title": "Prehab videos from plain English",
-            "description": "Say what you want (\"5 ankle sprain prehab exercises\") and get AI-generated videos in minutes."
+            "title": "Create videos from plain English",
+            "description": "Say what you want (\"5 ways to build a micro habit\") and get AI-generated videos in minutes."
           },
           {
             "title": "Instant content transformation",
@@ -98,7 +98,7 @@
           },
           {
             "title": "Storefront for services & products",
-            "description": "Sell packages, digital downloads, wellness products/supplements—side by side."
+            "description": "Sell packages, supplements, digital downloads, and wellness products—side by side."
           },
           {
             "title": "Single secure checkout",
@@ -156,13 +156,13 @@
     "subtitle": "How clients experience continuity of care, anywhere.",
     "video_url": "https://www.youtube.com/embed/jNQXAC9IVRw",
     "testimonial": {
-      "quote": "I finally had access to my PT’s guidance between sessions—stretch routines, reminders, and even progress checks. It kept me consistent and motivated.",
+      "quote": "I finally had access to my coach’s guidance between sessions—stretch routines, reminders, and even progress checks. It kept me consistent and motivated.",
       "author": "Jordan M.",
       "position": "Amateur Soccer Player"
     }
   },
   "cta": {
-    "title": "Join the Movement to Elevate Rehab Coaching",
+    "title": "Join the Movement to Elevate Wellness Coaching",
     "description": "Be among the first to build a modern, sustainable practice that grows with your clients.",
     "button_text": "Get Early Access to Vybri"
   },
@@ -173,7 +173,7 @@
       {
         "name": "Starter Marketing",
         "price": "$100/month",
-        "tagline": "Text-based marketing, optimized for PT blogs and wellness tips.",
+        "tagline": "Text-based marketing, optimized for wellness blogs and tips.",
         "features": [
           "AI-written blog content based on your session insights",
           "Weekly drafts tailored for SEO and relevance",
@@ -192,7 +192,7 @@
           "Everything in Starter, plus:",
           "AI-generated podcast scripts and audio editing",
           "Podcast uploads to Spotify, Apple, etc.",
-          "Short videos (exercise tips, routines, rehab FAQs)",
+          "Short videos (exercise tips, routines, wellness FAQs)",
           "Video editing, captions, and YouTube posting",
           "Multi-format content calendar (text/audio/video)",
           "Advanced analytics on reach and engagement"
@@ -211,7 +211,7 @@
           "features": [
             "Invite and re-engage clients anytime",
             "Create care plans with one click",
-            "Offer subscriptions, rehab kits, and supplements",
+            "Offer subscriptions, wellness kits, and supplements",
             "Track check-ins and engagement",
             "Built-in payments and scheduling",
             "Personalized client dashboard"

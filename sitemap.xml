@@ -4,25 +4,25 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://cancer-coach.vybri.ai/</loc>
+    <loc>https://www.vybri.ai/</loc>
     <lastmod>2025-04-07T12:00:00+00:00</lastmod>
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://cancer-coach.vybri.ai/#features</loc>
+    <loc>https://www.vybri.ai/#features</loc>
     <lastmod>2025-04-07T12:00:00+00:00</lastmod>
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://cancer-coach.vybri.ai/#how-it-works</loc>
+    <loc>https://www.vybri.ai/#how-it-works</loc>
     <lastmod>2025-04-07T12:00:00+00:00</lastmod>
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://cancer-coach.vybri.ai/#client-experience</loc>
+    <loc>https://www.vybri.ai/#client-experience</loc>
     <lastmod>2025-04-07T12:00:00+00:00</lastmod>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>

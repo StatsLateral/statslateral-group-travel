@@ -1,5 +1,5 @@
 .team-section {
-  background: #e6f3ec;
+  background: #e7f2ff; /* match How it Works light blue */
   padding: 64px 0 48px 0;
 }
 .team-section .section-header h2 {
@@ -38,7 +38,7 @@
   }
 }
 .team-tile {
-  background: #f5fcf8;
+  background: #ffffff; /* white sub-section cards */
   border-radius: 18px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.06);
   padding: 28px 20px 20px 20px;
@@ -63,12 +63,17 @@
   margin: 0 0 8px 0;
   font-size: 1.15rem;
   font-weight: 600;
+  color: var(--text-color);
 }
 .team-tile p {
   margin: 0;
   font-size: 0.98rem;
-  color: #17492B;
+  color: var(--text-color);
   line-height: 1.4;
+}
+/* Ensure LinkedIn links in headings inherit the dark grey */
+.team-tile h3 a {
+  color: inherit;
 }
 @media (max-width: 900px) {
   .team-grid {

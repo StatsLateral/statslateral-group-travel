@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vybri Resources</title>
+  <meta name="description" content="Vybri Resources: insights, guides, videos, and podcasts for wellness professionals." />
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.vybri.ai/resources.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Vybri Resources">
+  <meta property="og:description" content="Insights, guides, videos, and podcasts for wellness professionals.">
+  <meta property="og:image" content="https://www.vybri.ai/images/app-screenshot.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://www.vybri.ai/resources.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vybri">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vybri Resources">
+  <meta name="twitter:description" content="Insights, guides, videos, and podcasts for wellness professionals.">
+  <meta name="twitter:image" content="https://www.vybri.ai/images/app-screenshot.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/resources.css" />
+
+  <!-- JSON-LD: WebPage Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Vybri Resources",
+    "url": "https://www.vybri.ai/resources.html",
+    "description": "Vybri Resources: insights, guides, videos, and podcasts for wellness professionals."
+  }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/vybri-logo.png" alt="Vybri logo"></a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html#how-it-works">Why Vybri</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#setup-options">Get Started</a></li>
+          <li><a href="https://calendly.com/statslateral/vybri_provider" target="_blank" class="btn btn-primary">Grow your practice</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="resources-page">
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Resources</h2>
+          <p>Insights, guides, and interviews to help you grow a modern wellness practice.</p>
+        </div>
+
+        <div id="resource-filters" class="filters" aria-label="Resource filters">
+          <button class="chip active" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="article" aria-pressed="false">Articles</button>
+          <button class="chip" data-filter="video" aria-pressed="false">Videos</button>
+          <button class="chip" data-filter="podcast" aria-pressed="false">Podcasts</button>
+        </div>
+
+        <div id="resources-list" class="resources-list" aria-live="polite"></div>
+        <div id="loading" class="loading" hidden>
+          <div class="spinner" aria-hidden="true"></div>
+          <span>Loading more resources…</span>
+        </div>
+        <div id="sentinel" class="sentinel" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/vybri-logo.png" alt="Vybri logo - AI-powered wellness coaching platform" loading="lazy">
+          <p>© 2025 Vybri. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="index.html#features">Features</a></li>
+              <li><a href="index.html#pricing">Pricing</a></li>
+              <li><a href="index.html#setup-options">Get Started</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="index.html#team">Team</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="https://calendly.com/statslateral/vybri_provider" target="_blank">Contact Us</a></li>
+              <li><a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+              <li><a href="terms.html" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/resources.js"></script>
+  <!-- Consent-managed Analytics -->
+  <script src="js/cookie-consent.js"></script>
+  <script src="js/analytics.js"></script>
+</body>
+</html>

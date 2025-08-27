@@ -1,11 +1,11 @@
-# Vybri Cancer Survivorship Landing Page
+# Vybri Landing Page
 
-This is a responsive landing page for the Vybri platform - a coaching and support service for cancer survivors. It follows best practices for content structure and includes integration with PostHog for analytics.
+This is a responsive landing page for the Vybri platform - a coaching and support service for wellness coaches. It follows best practices for content structure and includes integration with PostHog for analytics.
 
 ## Project Structure
 
 ```
-Vybri-cancer-landing-page/
+Vybri-landing-page/
 ├── css/
 │   └── style.css         # Main stylesheet with responsive design
 ├── images/               # Directory for all images
@@ -28,7 +28,7 @@ All image files referenced in the HTML should be placed in the `images/` directo
 
 1. **logo.png**: Vybri logo (recommended size: 160px × 40px)
 2. **app-screenshot.png**: Screenshot of the Vybri coaching interface for the hero section (recommended size: 600px × 1200px)
-3. **step-1.png, step-2.png, step-3.png**: Icons representing the cancer survivorship coaching process (recommended size: 80px × 80px)
+3. **step-1.png, step-2.png, step-3.png**: Icons representing the wellness coaching process (recommended size: 80px × 80px)
 
 ## PostHog Analytics Integration
 

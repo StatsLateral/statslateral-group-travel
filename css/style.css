@@ -99,12 +99,12 @@ ul {
 }
 
 .btn-primary {
-    background-color: var(--primary-color);
+    background-color: #333333;
     color: var(--white);
 }
 
 .btn-primary:hover {
-    background-color: var(--secondary-color);
+    background-color: #111111;
     color: var(--white);
 }
 
@@ -449,7 +449,7 @@ ul {
 
 /* Features Section */
 .features {
-    background-color: #e1e1e2;
+    background-color: #f9f6e5; /* light yellow */
     padding: 80px 0;
 }
 
@@ -487,7 +487,7 @@ ul {
 .category-title {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--text-color);
     margin-bottom: 30px;
     margin-top: 50px;
     text-align: left;
@@ -920,7 +920,7 @@ ul {
 /* Marketing Pricing Section */
 .marketing-pricing {
     padding: 80px 0;
-    background-color: #e1e1e2;
+    background-color: var(--background-light);
 }
 
 .marketing-pricing .options-container {
@@ -1115,15 +1115,20 @@ ul {
 
 /* CTA Section */
 .cta-section {
-    background-color: var(--secondary-color);
+    background-color: #333333; /* dark grey to match CTA buttons */
     color: var(--white);
     text-align: center;
     padding: 80px 0;
 }
 
 .cta-content {
-    max-width: 700px;
+    max-width: 100%;
     margin: 0 auto;
+}
+
+/* Match CTA description font size with section subtitles */
+.cta-section .cta-content > p {
+    font-size: 1.25rem;
 }
 
 .cta-content h2 {
@@ -1137,7 +1142,7 @@ ul {
 .cta-content .btn {
     margin-top: 20px;
     background-color: var(--white);
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .cta-content .btn:hover {
@@ -1146,7 +1151,7 @@ ul {
 
 .cta-small {
     font-size: 0.9rem;
-    margin-top: 10px;
+    margin-top: 28px;
 }
 
 /* Footer */
@@ -1322,7 +1327,7 @@ ul {
 
 /* Problem Section */
 .problem-section {
-    background-color: var(--background-light);
+    background-color: #f7e6ea; /* light dull pink */
     padding: 80px 0;
 }
 
@@ -1396,7 +1401,7 @@ ul {
 
 /* How it Works Process Section */
 .how-it-works-process {
-    background-color: var(--background-light);
+    background-color: #e7f2ff; /* light blue */
     padding: 80px 0;
 }
 

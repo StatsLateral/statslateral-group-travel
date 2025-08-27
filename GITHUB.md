@@ -1,6 +1,6 @@
-# Vybri Cancer Survivorship Landing Page
+# Vybri Wellness Coaching Landing Page
 
-A responsive landing page for the Vybri cancer survivorship coaching service, built with modern design principles and optimized for conversions.
+A responsive landing page for the Vybri wellness coaching platform, built with modern design principles and optimized for conversions.
 
 ## Features
 
@@ -14,17 +14,22 @@ A responsive landing page for the Vybri cancer survivorship coaching service, bu
 ## Theme Structure
 
 ```
-Vybri-cancer-landing-page/
+Vybri-marketing-landing-page/
 ├── css/
-│   └── style.css         # Main stylesheet
-├── images/               # Theme images directory
+│   ├── style.css          # Main stylesheet
+│   └── resources.css      # Styles for resources page
+├── images/                # Theme images directory
 ├── js/
 │   ├── content-loader.js  # Content loading functionality
-│   └── script.js         # JavaScript functionality
-├── content.json          # Content configuration file
-├── index.html            # Main landing page HTML
-├── README.md             # Project documentation
-└── GITHUB.md             # GitHub documentation
+│   ├── resources.js       # JavaScript for resources list
+│   └── script.js          # JavaScript functionality
+├── content.json           # Content configuration for index
+├── resources.json         # Data source for resources.html
+├── index.html             # Main landing page HTML
+├── resources.html         # Resources hub page
+├── privacy.html           # Privacy policy page
+├── README.md              # Project documentation
+└── GITHUB.md              # GitHub documentation
 ```
 
 ## Installation
