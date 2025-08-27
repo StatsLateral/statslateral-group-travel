@@ -27,4 +27,10 @@
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://www.vybri.ai/faq.html</loc>
+    <lastmod>2025-08-26T23:16:21-04:00</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
