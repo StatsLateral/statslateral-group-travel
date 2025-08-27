@@ -6,6 +6,10 @@
     const h3 = document.createElement('h3'); h3.textContent = q;
     const p = document.createElement('p'); p.textContent = a;
     wrap.appendChild(h3); wrap.appendChild(p);
+    // Track item click
+    wrap.addEventListener('click', function(){
+      try { window.__track && window.__track.faqItemClicked && window.__track.faqItemClicked(q); } catch(e) {}
+    });
     return wrap;
   }
   function loadData(){
@@ -19,7 +23,10 @@
     loading.hidden = false;
     const end = Math.min(index + BATCH, data.length);
     for (let i=index; i<end; i++){
-      list.appendChild(createQA(data[i].q, data[i].a));
+      const node = createQA(data[i].q, data[i].a);
+      list.appendChild(node);
+      // Track item viewed
+      try { window.__track && window.__track.faqItemViewed && window.__track.faqItemViewed(data[i].q); } catch(e) {}
     }
     index = end;
     loading.hidden = true;
