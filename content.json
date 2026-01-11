@@ -1,96 +1,88 @@
 {
   "meta": {
-    "title": "Vybri: AI-Powered Wellness Coaching Platform",
-    "description": "Vybri helps wellness coaches turn daily client support into scalable income, real-time insights, and a brand that reaches beyond your zip code. Scale your impact, not your burnout.",
+    "title": "Central Europe Men’s Reset (Berlin → Prague → Vienna) | Nov 18–25, 2026",
+    "description": "A private brotherhood week for men in their 40s/50s across Berlin, Prague, and Vienna. Curated hotels, first-class trains, great food, culture, and zero planning stress. Join any city for any portion of the week.",
     "canonical_url": "https://www.vybri.ai/",
-    "og_title": "Vybri: AI-Powered Wellness Coaching Platform",
-    "og_description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools.",
+    "og_title": "Central Europe Men’s Reset | Nov 18–25, 2026",
+    "og_description": "A private, invite-only men’s reset across Berlin, Prague, and Vienna—built for connection, culture, and an easy yes before Thanksgiving.",
     "og_image": "https://www.vybri.ai/images/app-screenshot.png",
     "og_image_width": "1200",
     "og_image_height": "630",
     "og_url": "https://www.vybri.ai/",
     "og_type": "website",
-    "og_site_name": "Vybri",
+    "og_site_name": "Carpe Diem Travel",
     "og_locale": "en_US",
     "twitter_card": "summary_large_image",
-    "twitter_title": "Vybri: AI-Powered Wellness Coaching Platform",
-    "twitter_description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools.",
+    "twitter_title": "Central Europe Men’s Reset | Nov 18–25, 2026",
+    "twitter_description": "A private brotherhood week across Berlin, Prague, and Vienna. Curated, hosted, and low-friction.",
     "twitter_image": "https://www.vybri.ai/images/app-screenshot.png",
     "twitter_image_width": "1200",
     "twitter_image_height": "630",
-    "linkedin_title": "Vybri: AI-Powered Wellness Coaching Platform",
-    "linkedin_description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools.",
+    "linkedin_title": "Central Europe Men’s Reset | Nov 18–25, 2026",
+    "linkedin_description": "Invite-only men’s reset across Berlin, Prague, and Vienna. Join any city. Hosted + curated.",
     "linkedin_image": "https://www.vybri.ai/images/app-screenshot.png",
-    "reddit_title": "Vybri: AI-Powered Wellness Coaching Platform",
-    "reddit_description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools.",
+    "reddit_title": "Central Europe Men’s Reset | Nov 18–25, 2026",
+    "reddit_description": "Private brotherhood week in Central Europe (Berlin → Prague → Vienna).",
     "reddit_image": "https://www.vybri.ai/images/app-screenshot.png"
   },
   "structured_data": {
     "website": {
-      "name": "Vybri",
+      "name": "Carpe Diem Travel",
       "url": "https://www.vybri.ai/",
-      "description": "Vybri helps wellness coaches turn daily client support into scalable income and real-time insights.",
+      "description": "Private, hosted group trips designed for connection, culture, and low-friction logistics.",
       "search_action_target": "https://www.vybri.ai/?q={search_term_string}",
-      "same_as": [
-        "https://twitter.com/VybriAI",
-        "https://www.linkedin.com/company/vybri",
-        "https://www.facebook.com/VybriAI"
-      ]
+      "same_as": []
     },
     "webpage": {
-      "name": "Vybri: AI-Powered Wellness Coaching Platform",
+      "name": "Central Europe Men’s Reset (Berlin → Prague → Vienna)",
       "url": "https://www.vybri.ai/",
-      "description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools for wellness professionals."
+      "description": "A private brotherhood week for men in their 40s/50s across Berlin, Prague, and Vienna. Join any city. Hosted, curated, and easy."
     },
     "software_application": {
-      "name": "Vybri",
-      "application_category": "HealthApplication",
+      "name": "Carpe Diem Travel",
+      "application_category": "TravelApplication",
       "operating_system": "Web",
       "price": "0",
       "price_currency": "USD",
       "availability": "https://schema.org/OnlineOnly",
-      "description": "AI-powered platform for wellness professionals to scale income, create high-impact content, and deliver digital programs.",
-      "keywords": "wellness coaching, health coaching, client engagement, digital programs, subscriptions, AI for coaches"
+      "description": "A simple, private landing page experience for invite-only group travel coordination via WhatsApp.",
+      "keywords": "group travel, mens retreat, berlin prague vienna, hosted trips, friends trip, europe trip november"
     },
     "organization": {
-      "name": "Vybri Wellness Coaching Platform",
+      "name": "Carpe Diem Travel",
       "url": "https://www.vybri.ai",
       "logo": "https://www.vybri.ai/images/vybri-logo.png",
-      "description": "AI-powered platform for wellness professionals to scale their impact.",
-      "same_as": [
-        "https://twitter.com/VybriAI",
-        "https://www.linkedin.com/company/vybri",
-        "https://www.facebook.com/VybriAI"
-      ]
+      "description": "Private, invite-only group travel experiences focused on connection, culture, and ease.",
+      "same_as": []
     },
     "faq": [
       {
-        "question": "How does Vybri help wellness professionals?",
-        "answer": "Vybri helps wellness professionals scale their practice by providing AI-powered tools to create content, support more clients, and generate insights from client interactions—while maintaining the personal touch that makes coaching effective."
+        "question": "Who is this trip for?",
+        "answer": "Men in their late 40s to 50s (and a few partners, optional) who want a low-stress, meaningful reset—great food, culture, conversation, and time together—without tour-bus vibes."
       },
       {
-        "question": "Is Vybri HIPAA-compliant?",
-        "answer": "Yes, Vybri is built with security and privacy as top priorities. Our platform is fully HIPAA-compliant and uses enterprise-grade encryption to protect all client data and communications."
+        "question": "Can I join for only part of the trip?",
+        "answer": "Yes. You can join in Berlin, Prague, or Vienna and travel with the group for any portion of the week that fits your schedule."
       },
       {
-        "question": "How much does Vybri cost?",
-        "answer": "Vybri offers flexible pricing plans designed for wellness professionals at different stages. We currently have a limited early access program with special pricing. Contact us for details on our pricing tiers."
+        "question": "What’s included in the estimated land cost?",
+        "answer": "Central hotels, first-class trains between cities, daily breakfasts, several group dinners, and curated experiences (walking tour, spa, hike, and a Vienna culture night). Flights and personal spending are not included."
       },
       {
-        "question": "Can I integrate Vybri with my existing tools?",
-        "answer": "Yes, Vybri is designed to integrate with popular coaching and healthcare platforms. We currently support integrations with calendar systems, EMRs, and communication tools to fit seamlessly into your workflow."
+        "question": "How do I join and communicate?",
+        "answer": "All coordination is through WhatsApp. Reply to the person who invited you with the cities/dates you want, your hotel tier (premium or value), and your room preference (solo/shared)."
       }
     ]
   },
   "navigation": {
-    "logo_alt": "Vybri logo - AI-powered wellness coaching platform",
+    "logo_alt": "Carpe Diem Travel logo",
     "menu_items": [
       {
-        "label": "Why Vybri",
+        "label": "Overview",
         "href": "#value-props"
       },
       {
-        "label": "Features",
+        "label": "What’s Included",
         "href": "#features"
       },
       {
@@ -98,364 +90,332 @@
         "href": "faq.html"
       },
       {
-        "label": "Team",
+        "label": "Host",
         "href": "#team"
       },
       {
-        "label": "Blog",
+        "label": "Trip Notes",
         "href": "resources.html",
         "target": "_blank",
         "rel": "noopener noreferrer"
       }
     ],
     "cta_button": {
-      "text": "Grow your practice",
-      "href": "https://calendly.com/statslateral/vybri_provider",
-      "target": "_blank"
+      "text": "Join via WhatsApp",
+      "href": "#join",
+      "target": "_self"
     }
   },
   "hero": {
-    "headline": "Carpe Diem",
-    "subheadline": "After 50 years around the sun, live each day to its fullest",
-    "cta_primary": "Join the Journey",
+    "headline": "Central Europe Men’s Reset",
+    "subheadline": "Berlin → Prague → Vienna • Nov 18–25, 2026 • Private brotherhood week before Thanksgiving",
+    "cta_primary": "Join via WhatsApp",
     "cta_primary_url": "#join",
     "video_url": "https://share.descript.com/embed/oNgu257O4mG",
-    "video_title": "Group Travel Intro",
-    "video_caption": "",
-    "image_caption": "Create unforgettable experiences with fellow travelers"
+    "video_title": "Trip Overview",
+    "video_caption": "A low-friction reset: culture, conversation, and curated logistics—no tour-bus vibes.",
+    "image_caption": "An invite-only week designed for connection, not chaos."
   },
   "problem": {
-    "title": "Problem",
-    "subtitle": "Wellness coaches face major hurdles in today's evolving care landscape.",
+    "title": "Why this trip exists",
+    "subtitle": "Men in their late 40s have the same problem everywhere: life is full—connection isn’t.",
     "items": [
       {
-        "title": "Limited income and client reach",
-        "description": "Time-based sessions cap income and scale. Low margins make growth difficult without burnout."
+        "title": "No time for real brotherhood",
+        "description": "Work and family fill the calendar. Friendships become occasional texts and rushed meetups."
       },
       {
-        "title": "Low visibility into client engagement",
-        "description": "Coaches lack tools to monitor trust, compliance, and engagement between sessions."
+        "title": "Too much travel fatigue",
+        "description": "Most travel feels like logistics: airports, schedules, and stress. This trip is built to feel easy and restorative."
       },
       {
-        "title": "Generic and time-draining tech",
-        "description": "Delivering digital care means piecing together video hosting, website, social media, email, and client tracking tools—distracts from client time."
+        "title": "Hard to justify a getaway",
+        "description": "A good trip needs to be meaningful, adult, and responsibly organized—so it’s an easy yes at home and at work."
       }
     ]
   },
   "solution": {
-    "title": "Solution",
-    "subtitle": "Wellness professionals need a smarter way to grow—without more sessions or staff.",
+    "title": "The solution",
+    "subtitle": "A private, hosted Central Europe week designed for connection, culture, and ease.",
     "items": [
       {
-        "title": "Earn passive income and scale your reach",
-        "description": "Turn your expertise into subscriptions, digital programs, and on-demand care—no more trading time for money."
+        "title": "A week that feels intentional—not rushed",
+        "description": "Three great cities, connected by relaxing trains. One anchor experience per day, plus plenty of free time."
       },
       {
-        "title": "Boost trust and retention through personalization",
-        "description": "Deliver personalized care plans and dynamic updates based on client behavior and feedback."
+        "title": "Curated comfort at a smart budget",
+        "description": "Two hotel tiers per city (premium + value), in the same neighborhood so the group stays together."
       },
       {
-        "title": "Purpose-built AI platform for Wellness Coaches",
-        "description": "Manage your entire content-based practice: subscriptions, client engagement, and digital programs—all in one place, so you can focus on clients, not tech."
+        "title": "Low friction coordination",
+        "description": "Everything runs through WhatsApp: simple choices, clear costs, and quick confirmations."
       }
     ]
   },
   "how_it_works": {
     "title": "How it works",
-    "subtitle": "Vybri helps wellness coaches grow in three distinct ways—without more sessions or staff.",
+    "subtitle": "Simple, adult, and flexible—join any city for any portion of the week.",
     "steps": [
       {
         "number": "1",
-        "title": "Create once, earn passively",
-        "time": "Takes less than 15 minutes to invite hundreds—or even thousands—of clients.",
+        "title": "Pick your dates + cities",
+        "time": "2 minutes on WhatsApp",
         "items": [
-          "Create your SEO-optimized professional profile—we'll pre-build it from your website, social bio, or résumé.",
-          "Upload or link your program resources: videos, protocols, guides, and handouts—text, voice, and video in one place.",
-          "Bundle these assets into subscription programs and digital products; set your own pricing.",
-          "Upload your audience or sync contacts from your existing tools.",
-          "Send smart invitations that automatically match clients to the right program and kickstart progress."
+          "Full week: Wed night departure → Wed return (Nov 18–25, 2026).",
+          "Or join in Berlin, Prague, or Vienna for a shorter portion.",
+          "You’ll receive the exact nightly pricing for your selected cities."
         ]
       },
       {
         "number": "2",
-        "title": "Personalize plans in minutes",
-        "time": "Takes less than 5 minutes per client.",
+        "title": "Choose your hotel tier (premium or value)",
+        "time": "2 minutes on WhatsApp",
         "items": [
-          "Use intake notes or voice-record a quick summary; optionally pull notes from your existing tools.",
-          "Select—or let Vybri suggest—the recommendations, lessons, and progression methods each client needs.",
-          "Generate and deliver an AI-personalized plan with daily reminders, micro habits, and progress milestones."
+          "Each city has two hotel options in the same neighborhood (walkable to each other).",
+          "Choose premium for extra comfort/amenities; choose value for strong design + great location.",
+          "Solo room or shared room (optional) based on preference."
         ]
       },
       {
         "number": "3",
-        "title": "Grow your brand every week",
-        "time": "Takes less than 15 minutes per week to stay top of mind.",
+        "title": "Reserve your spot",
+        "time": "One deposit to confirm",
         "items": [
-          "Record research topics, sessions feedback, or new ideas on your phone.",
-          "Let AI transform them into relevant blogs, emails, and social media posts.",
-          "Convert textual content to voice or video (or vice versa) instantly",
-          "Auto-publish across your website, YouTube shorts, newsletter, and social channels—all scheduled for you."
+          "Reserve with a refundable deposit (details below).",
+          "We confirm hotels + trains once we have the core group.",
+          "You’ll get a simple one-page itinerary + packing/weather notes closer to departure."
         ]
       }
     ]
   },
   "why_vybri": {
-    "title": "Why Choose Vybri",
-    "subtitle": "Transform your practice with our AI-powered platform",
+    "title": "Why this trip works",
+    "subtitle": "Designed for men with real lives—limited time, high standards, and no interest in chaos.",
     "steps": [
       {
-        "title": "Generate recurring, passive income",
-        "description": "Turn your methodology, videos, and guides into subscriptions and on-demand plans—so you earn between visits, not just during sessions."
+        "title": "Brotherhood without pressure",
+        "description": "Plenty of shared moments (meals, trains, anchors) plus freedom to opt out anytime without awkwardness."
       },
       {
-        "title": "Strengthen trust with personalized care",
-        "description": "Deliver care plans that auto-adapt to each client's goals, adherence, and feedback—with timely nudges that keep them on track and coming back."
+        "title": "Curated, central, and walkable",
+        "description": "Hotels and experiences are chosen for neighborhood vibe: cafés, bars, culture, and easy evenings."
       },
       {
-        "title": "Grow your brand on autopilot",
-        "description": "Full automation: AI repackages your content into blogs, social posts, podcasts, and videos that auto-publishes on schedule, and optimizes based on what's working—without costing client time."
+        "title": "Hosted logistics",
+        "description": "Reservations, timing, and coordination are handled—so the group can focus on the experience."
       }
     ]
   },
   "setup_options": {
-    "title": "How To Get Started",
-    "subtitle": "Launching your digital practice on Vybri is easy. Set it up in 30 minutes or let us do it for you.",
+    "title": "How To Join",
+    "subtitle": "All coordination is through WhatsApp. Choose the simple path that fits you.",
     "options": [
       {
-        "option_title": "Option 1: Do It Yourself (Free)",
+        "option_title": "Option 1: Join the Full Week",
         "steps": [
           {
-            "title": "Create your profile",
-            "description": "Vybri AI helps you build a professional, SEO-optimized profile ready to link with Instagram, YouTube, or other platforms."
+            "title": "Confirm your dates",
+            "description": "Nov 18–25, 2026 (depart US Wed night; return Wed)."
           },
           {
-            "title": "Add your services",
-            "description": "Upload your care plans, programs, exercise libraries, subscriptions, and supplements in one dashboard."
+            "title": "Choose hotel tier per city",
+            "description": "Premium or value in Berlin, Prague, and Vienna (same neighborhoods)."
           },
           {
-            "title": "Invite clients",
-            "description": "Send invites to current and past clients with new digital care plans tailored to their recovery and performance goals."
+            "title": "Reserve with deposit",
+            "description": "Deposit holds your spot while we finalize group bookings."
           },
           {
-            "title": "Publish expert content",
-            "description": "Turn your notes and videos into posts, guides, and emails—generated instantly to grow your brand."
+            "title": "Receive trip brief",
+            "description": "A simple itinerary, neighborhood map, and packing/weather notes."
           }
         ],
-        "cta": "Get Started",
-        "cta_url": "https://calendly.com/statslateral/vybri_provider"
+        "cta": "Join via WhatsApp",
+        "cta_url": "#join"
       },
       {
-        "option_title": "Option 2: We Set It Up (One-time fee: $990)",
-        "description": "Let our Digital Practice Concierge Service do the heavy lifting:",
+        "option_title": "Option 2: Join for Part of the Week",
+        "description": "Prefer a shorter commitment? Join in any city.",
         "steps": [
-          "Done-for-you profile optimized for search and social media presence",
-          "Upload and organization of your services, care plans, and wellness product recommendations",
-          "Setup of your client base and invitations for care plan subscriptions",
-          "Launch content including blogs, videos, and social posts (up to 10 assets)*"
+          "Start in Berlin, Prague, or Vienna—whatever fits your schedule.",
+          "Travel with the group for 2–7 nights.",
+          "Same hotel-tier choices and included experiences for your segment.",
+          "Perfect for busy calendars and soft commitments."
         ],
-        "footnote": "*After setup, you continue to use Vybri to grow and scale your practice.",
-        "cta": "Schedule Setup Call",
-        "cta_url": "https://calendly.com/statslateral/vybri_provider"
+        "footnote": "*Exact segment pricing is shared on WhatsApp based on your dates and hotel tier.",
+        "cta": "Message Your Cities",
+        "cta_url": "#join"
       }
     ]
   },
   "features": {
-    "title": "Features Built for Wellness Coaches",
-    "subtitle": "Everything you need to scale your high-quality digital practice.",
+    "title": "What’s Included",
+    "subtitle": "A curated week with enough structure to feel special—and enough freedom to feel like a reset.",
     "categories": [
       {
-        "category_title": "Content Creation & Hosting",
+        "category_title": "Core Logistics",
         "items": [
           {
-            "title": "Unified content library",
-            "description": "Keep text, voice, and video content neatly organized and searchable in one place."
+            "title": "Central hotels (two tiers per city)",
+            "description": "Premium + value options, close to each other, in walkable neighborhoods."
           },
           {
-            "title": "Create videos from plain English",
-            "description": "Say what you want (\"5 ways to build a micro habit\") and get AI-generated videos in minutes."
+            "title": "First-class trains between cities",
+            "description": "Berlin → Prague (Sat) and Prague → Vienna (Mon). Relaxed travel that feels like part of the experience."
           },
           {
-            "title": "Instant content transformation",
-            "description": "Text ↔︎ voice ↔︎ video with one click, so every idea ships in the right format."
+            "title": "Daily breakfast",
+            "description": "Start easy. No morning scramble."
           }
         ]
       },
       {
-        "category_title": "Monetize & Grow",
+        "category_title": "Curated Shared Moments",
         "items": [
           {
-            "title": "Subscriptions & Programs",
-            "description": "Launch monthly/annual subscriptions and on-demand programs to earn between and after visits."
+            "title": "Berlin walking tour",
+            "description": "A 2–3 hour guided walk to set context (history + neighborhoods) without turning the trip into school."
           },
           {
-            "title": "Storefront for services & products",
-            "description": "Sell packages, supplements, digital downloads, and wellness products—side by side."
+            "title": "Vabali Spa (Berlin)",
+            "description": "A decompression afternoon to reset after travel."
           },
           {
-            "title": "Single secure checkout",
-            "description": "One interface to buy everything, with PCI-compliant payments and automated receipts."
+            "title": "Prague nature hike",
+            "description": "A late-morning/afternoon hike across the river for views and fresh air."
           }
         ]
       },
       {
-        "category_title": "Publish Everywhere",
+        "category_title": "Food & Conversation",
         "items": [
           {
-            "title": "Social & site integrations",
-            "description": "Instagram, TikTok, your website, podcast apps, and video platforms—auto-scheduler + publishing included."
+            "title": "4–5 group dinners",
+            "description": "A mix of excellent local and immigrant-run restaurants—built for long conversations and good energy."
           },
           {
-            "title": "National & global reach",
-            "description": "Best-in-breed digital workflows with built-in SEO and best digital practices so new clients can find you anywhere."
+            "title": "Optional nights out",
+            "description": "For those who want it: bars, jazz, music, or nightlife—never mandatory."
           }
         ]
       },
       {
-        "category_title": "Future-Proof Capabilities",
+        "category_title": "Vienna Culture Night",
         "items": [
           {
-            "title": "Multi-model AI orchestration",
-            "description": "We connect to top models (e.g., OpenAI, Hippocratic, Google) and route tasks to the best one—no upgrade anxiety."
+            "title": "Classical music or museum experience",
+            "description": "A simple anchor evening: concert/opera (if available) or a museum visit based on group preference."
           },
           {
-            "title": "Plug-in, don't replace",
-            "description": "Works with your practice management, notes/EHR, email, and analytics—keep the tools you love."
-          },
-          {
-            "title": "HIPAA & compliance",
-            "description": "Privacy-first architecture with in-built HIPAA controls and audit trails designed for healthcare."
+            "title": "Café culture morning",
+            "description": "A slow Vienna breakfast/café start to close the trip well."
           }
         ]
       },
       {
-        "category_title": "Designed for Personalized Client Engagement",
+        "category_title": "Flexibility Built In",
         "items": [
           {
-            "title": "Adaptive care plans",
-            "description": "Each plan auto-personalizes to goals, compliance, and feedback; clients get nudges, check-ins, and progression tweaks that keep them moving."
+            "title": "Join any city",
+            "description": "Arrive in Berlin, Prague, or Vienna and travel with the group for any portion of the week."
           },
           {
-            "title": "Client progress dashboard",
-            "description": "See real-time adherence, outcomes, and at-risk clients so you can intervene before drop-off."
+            "title": "Opt-in pace",
+            "description": "One anchor per day plus free time—no rigid schedules."
           }
         ]
       }
     ]
   },
   "client_experience": {
-    "title": "The Client Experience",
-    "subtitle": "How clients experience continuity of care, anywhere.",
+    "title": "The Experience",
+    "subtitle": "How this week will feel: intentional, easy, and genuinely connecting.",
     "video_url": "https://www.youtube.com/embed/jNQXAC9IVRw",
     "testimonial": {
-      "quote": "I finally had access to my coach’s guidance between sessions—stretch routines, reminders, and even progress checks. It kept me consistent and motivated.",
-      "author": "Jordan M.",
-      "position": "Amateur Soccer Player"
+      "quote": "It felt like a reset—great conversations, great cities, and none of the usual planning stress. I came back better.",
+      "author": "Past Traveler",
+      "position": "Friend Group Trip"
     }
   },
   "cta": {
-    "title": "Join the Movement to Elevate Wellness Coaching",
-    "description": "Be among the first to build a modern, sustainable practice that grows with your clients.",
-    "button_text": "Get Early Access to Vybri",
-    "small_text": "Limited spots available for early providers."
+    "title": "Join the Trip (WhatsApp)",
+    "description": "Reply to the person who invited you with: (1) the cities you’ll join, (2) hotel tier (premium/value), and (3) solo or shared room. We’ll send exact pricing and next steps.",
+    "button_text": "Message Your Details",
+    "small_text": "Invite-only group • Target: 10–15 travelers • Limited capacity"
   },
   "pricing_client_engagement": {
-    "title": "Pricing (Income growth by subscriptions, and client engagement)",
-    "subtitle": "Grow your practice with client subscriptions and digital services",
-    "price": "Always free - $0/month",
-    "tagline": "Pay only as you grow. 20% per transaction.",
+    "title": "Estimated Cost (Land Only)",
+    "subtitle": "Hotels + trains + breakfasts + group dinners + curated experiences",
+    "price": "$2,200–$2,900 per person",
+    "tagline": "Depends on hotel tier and how many cities you join. Flights and personal spending not included.",
     "features": [
-      "Invite clients and re-engage them anytime for free",
-      "Launch personalized care plans with one click",
-      "Create coaching subscriptions and digital products",
-      "Offer supplements and physical wellness items",
-      "Integrated client dashboard with reminders and check-ins",
-      "Built-in payment and invoicing tools"
+      "Two hotel tiers per city (premium/value), same neighborhoods",
+      "First-class trains between Berlin → Prague → Vienna",
+      "Daily breakfast",
+      "4–5 group dinners",
+      "Berlin walking tour + Vabali Spa",
+      "Prague nature hike",
+      "Vienna culture night (concert/opera if available, or museum)"
     ],
-    "cta": "Engage Clients and Offer Subscriptions",
-    "cta_url": "https://calendly.com/statslateral/vybri_provider"
+    "cta": "Get Your Exact Price on WhatsApp",
+    "cta_url": "#join"
   },
   "pricing_marketing": {
-    "title": "Pricing (Marketing and Branding)",
-    "subtitle": "Flexible pricing options based on your marketing style.",
+    "title": "Deposit & Cancellation",
+    "subtitle": "Designed to make it easy to say yes without feeling trapped.",
     "plans": [
       {
-        "name": "Starter Marketing",
-        "price": "$100/month",
-        "tagline": "Text-based marketing, Social media posts, and engagement analytics.",
+        "name": "Reserve Your Spot",
+        "price": "$750 deposit",
+        "tagline": "Holds your spot while we confirm group bookings.",
         "features": [
-          "AI-generated blogs based on your expertise",
-          "SEO-optimized content drafts delivered weekly",
-          "Automated social media posts to Instagram, Facebook, and LinkedIn",
-          "Branded image generation for every post",
-          "Hashtag and post timing optimization",
-          "Basic analytics on reach and engagement"
+          "Refundable until Oct 4, 2026 (approx. 45 days before departure)",
+          "After that: partial refund or trip credit depending on booked components",
+          "Deposit applied to your final balance",
+          "Final balance timing shared on WhatsApp once hotels are confirmed"
         ],
-        "cta": "Get Starter Plan",
-        "cta_url": "https://calendly.com/statslateral/vybri_provider"
+        "cta": "Reserve via WhatsApp",
+        "cta_url": "#join"
       },
       {
-        "name": "Pro Marketing",
-        "price": "$250/month",
-        "tagline": "Text + Audio + Video marketing with podcasts and online videos, and advanced analytics.",
+        "name": "Join for Part of the Week",
+        "price": "Deposit applies",
+        "tagline": "Prefer a shorter segment? Join in any city.",
         "features": [
-          "<b>Everything in Starter, plus:</b>",
-          "AI-generated podcasts from your blogs/content",
-          "Podcast auto-posting to Spotify, Apple, and more",
-          "AI-generated short videos",
-          "YouTube, TikTok, and Instagram auto-posting",
-          "Multi-format calendar planning for blog + audio + video",
-          "Enhanced analytics: Top-performing formats and audience trends"
+          "Berlin-only / Prague-only / Vienna-only segments possible",
+          "Berlin + Prague or Prague + Vienna are popular options",
+          "Same hotel-tier choices",
+          "Exact segment pricing shared on WhatsApp"
         ],
-        "cta": "Get Pro Plan",
-        "cta_url": "https://calendly.com/statslateral/vybri_provider"
+        "cta": "Message Your Cities",
+        "cta_url": "#join"
       }
     ]
   },
   "team": {
-    "title": "Vybri Team",
-    "subtitle": "We blend decades of AI and healthcare experience—connect with us to see how we can help you scale.",
+    "title": "Host",
+    "subtitle": "A private, invite-only trip hosted and coordinated end-to-end (communication via WhatsApp).",
     "members": [
       {
-        "name": "Shikhin Agarwal",
+        "name": "Trip Host (Invite-Only Group)",
         "photo": "images/Shik-headshot-2022-large.jpg",
-        "title": "Founder & CEO",
-        "description": "25 years in tech and AI platforms.<br>10+ yrs in digital health and consumer.",
+        "title": "Coordinator",
+        "description": "Curates hotels, trains, and shared experiences.<br>Handles reservations and group coordination via WhatsApp.",
         "linkedin": "https://www.linkedin.com/in/shikhin"
       },
       {
-        "name": "Rajeev Singh",
+        "name": "Local Partners (as needed)",
         "photo": "images/Rajeev-headshot-2022 Large.jpg",
-        "title": "Founding CTO, Advisor",
-        "description": "25+ years in tech and AI<br>CTO at modern startups, e-commerce, fintech, AI, and blockchain.",
-        "linkedin": "https://www.linkedin.com/in/rajeevsingh8/"
+        "title": "Guides & Venues",
+        "description": "We use trusted local guides for walking tours and vetted venues for group dinners.<br>Everything is chosen for vibe, walkability, and ease.",
+        "linkedin": ""
       },
       {
-        "name": "Dr. Tauqeer Qazi",
+        "name": "Trip Principles",
         "photo": "images/Tauqeer Qazi.jpg",
-        "title": "Advisory Board Member",
-        "description": "MD, MBA, MHA<br>Double board certified, deep clinical experience in family and sports medicine and urgent care.",
-        "linkedin": "https://www.linkedin.com/in/tauqeer-qazi-md-mba-mha-227a35246/"
-      },
-      {
-        "name": "Victoria Hirst",
-        "photo": "images/victoria hirst.jpg",
-        "title": "Advisory Board Member",
-        "description": "Board Certified NP<br>5+ years of modern digital healthcare experience, focuses on bridging care and tech.",
-        "linkedin": "https://www.linkedin.com/in/victoriahirst"
-      },
-      {
-        "name": "Drew Petersen",
-        "photo": "images/Drew petersen.jpg",
-        "title": "Advisory Board Member",
-        "description": "RN, Fractional COO<br>10+ years of broad nursing experience in a multi-state health system.",
-        "linkedin": "https://www.linkedin.com/in/drew-petersen-rn/"
-      },
-      {
-        "name": "Nathan Jacobs",
-        "photo": "images/Nathan Jacobs.jpg",
-        "title": "Legal and Compliance Advisor",
-        "description": "JD/MBA, Former GC at Virtual Healthcare<br>Deep experience in digital healthcare regulations and compliance",
-        "linkedin": "https://www.linkedin.com/in/nathanpjacobs/"
+        "title": "How we travel",
+        "description": "One anchor per day.<br>Great neighborhoods.<br>Freedom to opt out anytime.<br>No tour-bus energy.",
+        "linkedin": ""
       }
     ]
   },
@@ -463,28 +423,28 @@
     "title": "Frequently Asked Questions",
     "cards": [
       {
-        "question": "Who is Vybri for?",
-        "preview": "Vybri is built for independent healthcare and wellness providers. We are currently live and available for professionals who do not deliver medical diagnoses or prescriptions...:",
+        "question": "Can I join in just one city?",
+        "preview": "Yes. You can join in Berlin, Prague, or Vienna and travel with the group for any portion of the week. We’ll share exact segment pricing on WhatsApp...:",
         "link": "faq.html"
       },
       {
-        "question": "What makes Vybri different?",
-        "preview": "Vybri is designed to empower wellness professionals. Our platform enables you to transform your session insights into personalized care plans, re-engage clients asynchronously, and increase...:",
+        "question": "How do hotels work?",
+        "preview": "Each city has two hotel options: premium and value. Both are in the same neighborhood so the group stays together. You choose your tier per city...:",
         "link": "faq.html"
       },
       {
-        "question": "No digital resources yet?",
-        "preview": "No problem. Vybri can help you create them. You can record voice notes or upload rough outlines, and our AI-enabled service (launching soon - contact...:",
+        "question": "What’s the daily schedule like?",
+        "preview": "This is not a tour. Expect one anchor experience most days, a great group dinner most days, and plenty of free time. Nothing is mandatory...:",
         "link": "faq.html"
       },
       {
-        "question": "How do care plans work?",
-        "preview": "Clients interact with your shared content by entering their goals and challenges. Vybri's AI, using only your original material (not the internet), creates a tailored...:",
+        "question": "How do I reserve?",
+        "preview": "Reply on WhatsApp with your cities, hotel tier, and room preference. A $750 refundable deposit holds your spot while we confirm hotels and trains...:",
         "link": "faq.html"
       },
       {
-        "question": "How do subscriptions work?",
-        "preview": "Once a client engages with a resource or care plan, you can invite them to subscribe to ongoing services. Subscriptions can include personalized plan updates...:",
+        "question": "What’s not included?",
+        "preview": "Flights, visas (if needed), travel insurance, and personal spending (drinks, shopping, optional nights out) are not included. We’ll share guidance...:",
         "link": "faq.html"
       },
       {
@@ -496,14 +456,14 @@
     ]
   },
   "footer": {
-    "logo_alt": "Vybri logo - AI-powered wellness coaching platform",
-    "copyright": " 2025 Vybri. All rights reserved.",
+    "logo_alt": "Carpe Diem Travel logo",
+    "copyright": " 2026 Carpe Diem Travel. All rights reserved.",
     "columns": [
       {
-        "title": "Product",
+        "title": "Trip",
         "links": [
           {
-            "label": "Features",
+            "label": "What’s Included",
             "href": "#features"
           },
           {
@@ -511,16 +471,16 @@
             "href": "#pricing"
           },
           {
-            "label": "Get Started",
+            "label": "How to Join",
             "href": "#setup-options"
           }
         ]
       },
       {
-        "title": "Company",
+        "title": "Host",
         "links": [
           {
-            "label": "Team",
+            "label": "Coordinator",
             "href": "#team"
           }
         ]
@@ -529,9 +489,9 @@
         "title": "Support",
         "links": [
           {
-            "label": "Contact Us",
-            "href": "https://calendly.com/statslateral/vybri_provider",
-            "target": "_blank"
+            "label": "Join via WhatsApp",
+            "href": "#join",
+            "target": "_self"
           },
           {
             "label": "Privacy Policy",
