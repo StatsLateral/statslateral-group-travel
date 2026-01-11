@@ -1,12 +1,203 @@
 {
+  "meta": {
+    "title": "Vybri: AI-Powered Wellness Coaching Platform",
+    "description": "Vybri helps wellness coaches turn daily client support into scalable income, real-time insights, and a brand that reaches beyond your zip code. Scale your impact, not your burnout.",
+    "canonical_url": "https://www.vybri.ai/",
+    "og_title": "Vybri: AI-Powered Wellness Coaching Platform",
+    "og_description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools.",
+    "og_image": "https://www.vybri.ai/images/app-screenshot.png",
+    "og_image_width": "1200",
+    "og_image_height": "630",
+    "og_url": "https://www.vybri.ai/",
+    "og_type": "website",
+    "og_site_name": "Vybri",
+    "og_locale": "en_US",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Vybri: AI-Powered Wellness Coaching Platform",
+    "twitter_description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools.",
+    "twitter_image": "https://www.vybri.ai/images/app-screenshot.png",
+    "twitter_image_width": "1200",
+    "twitter_image_height": "630",
+    "linkedin_title": "Vybri: AI-Powered Wellness Coaching Platform",
+    "linkedin_description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools.",
+    "linkedin_image": "https://www.vybri.ai/images/app-screenshot.png",
+    "reddit_title": "Vybri: AI-Powered Wellness Coaching Platform",
+    "reddit_description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools.",
+    "reddit_image": "https://www.vybri.ai/images/app-screenshot.png"
+  },
+  "structured_data": {
+    "website": {
+      "name": "Vybri",
+      "url": "https://www.vybri.ai/",
+      "description": "Vybri helps wellness coaches turn daily client support into scalable income and real-time insights.",
+      "search_action_target": "https://www.vybri.ai/?q={search_term_string}",
+      "same_as": [
+        "https://twitter.com/VybriAI",
+        "https://www.linkedin.com/company/vybri",
+        "https://www.facebook.com/VybriAI"
+      ]
+    },
+    "webpage": {
+      "name": "Vybri: AI-Powered Wellness Coaching Platform",
+      "url": "https://www.vybri.ai/",
+      "description": "Scale your impact, not your burnout. Help clients thrive with AI-powered tools for wellness professionals."
+    },
+    "software_application": {
+      "name": "Vybri",
+      "application_category": "HealthApplication",
+      "operating_system": "Web",
+      "price": "0",
+      "price_currency": "USD",
+      "availability": "https://schema.org/OnlineOnly",
+      "description": "AI-powered platform for wellness professionals to scale income, create high-impact content, and deliver digital programs.",
+      "keywords": "wellness coaching, health coaching, client engagement, digital programs, subscriptions, AI for coaches"
+    },
+    "organization": {
+      "name": "Vybri Wellness Coaching Platform",
+      "url": "https://www.vybri.ai",
+      "logo": "https://www.vybri.ai/images/vybri-logo.png",
+      "description": "AI-powered platform for wellness professionals to scale their impact.",
+      "same_as": [
+        "https://twitter.com/VybriAI",
+        "https://www.linkedin.com/company/vybri",
+        "https://www.facebook.com/VybriAI"
+      ]
+    },
+    "faq": [
+      {
+        "question": "How does Vybri help wellness professionals?",
+        "answer": "Vybri helps wellness professionals scale their practice by providing AI-powered tools to create content, support more clients, and generate insights from client interactions—while maintaining the personal touch that makes coaching effective."
+      },
+      {
+        "question": "Is Vybri HIPAA-compliant?",
+        "answer": "Yes, Vybri is built with security and privacy as top priorities. Our platform is fully HIPAA-compliant and uses enterprise-grade encryption to protect all client data and communications."
+      },
+      {
+        "question": "How much does Vybri cost?",
+        "answer": "Vybri offers flexible pricing plans designed for wellness professionals at different stages. We currently have a limited early access program with special pricing. Contact us for details on our pricing tiers."
+      },
+      {
+        "question": "Can I integrate Vybri with my existing tools?",
+        "answer": "Yes, Vybri is designed to integrate with popular coaching and healthcare platforms. We currently support integrations with calendar systems, EMRs, and communication tools to fit seamlessly into your workflow."
+      }
+    ]
+  },
+  "navigation": {
+    "logo_alt": "Vybri logo - AI-powered wellness coaching platform",
+    "menu_items": [
+      {
+        "label": "Why Vybri",
+        "href": "#value-props"
+      },
+      {
+        "label": "Features",
+        "href": "#features"
+      },
+      {
+        "label": "FAQs",
+        "href": "faq.html"
+      },
+      {
+        "label": "Team",
+        "href": "#team"
+      },
+      {
+        "label": "Blog",
+        "href": "resources.html",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "cta_button": {
+      "text": "Grow your practice",
+      "href": "https://calendly.com/statslateral/vybri_provider",
+      "target": "_blank"
+    }
+  },
   "hero": {
-    "headline": "Turn your expertise into income",
-    "subheadline": "Vybri helps wellness coaches scale their practice through digital care plans, client engagement tools, and passive income opportunities.",
-    "cta_primary": "Grow your practice",
-    "cta_secondary": "See How It Works",
-    "video_url": "https://share.descript.com/embed/1w5lYztBYx0",
+    "headline": "Carpe Diem",
+    "subheadline": "After 50 years around the sun, live each day to its fullest",
+    "cta_primary": "Join the Journey",
+    "cta_primary_url": "#join",
+    "video_url": "https://share.descript.com/embed/oNgu257O4mG",
+    "video_title": "Group Travel Intro",
     "video_caption": "",
-    "image_caption": "Vybri helps wellness coaches build scalable, digital-first practices"
+    "image_caption": "Create unforgettable experiences with fellow travelers"
+  },
+  "problem": {
+    "title": "Problem",
+    "subtitle": "Wellness coaches face major hurdles in today's evolving care landscape.",
+    "items": [
+      {
+        "title": "Limited income and client reach",
+        "description": "Time-based sessions cap income and scale. Low margins make growth difficult without burnout."
+      },
+      {
+        "title": "Low visibility into client engagement",
+        "description": "Coaches lack tools to monitor trust, compliance, and engagement between sessions."
+      },
+      {
+        "title": "Generic and time-draining tech",
+        "description": "Delivering digital care means piecing together video hosting, website, social media, email, and client tracking tools—distracts from client time."
+      }
+    ]
+  },
+  "solution": {
+    "title": "Solution",
+    "subtitle": "Wellness professionals need a smarter way to grow—without more sessions or staff.",
+    "items": [
+      {
+        "title": "Earn passive income and scale your reach",
+        "description": "Turn your expertise into subscriptions, digital programs, and on-demand care—no more trading time for money."
+      },
+      {
+        "title": "Boost trust and retention through personalization",
+        "description": "Deliver personalized care plans and dynamic updates based on client behavior and feedback."
+      },
+      {
+        "title": "Purpose-built AI platform for Wellness Coaches",
+        "description": "Manage your entire content-based practice: subscriptions, client engagement, and digital programs—all in one place, so you can focus on clients, not tech."
+      }
+    ]
+  },
+  "how_it_works": {
+    "title": "How it works",
+    "subtitle": "Vybri helps wellness coaches grow in three distinct ways—without more sessions or staff.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Create once, earn passively",
+        "time": "Takes less than 15 minutes to invite hundreds—or even thousands—of clients.",
+        "items": [
+          "Create your SEO-optimized professional profile—we'll pre-build it from your website, social bio, or résumé.",
+          "Upload or link your program resources: videos, protocols, guides, and handouts—text, voice, and video in one place.",
+          "Bundle these assets into subscription programs and digital products; set your own pricing.",
+          "Upload your audience or sync contacts from your existing tools.",
+          "Send smart invitations that automatically match clients to the right program and kickstart progress."
+        ]
+      },
+      {
+        "number": "2",
+        "title": "Personalize plans in minutes",
+        "time": "Takes less than 5 minutes per client.",
+        "items": [
+          "Use intake notes or voice-record a quick summary; optionally pull notes from your existing tools.",
+          "Select—or let Vybri suggest—the recommendations, lessons, and progression methods each client needs.",
+          "Generate and deliver an AI-personalized plan with daily reminders, micro habits, and progress milestones."
+        ]
+      },
+      {
+        "number": "3",
+        "title": "Grow your brand every week",
+        "time": "Takes less than 15 minutes per week to stay top of mind.",
+        "items": [
+          "Record research topics, sessions feedback, or new ideas on your phone.",
+          "Let AI transform them into relevant blogs, emails, and social media posts.",
+          "Convert textual content to voice or video (or vice versa) instantly",
+          "Auto-publish across your website, YouTube shorts, newsletter, and social channels—all scheduled for you."
+        ]
+      }
+    ]
   },
   "why_vybri": {
     "title": "Why Choose Vybri",
@@ -164,61 +355,198 @@
   "cta": {
     "title": "Join the Movement to Elevate Wellness Coaching",
     "description": "Be among the first to build a modern, sustainable practice that grows with your clients.",
-    "button_text": "Get Early Access to Vybri"
+    "button_text": "Get Early Access to Vybri",
+    "small_text": "Limited spots available for early providers."
   },
-  "pricing-marketing": {
+  "pricing_client_engagement": {
+    "title": "Pricing (Income growth by subscriptions, and client engagement)",
+    "subtitle": "Grow your practice with client subscriptions and digital services",
+    "price": "Always free - $0/month",
+    "tagline": "Pay only as you grow. 20% per transaction.",
+    "features": [
+      "Invite clients and re-engage them anytime for free",
+      "Launch personalized care plans with one click",
+      "Create coaching subscriptions and digital products",
+      "Offer supplements and physical wellness items",
+      "Integrated client dashboard with reminders and check-ins",
+      "Built-in payment and invoicing tools"
+    ],
+    "cta": "Engage Clients and Offer Subscriptions",
+    "cta_url": "https://calendly.com/statslateral/vybri_provider"
+  },
+  "pricing_marketing": {
     "title": "Pricing (Marketing and Branding)",
-    "subtitle": "Pick your style—text, audio, or video-based growth strategies.",
+    "subtitle": "Flexible pricing options based on your marketing style.",
     "plans": [
       {
         "name": "Starter Marketing",
         "price": "$100/month",
-        "tagline": "Text-based marketing, optimized for wellness blogs and tips.",
+        "tagline": "Text-based marketing, Social media posts, and engagement analytics.",
         "features": [
-          "AI-written blog content based on your session insights",
-          "Weekly drafts tailored for SEO and relevance",
-          "Auto-posting to Instagram, LinkedIn, and Facebook",
-          "Branded visuals with every post",
-          "Hashtag and posting time optimizer",
-          "Basic engagement metrics"
+          "AI-generated blogs based on your expertise",
+          "SEO-optimized content drafts delivered weekly",
+          "Automated social media posts to Instagram, Facebook, and LinkedIn",
+          "Branded image generation for every post",
+          "Hashtag and post timing optimization",
+          "Basic analytics on reach and engagement"
         ],
-        "cta": "Get Starter Plan"
+        "cta": "Get Starter Plan",
+        "cta_url": "https://calendly.com/statslateral/vybri_provider"
       },
       {
         "name": "Pro Marketing",
         "price": "$250/month",
-        "tagline": "Add audio & video—educate, inspire, and engage.",
+        "tagline": "Text + Audio + Video marketing with podcasts and online videos, and advanced analytics.",
         "features": [
-          "Everything in Starter, plus:",
-          "AI-generated podcast scripts and audio editing",
-          "Podcast uploads to Spotify, Apple, etc.",
-          "Short videos (exercise tips, routines, wellness FAQs)",
-          "Video editing, captions, and YouTube posting",
-          "Multi-format content calendar (text/audio/video)",
-          "Advanced analytics on reach and engagement"
+          "<b>Everything in Starter, plus:</b>",
+          "AI-generated podcasts from your blogs/content",
+          "Podcast auto-posting to Spotify, Apple, and more",
+          "AI-generated short videos",
+          "YouTube, TikTok, and Instagram auto-posting",
+          "Multi-format calendar planning for blog + audio + video",
+          "Enhanced analytics: Top-performing formats and audience trends"
         ],
-        "cta": "Get Pro Plan"
+        "cta": "Get Pro Plan",
+        "cta_url": "https://calendly.com/statslateral/vybri_provider"
       }
-    ],
-    "pricing-clients-engagement": {
-      "title": "Pricing (Client Engagement)",
-      "subtitle": "Start free and pay only as you grow.",
-      "plans": [
-        {
-          "name": "Client Engagement & Subscriptions",
-          "price": "Always free to start - $0/month",
-          "tagline": "20% per transaction, no monthly fees",
-          "features": [
-            "Invite and re-engage clients anytime",
-            "Create care plans with one click",
-            "Offer subscriptions, wellness kits, and supplements",
-            "Track check-ins and engagement",
-            "Built-in payments and scheduling",
-            "Personalized client dashboard"
-          ],
-          "cta": "Launch My Practice"
-        }
-      ]
-    }
+    ]
+  },
+  "team": {
+    "title": "Vybri Team",
+    "subtitle": "We blend decades of AI and healthcare experience—connect with us to see how we can help you scale.",
+    "members": [
+      {
+        "name": "Shikhin Agarwal",
+        "photo": "images/Shik-headshot-2022-large.jpg",
+        "title": "Founder & CEO",
+        "description": "25 years in tech and AI platforms.<br>10+ yrs in digital health and consumer.",
+        "linkedin": "https://www.linkedin.com/in/shikhin"
+      },
+      {
+        "name": "Rajeev Singh",
+        "photo": "images/Rajeev-headshot-2022 Large.jpg",
+        "title": "Founding CTO, Advisor",
+        "description": "25+ years in tech and AI<br>CTO at modern startups, e-commerce, fintech, AI, and blockchain.",
+        "linkedin": "https://www.linkedin.com/in/rajeevsingh8/"
+      },
+      {
+        "name": "Dr. Tauqeer Qazi",
+        "photo": "images/Tauqeer Qazi.jpg",
+        "title": "Advisory Board Member",
+        "description": "MD, MBA, MHA<br>Double board certified, deep clinical experience in family and sports medicine and urgent care.",
+        "linkedin": "https://www.linkedin.com/in/tauqeer-qazi-md-mba-mha-227a35246/"
+      },
+      {
+        "name": "Victoria Hirst",
+        "photo": "images/victoria hirst.jpg",
+        "title": "Advisory Board Member",
+        "description": "Board Certified NP<br>5+ years of modern digital healthcare experience, focuses on bridging care and tech.",
+        "linkedin": "https://www.linkedin.com/in/victoriahirst"
+      },
+      {
+        "name": "Drew Petersen",
+        "photo": "images/Drew petersen.jpg",
+        "title": "Advisory Board Member",
+        "description": "RN, Fractional COO<br>10+ years of broad nursing experience in a multi-state health system.",
+        "linkedin": "https://www.linkedin.com/in/drew-petersen-rn/"
+      },
+      {
+        "name": "Nathan Jacobs",
+        "photo": "images/Nathan Jacobs.jpg",
+        "title": "Legal and Compliance Advisor",
+        "description": "JD/MBA, Former GC at Virtual Healthcare<br>Deep experience in digital healthcare regulations and compliance",
+        "linkedin": "https://www.linkedin.com/in/nathanpjacobs/"
+      }
+    ]
+  },
+  "faq_preview": {
+    "title": "Frequently Asked Questions",
+    "cards": [
+      {
+        "question": "Who is Vybri for?",
+        "preview": "Vybri is built for independent healthcare and wellness providers. We are currently live and available for professionals who do not deliver medical diagnoses or prescriptions...:",
+        "link": "faq.html"
+      },
+      {
+        "question": "What makes Vybri different?",
+        "preview": "Vybri is designed to empower wellness professionals. Our platform enables you to transform your session insights into personalized care plans, re-engage clients asynchronously, and increase...:",
+        "link": "faq.html"
+      },
+      {
+        "question": "No digital resources yet?",
+        "preview": "No problem. Vybri can help you create them. You can record voice notes or upload rough outlines, and our AI-enabled service (launching soon - contact...:",
+        "link": "faq.html"
+      },
+      {
+        "question": "How do care plans work?",
+        "preview": "Clients interact with your shared content by entering their goals and challenges. Vybri's AI, using only your original material (not the internet), creates a tailored...:",
+        "link": "faq.html"
+      },
+      {
+        "question": "How do subscriptions work?",
+        "preview": "Once a client engages with a resource or care plan, you can invite them to subscribe to ongoing services. Subscriptions can include personalized plan updates...:",
+        "link": "faq.html"
+      },
+      {
+        "question": "See More FAQs",
+        "preview": "",
+        "link": "faq.html",
+        "is_see_more": true
+      }
+    ]
+  },
+  "footer": {
+    "logo_alt": "Vybri logo - AI-powered wellness coaching platform",
+    "copyright": " 2025 Vybri. All rights reserved.",
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          {
+            "label": "Features",
+            "href": "#features"
+          },
+          {
+            "label": "Pricing",
+            "href": "#pricing"
+          },
+          {
+            "label": "Get Started",
+            "href": "#setup-options"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "Team",
+            "href": "#team"
+          }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          {
+            "label": "Contact Us",
+            "href": "https://calendly.com/statslateral/vybri_provider",
+            "target": "_blank"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "privacy.html",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "terms.html",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        ]
+      }
+    ]
   }
 }

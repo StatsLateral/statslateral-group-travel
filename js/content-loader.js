@@ -68,8 +68,23 @@ document.addEventListener('DOMContentLoaded', function() {
                     // For links and buttons, update the text content
                     element.textContent = contentValue;
                 } else {
-                    element.textContent = contentValue;
+                    // Check if content contains HTML tags (like <br>, <b>, etc.)
+                    if (/<[^>]+>/.test(contentValue)) {
+                        element.innerHTML = contentValue;
+                    } else {
+                        element.textContent = contentValue;
+                    }
                 }
+            }
+        });
+        
+        // Handle elements with data-title attribute (for iframes)
+        const titleElements = document.querySelectorAll('[data-title]');
+        titleElements.forEach(element => {
+            const titlePath = element.getAttribute('data-title');
+            const titleValue = getValueByPath(contentData, titlePath);
+            if (titleValue !== undefined) {
+                element.setAttribute('title', titleValue);
             }
         });
 
