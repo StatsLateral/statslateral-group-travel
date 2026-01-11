@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Central Europe Men’s Reset (Berlin → Prague → Vienna) | Nov 18–25, 2026",
-    "description": "A private brotherhood week for men in their 40s/50s across Berlin, Prague, and Vienna. Curated hotels, first-class trains, great food, culture, and zero planning stress. Join any city for any portion of the week.",
+    "title": "The Brotherhood Trip: Central Europe (Berlin → Prague → Vienna) | Nov 18–25, 2026",
+    "description": "Shikhin turns 50. We celebrate the only responsible way: 3 great cities, 6 nights, and maximum brotherhood with minimal planning stress. Premium or value hotels (close by), first-class trains, great food, and optional everything. Join any city for any portion of the week.",
     "canonical_url": "https://www.vybri.ai/",
-    "og_title": "Central Europe Men’s Reset | Nov 18–25, 2026",
-    "og_description": "A private, invite-only men’s reset across Berlin, Prague, and Vienna—built for connection, culture, and an easy yes before Thanksgiving.",
+    "og_title": "The Brotherhood Trip | Nov 18–25, 2026",
+    "og_description": "Invite-only men’s reset across Berlin, Prague, and Vienna—brotherhood, culture, great food, and logistics handled (so nobody loses their mind).",
     "og_image": "https://www.vybri.ai/images/app-screenshot.png",
     "og_image_width": "1200",
     "og_image_height": "630",
@@ -13,30 +13,30 @@
     "og_site_name": "Carpe Diem Travel",
     "og_locale": "en_US",
     "twitter_card": "summary_large_image",
-    "twitter_title": "Central Europe Men’s Reset | Nov 18–25, 2026",
-    "twitter_description": "A private brotherhood week across Berlin, Prague, and Vienna. Curated, hosted, and low-friction.",
+    "twitter_title": "The Brotherhood Trip | Nov 18–25, 2026",
+    "twitter_description": "Berlin → Prague → Vienna. Invite-only. Hosted. Culture + bonding. Zero tour-bus vibes.",
     "twitter_image": "https://www.vybri.ai/images/app-screenshot.png",
     "twitter_image_width": "1200",
     "twitter_image_height": "630",
-    "linkedin_title": "Central Europe Men’s Reset | Nov 18–25, 2026",
-    "linkedin_description": "Invite-only men’s reset across Berlin, Prague, and Vienna. Join any city. Hosted + curated.",
+    "linkedin_title": "The Brotherhood Trip | Nov 18–25, 2026",
+    "linkedin_description": "A private brotherhood week across Berlin, Prague, and Vienna. Join any city. Premium/value hotel options close to each other.",
     "linkedin_image": "https://www.vybri.ai/images/app-screenshot.png",
-    "reddit_title": "Central Europe Men’s Reset | Nov 18–25, 2026",
-    "reddit_description": "Private brotherhood week in Central Europe (Berlin → Prague → Vienna).",
+    "reddit_title": "The Brotherhood Trip | Nov 18–25, 2026",
+    "reddit_description": "Central Europe men’s reset: Berlin → Prague → Vienna. Shikhin’s 50th. Bring your best stories.",
     "reddit_image": "https://www.vybri.ai/images/app-screenshot.png"
   },
   "structured_data": {
     "website": {
       "name": "Carpe Diem Travel",
       "url": "https://www.vybri.ai/",
-      "description": "Private, hosted group trips designed for connection, culture, and low-friction logistics.",
+      "description": "Private, hosted group trips designed for connection, culture, and low-friction logistics (aka: nobody gets stuck planning spreadsheets at midnight).",
       "search_action_target": "https://www.vybri.ai/?q={search_term_string}",
       "same_as": []
     },
     "webpage": {
-      "name": "Central Europe Men’s Reset (Berlin → Prague → Vienna)",
+      "name": "The Brotherhood Trip (Berlin → Prague → Vienna)",
       "url": "https://www.vybri.ai/",
-      "description": "A private brotherhood week for men in their 40s/50s across Berlin, Prague, and Vienna. Join any city. Hosted, curated, and easy."
+      "description": "An invite-only brotherhood week celebrating Shikhin’s 50th across Berlin, Prague, and Vienna. Join any city. Hosted, curated, and intentionally low-drama."
     },
     "software_application": {
       "name": "Carpe Diem Travel",
@@ -45,32 +45,32 @@
       "price": "0",
       "price_currency": "USD",
       "availability": "https://schema.org/OnlineOnly",
-      "description": "A simple, private landing page experience for invite-only group travel coordination via WhatsApp.",
-      "keywords": "group travel, mens retreat, berlin prague vienna, hosted trips, friends trip, europe trip november"
+      "description": "A simple landing page + WhatsApp coordination for invite-only group travel (because we’re adults and nobody wants another app).",
+      "keywords": "group travel, mens retreat, brotherhood trip, berlin prague vienna, hosted trips, friends trip, europe trip november"
     },
     "organization": {
       "name": "Carpe Diem Travel",
       "url": "https://www.vybri.ai",
       "logo": "https://www.vybri.ai/images/vybri-logo.png",
-      "description": "Private, invite-only group travel experiences focused on connection, culture, and ease.",
+      "description": "Invite-only group travel for friends who want the fun part (connection + culture) without the painful part (planning + chaos).",
       "same_as": []
     },
     "faq": [
       {
         "question": "Who is this trip for?",
-        "answer": "Men in their late 40s to 50s (and a few partners, optional) who want a low-stress, meaningful reset—great food, culture, conversation, and time together—without tour-bus vibes."
+        "answer": "Men in their late 40s to 50s (and a few partners if you’re brave/strategic) who want a low-stress, meaningful reset—great food, culture, conversation, and time together—without tour-bus vibes or forced fun."
       },
       {
         "question": "Can I join for only part of the trip?",
-        "answer": "Yes. You can join in Berlin, Prague, or Vienna and travel with the group for any portion of the week that fits your schedule."
+        "answer": "Yes. Join in Berlin, Prague, or Vienna for any portion of the week. We’ll still like you."
       },
       {
         "question": "What’s included in the estimated land cost?",
-        "answer": "Central hotels, first-class trains between cities, daily breakfasts, several group dinners, and curated experiences (walking tour, spa, hike, and a Vienna culture night). Flights and personal spending are not included."
+        "answer": "Central hotels, first-class trains between cities, daily breakfasts, several group dinners, and curated experiences (walking tour, spa, hike, and a Vienna culture night). Flights and personal spending are on you (and your self-control)."
       },
       {
         "question": "How do I join and communicate?",
-        "answer": "All coordination is through WhatsApp. Reply to the person who invited you with the cities/dates you want, your hotel tier (premium or value), and your room preference (solo/shared)."
+        "answer": "Fill the Google Form to register interest, then all coordination happens in WhatsApp. You’ll choose your cities/dates, hotel tier (premium/value), and room preference (solo/shared)."
       }
     ]
   },
@@ -101,114 +101,112 @@
       }
     ],
     "cta_button": {
-      "text": "Join via WhatsApp",
+      "text": "Join via Google Form",
       "href": "#join",
       "target": "_self"
     }
   },
+{
   "hero": {
-    "headline": "Central Europe Men’s Reset",
-    "subheadline": "Berlin → Prague → Vienna • Nov 18–25, 2026 • Private brotherhood week before Thanksgiving",
-    "cta_primary": "Join via WhatsApp",
-    "cta_primary_url": "#join",
-    "video_url": "https://share.descript.com/embed/oNgu257O4mG",
-    "video_title": "Trip Overview",
-    "video_caption": "A low-friction reset: culture, conversation, and curated logistics—no tour-bus vibes.",
-    "image_caption": "An invite-only week designed for connection, not chaos."
+    "headline": "An Authentic Heart-to-Heart Trip",
+    "subheadline": "Somewhere in my 40s I realized life is too short for “we should catch up sometime.” So… let’s actually do it—properly, in Central Europe.",
+    "cta_primary": "Join via Google Forms",
+    "cta_primary_url": "#join"
   },
   "problem": {
-    "title": "Why this trip exists",
-    "subtitle": "Men in their late 40s have the same problem everywhere: life is full—connection isn’t.",
+    "title": "Celebrate Shikhin’s 50th birthday",
+    "subtitle": "Come visit a few of my favorite places in Central Europe—and bond with my favorite people. Think: real conversations, great walks, memorable meals, and just enough nonsense to keep us humble.",
     "items": [
       {
-        "title": "No time for real brotherhood",
-        "description": "Work and family fill the calendar. Friendships become occasional texts and rushed meetups."
+        "title": "Berlin",
+        "description": "My favorite city—where my first love story began via a client in the early StatsLateral days. Yes, I’m counting consulting as romance. Don’t @ me."
       },
       {
-        "title": "Too much travel fatigue",
-        "description": "Most travel feels like logistics: airports, schedules, and stress. This trip is built to feel easy and restorative."
+        "title": "Prague",
+        "description": "I fell for Prague in 2015 on a solo EU trip: stunning, walkable, and somehow still a great deal—like finding a five-star vibe at a three-star price."
       },
       {
-        "title": "Hard to justify a getaway",
-        "description": "A good trip needs to be meaningful, adult, and responsibly organized—so it’s an easy yes at home and at work."
+        "title": "Vienna",
+        "description": "Vienna is where I discovered the kind of art I actually love—and the kind I hope to pursue one day. Also: coffee so good it feels judgmental."
       }
     ]
-  },
+  }
+},
   "solution": {
-    "title": "The solution",
-    "subtitle": "A private, hosted Central Europe week designed for connection, culture, and ease.",
+    "title": "What we’re doing (and why it won’t be chaotic)",
+    "subtitle": "A private, hosted Central Europe week designed for brotherhood, culture, and ease—aka the fun parts, minus the “who booked this?” parts.",
     "items": [
       {
         "title": "A week that feels intentional—not rushed",
-        "description": "Three great cities, connected by relaxing trains. One anchor experience per day, plus plenty of free time."
+        "description": "Three great cities connected by relaxed trains. One anchor experience per day, plus plenty of free time (because we are not 22)."
       },
       {
         "title": "Curated comfort at a smart budget",
-        "description": "Two hotel tiers per city (premium + value), in the same neighborhood so the group stays together."
+        "description": "Two hotel tiers per city (premium + value), close to each other so the group stays together even if your wallet has boundaries."
       },
       {
-        "title": "Low friction coordination",
-        "description": "Everything runs through WhatsApp: simple choices, clear costs, and quick confirmations."
+        "title": "Low-friction coordination",
+        "description": "Register via Google Form. Then everything runs through WhatsApp: simple choices, clear costs, and quick confirmations. No new apps. No suffering."
       }
     ]
   },
   "how_it_works": {
     "title": "How it works",
-    "subtitle": "Simple, adult, and flexible—join any city for any portion of the week.",
+    "subtitle": "Simple, adult, and flexible—join any city for any portion of the week (yes, even if your calendar is a dumpster fire).",
     "steps": [
       {
         "number": "1",
         "title": "Pick your dates + cities",
-        "time": "2 minutes on WhatsApp",
+        "time": "2 minutes (maximum)",
         "items": [
-          "Full week: Wed night departure → Wed return (Nov 18–25, 2026).",
+          "Full week: depart Wed night → return Wed (Nov 18–25, 2026).",
           "Or join in Berlin, Prague, or Vienna for a shorter portion.",
-          "You’ll receive the exact nightly pricing for your selected cities."
+          "You’ll receive pricing based on your cities + hotel tier (no guessing games)."
         ]
       },
       {
         "number": "2",
         "title": "Choose your hotel tier (premium or value)",
-        "time": "2 minutes on WhatsApp",
+        "time": "Another 2 minutes",
         "items": [
           "Each city has two hotel options in the same neighborhood (walkable to each other).",
-          "Choose premium for extra comfort/amenities; choose value for strong design + great location.",
-          "Solo room or shared room (optional) based on preference."
+          "Premium: a little nicer, a little more pampering.",
+          "Value: still great—just less dramatic about it."
         ]
       },
       {
         "number": "3",
         "title": "Reserve your spot",
-        "time": "One deposit to confirm",
+        "time": "One deposit to make it real",
         "items": [
           "Reserve with a refundable deposit (details below).",
           "We confirm hotels + trains once we have the core group.",
-          "You’ll get a simple one-page itinerary + packing/weather notes closer to departure."
+          "You’ll get a simple trip brief closer to departure (packing notes included so nobody brings a trench coat and regrets it)."
         ]
       }
     ]
   },
   "why_vybri": {
     "title": "Why this trip works",
-    "subtitle": "Designed for men with real lives—limited time, high standards, and no interest in chaos.",
+    "subtitle": "Designed for men with real lives—limited time, high standards, and no patience for chaos.",
     "steps": [
       {
         "title": "Brotherhood without pressure",
-        "description": "Plenty of shared moments (meals, trains, anchors) plus freedom to opt out anytime without awkwardness."
+        "description": "Shared anchors (meals, trains, key experiences) plus freedom to opt out anytime without awkwardness. Introverts: we respect you."
       },
       {
         "title": "Curated, central, and walkable",
-        "description": "Hotels and experiences are chosen for neighborhood vibe: cafés, bars, culture, and easy evenings."
+        "description": "Hotels and experiences chosen for vibe: cafés, bars, culture, and easy evenings—no one is commuting 45 minutes to have dinner."
       },
       {
         "title": "Hosted logistics",
-        "description": "Reservations, timing, and coordination are handled—so the group can focus on the experience."
+        "description": "Reservations, timing, and coordination are handled—so the group can focus on the experience (and on roasting Shikhin affectionately)."
       }
     ]
   },
   "setup_options": {
     "title": "How To Join",
-    "subtitle": "All coordination is through WhatsApp. Choose the simple path that fits you.",
+    "subtitle": "Step 1: Google Form. Step 2: WhatsApp. Step 3: show up and pretend you’re not excited.",
     "options": [
       {
         "option_title": "Option 1: Join the Full Week",
@@ -219,7 +217,7 @@
           },
           {
             "title": "Choose hotel tier per city",
-            "description": "Premium or value in Berlin, Prague, and Vienna (same neighborhoods)."
+            "description": "Premium or value in Berlin, Prague, and Vienna (close by, so we’re still together)."
           },
           {
             "title": "Reserve with deposit",
@@ -227,15 +225,15 @@
           },
           {
             "title": "Receive trip brief",
-            "description": "A simple itinerary, neighborhood map, and packing/weather notes."
+            "description": "A simple itinerary, neighborhood notes, and practical guidance so nobody has to “research” at 1am."
           }
         ],
-        "cta": "Join via WhatsApp",
+        "cta": "Join via Google Form",
         "cta_url": "#join"
       },
       {
         "option_title": "Option 2: Join for Part of the Week",
-        "description": "Prefer a shorter commitment? Join in any city.",
+        "description": "Prefer a shorter commitment? We support your adult responsibilities.",
         "steps": [
           "Start in Berlin, Prague, or Vienna—whatever fits your schedule.",
           "Travel with the group for 2–7 nights.",
@@ -250,22 +248,39 @@
   },
   "features": {
     "title": "What’s Included",
-    "subtitle": "A curated week with enough structure to feel special—and enough freedom to feel like a reset.",
+    "subtitle": "Enough structure to feel special. Enough freedom to feel like a reset. Zero “mandatory fun.”",
     "categories": [
+      {
+        "category_title": "Hotels (Two Options in Each City)",
+        "items": [
+          {
+            "title": "Berlin (Mitte / City Center)",
+            "description": "Premium: Hotel Luc, Autograph Collection. Value: Motel One Berlin–Spittelmarkt. Close enough that nobody needs a taxi diplomacy summit."
+          },
+          {
+            "title": "Prague (New Town / Old Town access)",
+            "description": "Premium: BoHo Prague Hotel. Value: Pytloun Boutique Hotel Prague (Wenceslas Square). Both central, both easy."
+          },
+          {
+            "title": "Vienna (1st District / Innere Stadt)",
+            "description": "Premium: Boutique Hotel am Stephansplatz. Value: Hollmann Beletage. Elegant either way—choose your level of pampering."
+          }
+        ]
+      },
       {
         "category_title": "Core Logistics",
         "items": [
           {
             "title": "Central hotels (two tiers per city)",
-            "description": "Premium + value options, close to each other, in walkable neighborhoods."
+            "description": "Premium + value options, close to each other, in walkable neighborhoods (because we’re not wasting the trip on commuting)."
           },
           {
             "title": "First-class trains between cities",
-            "description": "Berlin → Prague (Sat) and Prague → Vienna (Mon). Relaxed travel that feels like part of the experience."
+            "description": "Berlin → Prague (Sat) and Prague → Vienna (Mon). Relaxed travel that counts as part of the experience."
           },
           {
             "title": "Daily breakfast",
-            "description": "Start easy. No morning scramble."
+            "description": "Start easy. No morning scramble. Coffee will be handled (Vienna takes this personally)."
           }
         ]
       },
@@ -274,15 +289,15 @@
         "items": [
           {
             "title": "Berlin walking tour",
-            "description": "A 2–3 hour guided walk to set context (history + neighborhoods) without turning the trip into school."
+            "description": "A 2–3 hour guided walk for history + neighborhoods—without turning the trip into a documentary marathon."
           },
           {
             "title": "Vabali Spa (Berlin)",
-            "description": "A decompression afternoon to reset after travel."
+            "description": "Decompression time after travel. Your nervous system will send a thank-you note."
           },
           {
             "title": "Prague nature hike",
-            "description": "A late-morning/afternoon hike across the river for views and fresh air."
+            "description": "A late-morning/afternoon hike across the river for views and fresh air. Yes, it’s worth it."
           }
         ]
       },
@@ -291,11 +306,11 @@
         "items": [
           {
             "title": "4–5 group dinners",
-            "description": "A mix of excellent local and immigrant-run restaurants—built for long conversations and good energy."
+            "description": "A mix of excellent local and immigrant-run restaurants—built for long conversations and high laughter-per-minute."
           },
           {
             "title": "Optional nights out",
-            "description": "For those who want it: bars, jazz, music, or nightlife—never mandatory."
+            "description": "Bars, jazz, music, nightlife—opt-in only. Nobody is forced to “send it.”"
           }
         ]
       },
@@ -304,11 +319,11 @@
         "items": [
           {
             "title": "Classical music or museum experience",
-            "description": "A simple anchor evening: concert/opera (if available) or a museum visit based on group preference."
+            "description": "Concert/opera (if available) or a museum visit—chosen for vibe, not for bragging rights."
           },
           {
             "title": "Café culture morning",
-            "description": "A slow Vienna breakfast/café start to close the trip well."
+            "description": "A slow Vienna breakfast/café start to close the trip well. Pastries will happen."
           }
         ]
       },
@@ -321,7 +336,7 @@
           },
           {
             "title": "Opt-in pace",
-            "description": "One anchor per day plus free time—no rigid schedules."
+            "description": "One anchor per day plus free time—no rigid schedules, no whistles, no matching hats."
           }
         ]
       }
@@ -329,27 +344,27 @@
   },
   "client_experience": {
     "title": "The Experience",
-    "subtitle": "How this week will feel: intentional, easy, and genuinely connecting.",
+    "subtitle": "How this week should feel: easy, meaningful, and genuinely connecting (with enough free time to pretend you’re ‘just wandering’).",
     "video_url": "https://www.youtube.com/embed/jNQXAC9IVRw",
     "testimonial": {
-      "quote": "It felt like a reset—great conversations, great cities, and none of the usual planning stress. I came back better.",
+      "quote": "It felt like a reset—great conversations, great cities, and none of the usual planning stress. I came back better (and annoyingly refreshed).",
       "author": "Past Traveler",
       "position": "Friend Group Trip"
     }
   },
   "cta": {
-    "title": "Join the Trip (WhatsApp)",
-    "description": "Reply to the person who invited you with: (1) the cities you’ll join, (2) hotel tier (premium/value), and (3) solo or shared room. We’ll send exact pricing and next steps.",
-    "button_text": "Message Your Details",
-    "small_text": "Invite-only group • Target: 10–15 travelers • Limited capacity"
+    "title": "Join the Trip",
+    "description": "Step 1: Fill the Google Form to register interest. Step 2: Confirm details in WhatsApp: (1) cities you’ll join, (2) hotel tier (premium/value), and (3) solo/shared room. We’ll send exact pricing and next steps.",
+    "button_text": "Join via Google Form",
+    "small_text": "Invite-only group • Target: 10–15 travelers • Capacity is real • Your indecision is respected (until it isn’t)."
   },
   "pricing_client_engagement": {
     "title": "Estimated Cost (Land Only)",
     "subtitle": "Hotels + trains + breakfasts + group dinners + curated experiences",
     "price": "$2,200–$2,900 per person",
-    "tagline": "Depends on hotel tier and how many cities you join. Flights and personal spending not included.",
+    "tagline": "Depends on hotel tier and how many cities you join. Flights and personal spending not included (including your questionable souvenir choices).",
     "features": [
-      "Two hotel tiers per city (premium/value), same neighborhoods",
+      "Two hotel tiers per city (premium/value), close-by neighborhoods",
       "First-class trains between Berlin → Prague → Vienna",
       "Daily breakfast",
       "4–5 group dinners",
@@ -362,12 +377,12 @@
   },
   "pricing_marketing": {
     "title": "Deposit & Cancellation",
-    "subtitle": "Designed to make it easy to say yes without feeling trapped.",
+    "subtitle": "Designed to make it easy to say yes without feeling trapped (because adult life happens).",
     "plans": [
       {
         "name": "Reserve Your Spot",
         "price": "$750 deposit",
-        "tagline": "Holds your spot while we confirm group bookings.",
+        "tagline": "Holds your spot while we confirm group bookings (and stops the endless ‘maybe’ loop).",
         "features": [
           "Refundable until Oct 4, 2026 (approx. 45 days before departure)",
           "After that: partial refund or trip credit depending on booked components",
@@ -380,7 +395,7 @@
       {
         "name": "Join for Part of the Week",
         "price": "Deposit applies",
-        "tagline": "Prefer a shorter segment? Join in any city.",
+        "tagline": "Prefer a shorter segment? We’ll still count you as family.",
         "features": [
           "Berlin-only / Prague-only / Vienna-only segments possible",
           "Berlin + Prague or Prague + Vienna are popular options",
@@ -394,27 +409,27 @@
   },
   "team": {
     "title": "Host",
-    "subtitle": "A private, invite-only trip hosted and coordinated end-to-end (communication via WhatsApp).",
+    "subtitle": "Invite-only trip hosted and coordinated end-to-end (primarily via WhatsApp, because we’re trying to keep everyone sane).",
     "members": [
       {
         "name": "Trip Host (Invite-Only Group)",
         "photo": "images/Shik-headshot-2022-large.jpg",
         "title": "Coordinator",
-        "description": "Curates hotels, trains, and shared experiences.<br>Handles reservations and group coordination via WhatsApp.",
+        "description": "Curates hotels, trains, and shared experiences.<br>Handles reservations and group coordination via WhatsApp.<br>Will politely remind you of deadlines (multiple times).",
         "linkedin": "https://www.linkedin.com/in/shikhin"
       },
       {
         "name": "Local Partners (as needed)",
         "photo": "images/Rajeev-headshot-2022 Large.jpg",
         "title": "Guides & Venues",
-        "description": "We use trusted local guides for walking tours and vetted venues for group dinners.<br>Everything is chosen for vibe, walkability, and ease.",
+        "description": "Trusted local guides for walking tours and vetted venues for group dinners.<br>Chosen for vibe, walkability, and ‘this was a great call.’",
         "linkedin": ""
       },
       {
         "name": "Trip Principles",
         "photo": "images/Tauqeer Qazi.jpg",
         "title": "How we travel",
-        "description": "One anchor per day.<br>Great neighborhoods.<br>Freedom to opt out anytime.<br>No tour-bus energy.",
+        "description": "One anchor per day.<br>Great neighborhoods.<br>Freedom to opt out anytime.<br>No tour-bus energy.<br>No forced karaoke (unless you insist).",
         "linkedin": ""
       }
     ]
@@ -424,27 +439,27 @@
     "cards": [
       {
         "question": "Can I join in just one city?",
-        "preview": "Yes. You can join in Berlin, Prague, or Vienna and travel with the group for any portion of the week. We’ll share exact segment pricing on WhatsApp...:",
+        "preview": "Yes. Join in Berlin, Prague, or Vienna for any portion of the week. We’ll share exact segment pricing on WhatsApp so you can decide like an adult...:",
         "link": "faq.html"
       },
       {
         "question": "How do hotels work?",
-        "preview": "Each city has two hotel options: premium and value. Both are in the same neighborhood so the group stays together. You choose your tier per city...:",
+        "preview": "Each city has two hotel options: premium and value—close to each other so the group stays together. Choose your tier per city (no judgment, just facts)...:",
         "link": "faq.html"
       },
       {
         "question": "What’s the daily schedule like?",
-        "preview": "This is not a tour. Expect one anchor experience most days, a great group dinner most days, and plenty of free time. Nothing is mandatory...:",
+        "preview": "Not a tour. Expect one anchor experience most days, a great group dinner most days, and plenty of free time. Nothing is mandatory (including fun)...:",
         "link": "faq.html"
       },
       {
         "question": "How do I reserve?",
-        "preview": "Reply on WhatsApp with your cities, hotel tier, and room preference. A $750 refundable deposit holds your spot while we confirm hotels and trains...:",
+        "preview": "Step 1: Google Form. Step 2: WhatsApp confirmation. A $750 refundable deposit holds your spot while we confirm hotels and trains...:",
         "link": "faq.html"
       },
       {
         "question": "What’s not included?",
-        "preview": "Flights, visas (if needed), travel insurance, and personal spending (drinks, shopping, optional nights out) are not included. We’ll share guidance...:",
+        "preview": "Flights, visas (if needed), travel insurance, and personal spending (drinks, shopping, optional nights out) are not included. We’ll share practical guidance...:",
         "link": "faq.html"
       },
       {
@@ -489,7 +504,7 @@
         "title": "Support",
         "links": [
           {
-            "label": "Join via WhatsApp",
+            "label": "Join via Google Form",
             "href": "#join",
             "target": "_self"
           },
