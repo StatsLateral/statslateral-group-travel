@@ -139,7 +139,7 @@
   "items": [
     {
       "title": "📅 Thursday, Nov 18 → Wednesday, Nov 25, 2026",
-      "description": "Ideally, arrive on Thursday and leave on Wednesday just in time to be back before Thanksgiving."
+      "description": "Ideally, arrive on Thursday and leave on following Wednesday just in time to be back before Thanksgiving."
     },
     {
       "title": "🎂 The main birthday moment: Saturday, Nov 20",
@@ -151,42 +151,95 @@
     }
   ]
 },
-  "how_it_works": {
-    "title": "How it works",
-    "subtitle": "Simple, adult, and flexible—join any city for any portion of the week (yes, even if your calendar is a dumpster fire).",
-    "steps": [
-      {
-        "number": "1",
-        "title": "Pick your dates + cities",
-        "time": "2 minutes (maximum)",
-        "items": [
-          "Full week: depart Wed night → return Wed (Nov 18–25, 2026).",
-          "Or join in Berlin, Prague, or Vienna for a shorter portion.",
-          "You’ll receive pricing based on your cities + hotel tier (no guessing games)."
-        ]
-      },
-      {
-        "number": "2",
-        "title": "Choose your hotel tier (premium or value)",
-        "time": "Another 2 minutes",
-        "items": [
-          "Each city has two hotel options in the same neighborhood (walkable to each other).",
-          "Premium: a little nicer, a little more pampering.",
-          "Value: still great—just less dramatic about it."
-        ]
-      },
-      {
-        "number": "3",
-        "title": "Reserve your spot",
-        "time": "One deposit to make it real",
-        "items": [
-          "Reserve with a refundable deposit (details below).",
-          "We confirm hotels + trains once we have the core group.",
-          "You’ll get a simple trip brief closer to departure (packing notes included so nobody brings a trench coat and regrets it)."
-        ]
-      }
-    ]
-  },
+"how_it_works": {
+  "title": "How it works",
+  "subtitle": "Seven easy, well-paced days across three cities — designed for great conversations, great walks, and zero logistical headaches.",
+  "steps": [
+    {
+      "number": "Day 1",
+      "title": "Thursday, Nov 18 — Arrival in Berlin",
+      "time": "Land, decompress, and ease into the week",
+      "items": [
+        "Morning: Arrivals into Berlin (from wherever you’re coming from)",
+        "Daytime: Check in, stretch your legs, light wandering or napping",
+        "Afternoon: Decompress together at Vabali Spa (optional but highly recommended)",
+        "Evening: Welcome dinner at a great immigrant-run Berlin restaurant",
+        "Suggested hotel options: Premium Berlin Hotel or Value Berlin Hotel (both central and walkable)"
+      ]
+    },
+    {
+      "number": "Day 2",
+      "title": "Friday, Nov 19 — Berlin, Culture & Conversation",
+      "time": "History, walking, and finding our rhythm",
+      "items": [
+        "Morning: Guided Berlin walking tour (history + neighborhoods, not a lecture)",
+        "Daytime: Free time for cafés, shopping, museums, or just wandering",
+        "Late afternoon: Rest, spa, or downtime back at the hotel",
+        "Evening: Classic German dinner",
+        "Late night (optional): Jazz bar, cocktail lounge, or Berlin nightlife",
+        "Suggested hotel options: Same Berlin hotels"
+      ]
+    },
+    {
+      "number": "Day 3",
+      "title": "Saturday, Nov 20 — Berlin → Prague (Birthday Day)",
+      "time": "Travel day + the heart of the celebration",
+      "items": [
+        "Morning: Easy Berlin morning, coffee and packing",
+        "Midday: First-class train from Berlin to Prague",
+        "Afternoon: Check into Prague hotels and settle in",
+        "Evening: Main birthday dinner, cake, and toasts in Prague",
+        "Late night (optional): Prague nightlife for those who want it",
+        "Suggested hotel options: Premium Prague Hotel or Value Prague Hotel"
+      ]
+    },
+    {
+      "number": "Day 4",
+      "title": "Sunday, Nov 21 — Prague, Nature & Old Town",
+      "time": "Fresh air, beauty, and deep conversations",
+      "items": [
+        "Late morning: Hike across the river for views and fresh air",
+        "Afternoon: Rest, café hopping, or Old Town wandering",
+        "Evening: Group dinner in Prague’s main square or historic district",
+        "Suggested hotel options: Same Prague hotels"
+      ]
+    },
+    {
+      "number": "Day 5",
+      "title": "Monday, Nov 22 — Prague → Vienna",
+      "time": "Transition into elegance",
+      "items": [
+        "Morning: Easy breakfast and check-out",
+        "Late morning: Train from Prague to Vienna",
+        "Afternoon: Check into Vienna hotels and walk the city center",
+        "Evening: Casual dinner or wine bar in Vienna",
+        "Suggested hotel options: Premium Vienna Hotel or Value Vienna Hotel"
+      ]
+    },
+    {
+      "number": "Day 6",
+      "title": "Tuesday, Nov 23 — Vienna, Art & Café Culture",
+      "time": "Slow, beautiful, and reflective",
+      "items": [
+        "Morning: Vienna café breakfast together",
+        "Daytime: Museum, classical music, or cultural experience",
+        "Afternoon: Free time for shopping, walks, or people-watching",
+        "Evening: Final group dinner in Vienna",
+        "Suggested hotel options: Same Vienna hotels"
+      ]
+    },
+    {
+      "number": "Day 7",
+      "title": "Wednesday, Nov 24 — Return Home",
+      "time": "Head back refreshed",
+      "items": [
+        "Morning: Departures from Vienna",
+        "Travel back home in time for Thanksgiving",
+        "Optional: Stay longer in Europe if you want to keep the magic going"
+      ]
+    }
+  ]
+},
   "why_vybri": {
     "title": "Why this trip works",
     "subtitle": "Designed for men with real lives—limited time, high standards, and no patience for chaos.",
