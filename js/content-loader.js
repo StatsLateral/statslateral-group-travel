@@ -78,6 +78,26 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
+        // Handle elements with data-src attribute (for images)
+        const srcElements = document.querySelectorAll('[data-src]');
+        srcElements.forEach(element => {
+            const srcPath = element.getAttribute('data-src');
+            const srcValue = getValueByPath(contentData, srcPath);
+            if (srcValue !== undefined) {
+                element.setAttribute('src', srcValue);
+            }
+        });
+        
+        // Handle elements with data-alt attribute (for images)
+        const altElements = document.querySelectorAll('[data-alt]');
+        altElements.forEach(element => {
+            const altPath = element.getAttribute('data-alt');
+            const altValue = getValueByPath(contentData, altPath);
+            if (altValue !== undefined) {
+                element.setAttribute('alt', altValue);
+            }
+        });
+        
         // Handle elements with data-title attribute (for iframes)
         const titleElements = document.querySelectorAll('[data-title]');
         titleElements.forEach(element => {

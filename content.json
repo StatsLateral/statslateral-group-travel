@@ -75,6 +75,7 @@
     ]
   },
   "navigation": {
+    "logo_url": "images/vybri-logo.png",
     "logo_alt": "Carpe Diem Travel logo",
     "menu_items": [
       {
@@ -106,12 +107,13 @@
       "target": "_self"
     }
   },
-{
   "hero": {
     "headline": "An Authentic Heart-to-Heart Trip",
     "subheadline": "Somewhere in my 40s I realized life is too short for “we should catch up sometime.” So… let’s actually do it—properly, in Central Europe.",
     "cta_primary": "Join via Google Forms",
-    "cta_primary_url": "#join"
+    "cta_primary_url": "#join",
+    "image_url": "images/hero-travel.png",
+    "image_alt": "Central Europe Travel - Berlin, Prague, Vienna"
   },
   "problem": {
     "title": "Celebrate Shikhin’s 50th birthday",
