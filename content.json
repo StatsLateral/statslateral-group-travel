@@ -109,7 +109,7 @@
   },
   "hero": {
     "headline": "An Authentic Heart-to-Heart Trip",
-    "subheadline": "Somewhere in my 40s I realized life is too short for “we should catch up sometime.” So… let’s actually do it—properly, in Central Europe.",
+    "subheadline": "Recently, I realized life is too short for “we should catch up sometime.” So… let’s actually do it—properly, in Central Europe from Nov 18-25, 2026.",
     "cta_primary": "Join via Google Forms",
     "cta_primary_url": "#join",
     "image_url": "images/hero-travel.png",
@@ -133,24 +133,24 @@
       }
     ]
   },
-  "solution": {
-    "title": "What we’re doing (and why it won’t be chaotic)",
-    "subtitle": "A private, hosted Central Europe week designed for brotherhood, culture, and ease—aka the fun parts, minus the “who booked this?” parts.",
-    "items": [
-      {
-        "title": "A week that feels intentional—not rushed",
-        "description": "Three great cities connected by relaxed trains. One anchor experience per day, plus plenty of free time (because we are not 22)."
-      },
-      {
-        "title": "Curated comfort at a smart budget",
-        "description": "Two hotel tiers per city (premium + value), close to each other so the group stays together even if your wallet has boundaries."
-      },
-      {
-        "title": "Low-friction coordination",
-        "description": "Register via Google Form. Then everything runs through WhatsApp: simple choices, clear costs, and quick confirmations. No new apps. No suffering."
-      }
-    ]
-  },
+"solution": {
+  "title": "What, When, Where?",
+  "subtitle": "One thoughtfully designed week for brotherhood, culture, and ease — basically the best parts of my favorite trips, without the chaos.",
+  "items": [
+    {
+      "title": "📅 Thursday, Nov 18 → Wednesday, Nov 25, 2026",
+      "description": "Ideally, arrive on Thursday and leave on Wednesday just in time to be back before Thanksgiving."
+    },
+    {
+      "title": "🎂 The main birthday moment: Saturday, Nov 20",
+      "description": "This is the heart of the trip. We’ll be together in Prague, cutting the ‘cake,’ raising a glass.Celebrate life and friendships."
+    },
+    {
+      "title": "✈️ Flexible travel dates",
+      "description": "Come for the full week, or just part of it. Join in Berlin, Prague, or Vienna. Leave when life calls. You join for what you can and would love to see you."
+    }
+  ]
+},
   "how_it_works": {
     "title": "How it works",
     "subtitle": "Simple, adult, and flexible—join any city for any portion of the week (yes, even if your calendar is a dumpster fire).",
