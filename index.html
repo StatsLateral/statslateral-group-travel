@@ -561,12 +561,6 @@
             </div>
             
             <div class="departure-board">
-                <div class="board-row board-header-row">
-                    <div class="board-cell">Full Name</div>
-                    <div class="board-cell">City</div>
-                    <div class="board-cell">Arrival</div>
-                </div>
-                
                 <div id="board-loading" class="loading-board">
                     <div class="loading-spinner"></div>
                     <p>Loading attendees...</p>
@@ -576,7 +570,17 @@
                     No attendees yet. Be the first to RSVP!
                 </div>
                 
-                <div id="attendee-board-body"></div>
+                <table class="board-table" id="attendee-board-table" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>City</th>
+                            <th>Arrival</th>
+                        </tr>
+                    </thead>
+                    <tbody id="attendee-board-body">
+                    </tbody>
+                </table>
             </div>
             
             <div class="board-footer">

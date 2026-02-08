@@ -14,6 +14,10 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (loadingDiv) loadingDiv.style.display = 'none';
         
         if (response.ok && result.attendees && result.attendees.length > 0) {
+            // Show the table
+            const boardTable = document.getElementById('attendee-board-table');
+            if (boardTable) boardTable.style.display = 'table';
+            
             // Display attendees with flip animation
             result.attendees.forEach((attendee, index) => {
                 setTimeout(() => {
@@ -22,9 +26,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                     
                     // Trigger flip animation for all cells
                     setTimeout(() => {
-                        animateFlip(row.querySelector('.name-cell'));
-                        animateFlip(row.querySelector('.city-cell'));
-                        animateFlip(row.querySelector('.date-cell'));
+                        const cells = row.querySelectorAll('td');
+                        cells.forEach(cell => animateFlip(cell));
                     }, 100);
                 }, index * 200); // Stagger the appearance
             });
@@ -42,19 +45,12 @@ document.addEventListener('DOMContentLoaded', async function() {
 });
 
 function createAttendeeRow(attendee) {
-    const row = document.createElement('div');
-    row.className = 'board-row';
+    const row = document.createElement('tr');
     
     row.innerHTML = `
-        <div class="board-cell name-cell" data-label="Name">
-            <span class="flip-container">${attendee.name}</span>
-        </div>
-        <div class="board-cell city-cell" data-label="City">
-            <span class="flip-container">${attendee.city}</span>
-        </div>
-        <div class="board-cell date-cell" data-label="Arrival">
-            <span class="flip-container">${attendee.date}</span>
-        </div>
+        <td><span class="flip-container">${attendee.name}</span></td>
+        <td><span class="flip-container">${attendee.city}</span></td>
+        <td><span class="flip-container">${attendee.date}</span></td>
     `;
     
     return row;
@@ -98,9 +94,8 @@ setInterval(async function() {
                     const row = createAttendeeRow(attendee);
                     boardBody.appendChild(row);
                     setTimeout(() => {
-                        animateFlip(row.querySelector('.name-cell'));
-                        animateFlip(row.querySelector('.city-cell'));
-                        animateFlip(row.querySelector('.date-cell'));
+                        const cells = row.querySelectorAll('td');
+                        cells.forEach(cell => animateFlip(cell));
                     }, 100);
                 }, index * 200);
             });

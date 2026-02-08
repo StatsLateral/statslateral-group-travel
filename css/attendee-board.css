@@ -57,42 +57,55 @@
     z-index: 1;
 }
 
-.board-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 15px 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    align-items: center;
-    justify-items: start;
+.board-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Courier New', 'Courier', monospace;
 }
 
-.board-row:last-child {
-    border-bottom: none;
-}
-
-.board-header-row {
+.board-table thead tr {
     background: rgba(232, 184, 109, 0.1);
     border-radius: 8px;
+}
+
+.board-table th {
+    padding: 15px 20px;
+    text-align: left;
     font-weight: 600;
     color: #E8B86D;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.9em;
+    font-family: 'Courier New', 'Courier', monospace;
 }
 
-.board-header-row .board-cell {
-    text-align: left;
+.board-table th:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
-.board-cell {
+.board-table th:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.board-table tbody tr {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.board-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.board-table td {
+    padding: 15px 20px;
     color: #fff;
     font-size: 1.1em;
-    font-family: 'Courier New', 'Courier', monospace;
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     text-align: left;
+    font-family: 'Courier New', 'Courier', monospace;
 }
 
 .flip-container {
