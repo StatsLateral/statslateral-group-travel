@@ -35,8 +35,7 @@
     color: #E8B86D;
     font-size: 2.5em;
     margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 700;
 }
 
@@ -60,7 +59,7 @@
 
 .board-row {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 15px 20px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
@@ -84,8 +83,10 @@
 .board-cell {
     color: #fff;
     font-size: 1.1em;
-    font-family: 'Courier New', monospace;
-    font-weight: 500;
+    font-family: 'Courier New', 'Courier', monospace;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
 .flip-container {
@@ -118,35 +119,6 @@
     }
 }
 
-.city-badge {
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.9em;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.city-berlin {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-}
-
-.city-prague {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: white;
-}
-
-.city-vienna {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    color: white;
-}
-
-.date-cell {
-    color: #E8B86D;
-    font-weight: 600;
-}
 
 .loading-board {
     text-align: center;

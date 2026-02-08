@@ -149,9 +149,13 @@ document.addEventListener('DOMContentLoaded', async function() {
                 const result = await response.json();
                 
                 if (response.ok) {
-                    messageDiv.textContent = result.message || 'Registration submitted successfully!';
+                    messageDiv.textContent = result.message || 'Registration submitted successfully! Redirecting...';
                     messageDiv.className = 'form-message success';
-                    registrationForm.reset();
+                    
+                    // Redirect to index page with attendee board in focus after 1.5 seconds
+                    setTimeout(() => {
+                        window.location.href = '/index.html#join';
+                    }, 1500);
                 } else {
                     messageDiv.textContent = result.error || 'Failed to submit registration. Please try again.';
                     messageDiv.className = 'form-message error';

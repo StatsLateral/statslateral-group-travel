@@ -20,9 +20,11 @@ document.addEventListener('DOMContentLoaded', async function() {
                     const row = createAttendeeRow(attendee);
                     boardBody.appendChild(row);
                     
-                    // Trigger flip animation for name
+                    // Trigger flip animation for all cells
                     setTimeout(() => {
                         animateFlip(row.querySelector('.name-cell'));
+                        animateFlip(row.querySelector('.city-cell'));
+                        animateFlip(row.querySelector('.date-cell'));
                     }, 100);
                 }, index * 200); // Stagger the appearance
             });
@@ -43,17 +45,15 @@ function createAttendeeRow(attendee) {
     const row = document.createElement('div');
     row.className = 'board-row';
     
-    const cityClass = `city-${attendee.city.toLowerCase()}`;
-    
     row.innerHTML = `
         <div class="board-cell name-cell" data-label="Name">
             <span class="flip-container">${attendee.name}</span>
         </div>
         <div class="board-cell city-cell" data-label="City">
-            <span class="city-badge ${cityClass}">${attendee.city}</span>
+            <span class="flip-container">${attendee.city}</span>
         </div>
         <div class="board-cell date-cell" data-label="Arrival">
-            ${attendee.date}
+            <span class="flip-container">${attendee.date}</span>
         </div>
     `;
     
@@ -98,6 +98,8 @@ setInterval(async function() {
                     boardBody.appendChild(row);
                     setTimeout(() => {
                         animateFlip(row.querySelector('.name-cell'));
+                        animateFlip(row.querySelector('.city-cell'));
+                        animateFlip(row.querySelector('.date-cell'));
                     }, 100);
                 }, index * 200);
             });
