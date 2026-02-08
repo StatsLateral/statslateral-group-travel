@@ -11,8 +11,20 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/registration.css">
     <link rel="icon" href="images/favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
+    <div id="auth-required" style="display: none; text-align: center; padding: 100px 20px;">
+        <div class="container">
+            <div class="registration-container">
+                <h2>Authentication Required</h2>
+                <p class="subtitle">Please sign in with your email to access the RSVP form.</p>
+                <a href="auth.html" class="btn btn-primary" style="display: inline-block; margin-top: 20px;">Sign In</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="main-content">
     <header class="header">
         <div class="container">
             <nav class="navbar">
@@ -117,7 +129,9 @@
             </div>
         </div>
     </footer>
+    </div>
 
+    <script src="js/supabase-config.js"></script>
     <script src="js/registration.js"></script>
 </body>
 </html>

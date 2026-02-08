@@ -1,5 +1,21 @@
 // Registration form handler
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    // Check authentication status
+    const session = await checkAuth();
+    const authRequired = document.getElementById('auth-required');
+    const mainContent = document.getElementById('main-content');
+    
+    if (!session) {
+        // User not authenticated, show auth required message
+        if (authRequired) authRequired.style.display = 'block';
+        if (mainContent) mainContent.style.display = 'none';
+        return;
+    }
+    
+    // User is authenticated, show the form
+    if (authRequired) authRequired.style.display = 'none';
+    if (mainContent) mainContent.style.display = 'block';
+    
     const registrationForm = document.getElementById('registration-form');
     const willAttendRadio = document.getElementById('will-attend');
     const cannotAttendRadio = document.getElementById('cannot-attend');

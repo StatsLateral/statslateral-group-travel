@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - The Brotherhood Trip</title>
+    <meta name="description" content="Sign in to RSVP for The Brotherhood Trip">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/brotherhood-logo.svg" alt="Brotherhood Trip logo"></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html#problem">About</a></li>
+                    <li><a href="index.html#how-it-works">Trip Details</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="auth.html" class="btn btn-primary">RSVP Here</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="registration-section" style="padding-top: 140px;">
+        <div class="container">
+            <div class="registration-container">
+                <h2>Sign In to RSVP</h2>
+                <p class="subtitle">Enter your email address and we'll send you a magic link to continue.</p>
+                
+                <form id="auth-form">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">Send Magic Link</button>
+                    
+                    <div id="auth-message" class="form-message"></div>
+                </form>
+                
+                <p style="text-align: center; margin-top: 20px; color: #666;">
+                    You'll receive an email with a link to access the RSVP form.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/brotherhood-logo.svg" alt="Brotherhood Trip logo" loading="lazy">
+                    <p>© 2026 Brotherhood Trip. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
