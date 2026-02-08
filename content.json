@@ -174,10 +174,9 @@
       "items": [
         "Morning: Guided Berlin walking tour (history + neighborhoods, not a lecture)",
         "Daytime: Free time for cafés, shopping, museums, or just wandering",
-        "Late afternoon: Rest, spa, or downtime back at the hotel",
-        "Evening: Classic German dinner",
-        "Late night (optional): Jazz bar, cocktail lounge, or Berlin nightlife",
-        "Suggested hotel options: Same Berlin hotels"
+        "Late afternoon: TBD",
+        "Evening: Dinner TBD",
+        "Late night (optional): Cocktail lounge or Berlin nightlife"
       ]
     },
     {
@@ -186,10 +185,10 @@
       "time": "Travel day + the heart of the celebration",
       "items": [
         "Morning: Easy Berlin morning, coffee and packing",
-        "Midday: First-class train from Berlin to Prague",
+        "Midday: Noon train from Berlin to Prague (approx. 4 hours)",
         "Afternoon: Check into Prague hotels and settle in",
-        "Evening: Main birthday dinner, cake, and toasts in Prague",
-        "Late night (optional): Prague nightlife for those who want it",
+        "Evening: Main birthday dinner and toasts in Prague",
+        "Late night (optional): Prague nightlife",
         "Suggested hotel options: Premium Prague Hotel or Value Prague Hotel"
       ]
     },
@@ -198,10 +197,10 @@
       "title": "Sunday, Nov 21 — Prague, Nature & Old Town",
       "time": "Fresh air, beauty, and deep conversations",
       "items": [
-        "Late morning: Hike across the river for views and fresh air",
+        "Late morning: Hike across the river for city views",
         "Afternoon: Rest, café hopping, or Old Town wandering",
         "Evening: Group dinner in Prague’s main square or historic district",
-        "Suggested hotel options: Same Prague hotels"
+        "Late night (optional): Rest"
       ]
     },
     {
@@ -210,9 +209,9 @@
       "time": "Transition into elegance",
       "items": [
         "Morning: Easy breakfast and check-out",
-        "Late morning: Train from Prague to Vienna",
+        "Late morning: Noon train from Prague to Vienna (approx. 4 hours)",
         "Afternoon: Check into Vienna hotels and walk the city center",
-        "Evening: Casual dinner or wine bar in Vienna",
+        "Evening: Dinner at my favorite Schnitzel place",
         "Suggested hotel options: Premium Vienna Hotel or Value Vienna Hotel"
       ]
     },
@@ -221,11 +220,11 @@
       "title": "Tuesday, Nov 23 — Vienna, Art & Café Culture",
       "time": "Slow, beautiful, and reflective",
       "items": [
-        "Morning: Vienna café breakfast together",
-        "Daytime: Museum, classical music, or cultural experience",
+        "Morning: Vienna café breakfast together at my favorite museum cafe",
+        "Daytime: Hunterwasser museum",
         "Afternoon: Free time for shopping, walks, or people-watching",
         "Evening: Final group dinner in Vienna",
-        "Suggested hotel options: Same Vienna hotels"
+        "Late night (optional): Rest"
       ]
     },
     {
@@ -233,9 +232,7 @@
       "title": "Wednesday, Nov 24 — Return Home",
       "time": "Head back refreshed",
       "items": [
-        "Morning: Departures from Vienna",
-        "Travel back home in time for Thanksgiving",
-        "Optional: Stay longer in Europe if you want to keep the magic going"
+        "Morning: Departures from Vienna. Travel back home in time for Thanksgiving"
       ]
     }
   ]
