@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                     throw error;
                 }
                 
-                messageDiv.textContent = `Magic link sent! Check your email (${email}) and click the link to continue.`;
+                messageDiv.textContent = `Magic link sent! Check your email (${email}) and look for an email from Supabase Auth.`;
                 messageDiv.className = 'form-message success';
                 authForm.reset();
                 
