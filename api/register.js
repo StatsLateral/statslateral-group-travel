@@ -24,9 +24,9 @@ export default async function handler(req, res) {
 
   // Verify Supabase credentials
   const supabaseUrl = process.env.SUPABASE_URL;
-  const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
+  const supabasePublishableKey = process.env.SUPABASE_PUBLISHABLE_KEY;
   
-  if (!supabaseUrl || !supabaseAnonKey) {
+  if (!supabaseUrl || !supabasePublishableKey) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
@@ -45,7 +45,7 @@ export default async function handler(req, res) {
     }
 
     // Initialize Supabase client
-    const supabase = createClient(supabaseUrl, supabaseAnonKey);
+    const supabase = createClient(supabaseUrl, supabasePublishableKey);
 
     // Insert registration into Supabase
     const { data, error } = await supabase

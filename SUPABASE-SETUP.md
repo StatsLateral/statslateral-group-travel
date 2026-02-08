@@ -43,8 +43,9 @@ From your Supabase project dashboard:
 1. Go to **Settings** → **API**
 2. Copy these values:
    - **Project URL** (e.g., `https://xxxxx.supabase.co`)
-   - **anon public** key (for client-side operations)
-   - **service_role** key (for server-side admin operations - keep this secret!)
+   - **Project API keys**:
+     - **publishable (anon)** key (for client-side operations)
+     - **secret (service_role)** key (for server-side admin operations - keep this secret!)
 
 ## 3. Add Environment Variables to Vercel
 
@@ -54,8 +55,8 @@ Go to your Vercel project → **Settings** → **Environment Variables** and add
 |------|-------|-------------|
 | `REGISTRATION_SECRET` | (your existing password) | Admin password for viewing registrations |
 | `SUPABASE_URL` | `https://xxxxx.supabase.co` | Your Supabase project URL |
-| `SUPABASE_ANON_KEY` | `eyJhbG...` | Your Supabase anon public key |
-| `SUPABASE_SERVICE_KEY` | `eyJhbG...` | Your Supabase service role key (SECRET!) |
+| `SUPABASE_PUBLISHABLE_KEY` | `eyJhbG...` | Your Supabase publishable (anon) key |
+| `SUPABASE_SECRET_KEY` | `eyJhbG...` | Your Supabase secret (service_role) key (SECRET!) |
 
 **Important:** Set these for all environments (Production, Preview, Development)
 
@@ -104,12 +105,12 @@ registrations
 ## Troubleshooting
 
 ### Registration form not working
-- Check that `SUPABASE_URL` and `SUPABASE_ANON_KEY` are set in Vercel
+- Check that `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` are set in Vercel
 - Verify the RLS policy allows public inserts
 - Check browser console for errors
 
 ### Admin page shows no data
-- Verify `SUPABASE_SERVICE_KEY` is set correctly
+- Verify `SUPABASE_SECRET_KEY` is set correctly
 - Check that data exists in Supabase Table Editor
 - Ensure you're using the correct admin password
 

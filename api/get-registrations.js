@@ -25,9 +25,9 @@ export default async function handler(req, res) {
   // Get credentials from environment variables
   const secretKey = process.env.REGISTRATION_SECRET;
   const supabaseUrl = process.env.SUPABASE_URL;
-  const supabaseServiceKey = process.env.SUPABASE_SERVICE_KEY;
+  const supabaseSecretKey = process.env.SUPABASE_SECRET_KEY;
   
-  if (!secretKey || !supabaseUrl || !supabaseServiceKey) {
+  if (!secretKey || !supabaseUrl || !supabaseSecretKey) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
@@ -39,8 +39,8 @@ export default async function handler(req, res) {
       return res.status(401).json({ error: 'Invalid password' });
     }
 
-    // Initialize Supabase client with service role key (bypasses RLS)
-    const supabase = createClient(supabaseUrl, supabaseServiceKey);
+    // Initialize Supabase client with secret key (bypasses RLS)
+    const supabase = createClient(supabaseUrl, supabaseSecretKey);
 
     // Fetch all registrations from Supabase
     const { data, error } = await supabase
