@@ -1,44 +1,60 @@
 // Registration form handler
 document.addEventListener('DOMContentLoaded', function() {
     const registrationForm = document.getElementById('registration-form');
-    const cannotAttendCheckbox = document.getElementById('cannot-attend');
+    const willAttendRadio = document.getElementById('will-attend');
+    const cannotAttendRadio = document.getElementById('cannot-attend');
     const wishField = document.getElementById('wish-field');
     const attendanceFields = document.getElementById('attendance-fields');
     
-    // Handle cannot-attend checkbox
-    if (cannotAttendCheckbox) {
-        cannotAttendCheckbox.addEventListener('change', function() {
-            if (this.checked) {
-                // Show wish field
-                wishField.style.display = 'block';
-                
-                // Disable and hide attendance fields
-                attendanceFields.classList.add('disabled');
-                const inputs = attendanceFields.querySelectorAll('input, textarea, select');
-                inputs.forEach(input => {
-                    input.disabled = true;
-                    input.removeAttribute('required');
-                });
-                attendanceFields.style.display = 'none';
-            } else {
-                // Hide wish field
-                wishField.style.display = 'none';
-                document.getElementById('wish').value = '';
-                
-                // Enable and show attendance fields
-                attendanceFields.classList.remove('disabled');
-                const inputs = attendanceFields.querySelectorAll('input, textarea, select');
-                inputs.forEach(input => {
-                    input.disabled = false;
-                    // Re-add required attributes for required fields
-                    if (input.id === 'email' || input.id === 'phone' || 
-                        input.id === 'arrival-date' || input.id === 'departure-date') {
-                        input.setAttribute('required', 'required');
-                    }
-                });
-                attendanceFields.style.display = 'block';
-            }
-        });
+    // Handle radio button changes
+    function handleAttendanceChange() {
+        const wishTextarea = document.getElementById('wish');
+        
+        if (willAttendRadio && willAttendRadio.checked) {
+            // Show attendance fields, hide wish field
+            attendanceFields.style.display = 'block';
+            wishField.style.display = 'none';
+            
+            // Enable attendance fields and make them required
+            const inputs = attendanceFields.querySelectorAll('input, textarea, select');
+            inputs.forEach(input => {
+                input.disabled = false;
+                if (input.id === 'email' || input.id === 'phone' || 
+                    input.id === 'arrival-date' || input.id === 'departure-date' ||
+                    input.id === 'connection') {
+                    input.setAttribute('required', 'required');
+                }
+            });
+            
+            // Disable and clear wish field
+            wishTextarea.disabled = true;
+            wishTextarea.removeAttribute('required');
+            wishTextarea.value = '';
+            
+        } else if (cannotAttendRadio && cannotAttendRadio.checked) {
+            // Show wish field, hide attendance fields
+            wishField.style.display = 'block';
+            attendanceFields.style.display = 'none';
+            
+            // Disable attendance fields and remove required
+            const inputs = attendanceFields.querySelectorAll('input, textarea, select');
+            inputs.forEach(input => {
+                input.disabled = true;
+                input.removeAttribute('required');
+            });
+            
+            // Enable wish field and make it required
+            wishTextarea.disabled = false;
+            wishTextarea.setAttribute('required', 'required');
+        }
+    }
+    
+    // Add event listeners to radio buttons
+    if (willAttendRadio) {
+        willAttendRadio.addEventListener('change', handleAttendanceChange);
+    }
+    if (cannotAttendRadio) {
+        cannotAttendRadio.addEventListener('change', handleAttendanceChange);
     }
     
     if (registrationForm) {

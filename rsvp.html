@@ -41,22 +41,24 @@
                         <input type="text" id="name" name="name" required>
                     </div>
                     
-                    <div id="attendance-fields">
+                    <div class="form-group radio-group">
+                        <label class="radio-group-label">Will you be attending? *</label>
+                        <div class="radio-options">
+                            <label class="radio-label">
+                                <input type="radio" id="will-attend" name="attendance" value="yes" required>
+                                <span>Yes, I would love to attend</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" id="cannot-attend" name="attendance" value="no" required>
+                                <span>Sorry, I can't make it</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div id="attendance-fields" style="display: none;">
                         <div class="form-group">
                             <label for="email">Email Address *</label>
                             <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="cannot-attend" name="cannot-attend">
-                                <span>I would love to, but I cannot join the party. Leave it unchecked if you plan to join the trip.</span>
-                            </label>
-                        </div>
-                        
-                        <div class="form-group" id="wish-field" style="display: none;">
-                            <label for="wish">Leave a wish or comment</label>
-                            <textarea id="wish" name="wish" rows="4" placeholder="We'd love to hear from you..."></textarea>
                         </div>
                     
                         <div class="form-group">
@@ -86,6 +88,11 @@
                             <label for="restrictions">Dietary Restrictions / Special Requests</label>
                             <textarea id="restrictions" name="restrictions" placeholder="Any dietary restrictions, accessibility needs, or special requests we should know about?"></textarea>
                         </div>
+                    </div>
+                    
+                    <div class="form-group" id="wish-field" style="display: none;">
+                        <label for="wish">Leave a wish or comment *</label>
+                        <textarea id="wish" name="wish" rows="4" placeholder="We'd love to hear from you..." required></textarea>
                     </div>
                     
                     <button type="submit" class="form-submit">Submit RSVP</button>

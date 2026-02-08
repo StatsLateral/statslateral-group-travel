@@ -5,44 +5,59 @@ document.addEventListener('DOMContentLoaded', function() {
     const editFormContainer = document.getElementById('edit-form-container');
     const editRegistrationForm = document.getElementById('edit-registration-form');
     const cancelEditBtn = document.getElementById('cancel-edit');
-    const editCannotAttendCheckbox = document.getElementById('edit-cannot-attend');
+    const editWillAttendRadio = document.getElementById('edit-will-attend');
+    const editCannotAttendRadio = document.getElementById('edit-cannot-attend');
     const editWishField = document.getElementById('edit-wish-field');
     const editAttendanceFields = document.getElementById('edit-attendance-fields');
 
-    // Handle cannot-attend checkbox for edit form
-    if (editCannotAttendCheckbox) {
-        editCannotAttendCheckbox.addEventListener('change', function() {
-            if (this.checked) {
-                editWishField.style.display = 'block';
-                const inputs = editAttendanceFields.querySelectorAll('input:not(#edit-email):not(#edit-cannot-attend), textarea:not(#edit-wish)');
-                inputs.forEach(input => {
-                    input.disabled = true;
-                    input.removeAttribute('required');
-                });
-                // Hide other fields
-                editAttendanceFields.querySelectorAll('.form-group').forEach(group => {
-                    if (!group.classList.contains('checkbox-group') && 
-                        group.id !== 'edit-wish-field' &&
-                        !group.querySelector('#edit-email')) {
-                        group.style.display = 'none';
-                    }
-                });
-            } else {
-                editWishField.style.display = 'none';
-                document.getElementById('edit-wish').value = '';
-                const inputs = editAttendanceFields.querySelectorAll('input:not(#edit-email):not(#edit-cannot-attend), textarea:not(#edit-wish)');
-                inputs.forEach(input => {
-                    input.disabled = false;
-                    if (input.id === 'edit-phone' || input.id === 'edit-arrival-date' || input.id === 'edit-departure-date') {
-                        input.setAttribute('required', 'required');
-                    }
-                });
-                // Show all fields
-                editAttendanceFields.querySelectorAll('.form-group').forEach(group => {
-                    group.style.display = 'block';
-                });
-            }
-        });
+    // Handle radio button changes for edit form
+    function handleEditAttendanceChange() {
+        const editWishTextarea = document.getElementById('edit-wish');
+        
+        if (editWillAttendRadio && editWillAttendRadio.checked) {
+            // Show attendance fields, hide wish field
+            editAttendanceFields.style.display = 'block';
+            editWishField.style.display = 'none';
+            
+            // Enable attendance fields and make them required
+            const inputs = editAttendanceFields.querySelectorAll('input:not(#edit-email), textarea, select');
+            inputs.forEach(input => {
+                input.disabled = false;
+                if (input.id === 'edit-phone' || input.id === 'edit-arrival-date' || 
+                    input.id === 'edit-departure-date' || input.id === 'edit-connection') {
+                    input.setAttribute('required', 'required');
+                }
+            });
+            
+            // Disable and clear wish field
+            editWishTextarea.disabled = true;
+            editWishTextarea.removeAttribute('required');
+            editWishTextarea.value = '';
+            
+        } else if (editCannotAttendRadio && editCannotAttendRadio.checked) {
+            // Show wish field, hide attendance fields
+            editWishField.style.display = 'block';
+            editAttendanceFields.style.display = 'none';
+            
+            // Disable attendance fields and remove required
+            const inputs = editAttendanceFields.querySelectorAll('input:not(#edit-email), textarea, select');
+            inputs.forEach(input => {
+                input.disabled = true;
+                input.removeAttribute('required');
+            });
+            
+            // Enable wish field and make it required
+            editWishTextarea.disabled = false;
+            editWishTextarea.setAttribute('required', 'required');
+        }
+    }
+    
+    // Add event listeners to radio buttons
+    if (editWillAttendRadio) {
+        editWillAttendRadio.addEventListener('change', handleEditAttendanceChange);
+    }
+    if (editCannotAttendRadio) {
+        editCannotAttendRadio.addEventListener('change', handleEditAttendanceChange);
     }
 
     // Email lookup form submission
@@ -101,29 +116,21 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('edit-email').value = registration.email || '';
         
         if (registration.cannot_attend) {
+            // Set "cannot attend" radio button
             document.getElementById('edit-cannot-attend').checked = true;
             document.getElementById('edit-wish').value = registration.wish || '';
-            editWishField.style.display = 'block';
-            // Hide and disable attendance fields
-            const inputs = editAttendanceFields.querySelectorAll('input:not(#edit-email):not(#edit-cannot-attend), textarea:not(#edit-wish)');
-            inputs.forEach(input => {
-                input.disabled = true;
-                input.removeAttribute('required');
-            });
-            editAttendanceFields.querySelectorAll('.form-group').forEach(group => {
-                if (!group.classList.contains('checkbox-group') && 
-                    group.id !== 'edit-wish-field' &&
-                    !group.querySelector('#edit-email')) {
-                    group.style.display = 'none';
-                }
-            });
+            // Trigger the change handler
+            handleEditAttendanceChange();
         } else {
-            document.getElementById('edit-cannot-attend').checked = false;
+            // Set "will attend" radio button
+            document.getElementById('edit-will-attend').checked = true;
             document.getElementById('edit-phone').value = registration.phone || '';
             document.getElementById('edit-arrival-date').value = registration.arrival_date || '';
             document.getElementById('edit-departure-date').value = registration.departure_date || '';
             document.getElementById('edit-connection').value = registration.connection || '';
             document.getElementById('edit-restrictions').value = registration.restrictions || '';
+            // Trigger the change handler
+            handleEditAttendanceChange();
         }
     }
 
