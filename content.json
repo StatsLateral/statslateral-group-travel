@@ -2,40 +2,40 @@
   "meta": {
     "title": "The Brotherhood Trip: Central Europe (Berlin → Prague → Vienna) | Nov 18–25, 2026",
     "description": "Shikhin turns 50. We celebrate the only responsible way: 3 great cities, 6 nights, and maximum brotherhood with minimal planning stress. Premium or value hotels (close by), first-class trains, great food, and optional everything. Join any city for any portion of the week.",
-    "canonical_url": "https://www.vybri.ai/",
+    "canonical_url": "https://brotherhoodtrip.com/",
     "og_title": "The Brotherhood Trip | Nov 18–25, 2026",
     "og_description": "Invite-only men’s reset across Berlin, Prague, and Vienna—brotherhood, culture, great food, and logistics handled (so nobody loses their mind).",
-    "og_image": "https://www.vybri.ai/images/app-screenshot.png",
+    "og_image": "https://brotherhoodtrip.com/images/app-screenshot.png",
     "og_image_width": "1200",
     "og_image_height": "630",
-    "og_url": "https://www.vybri.ai/",
+    "og_url": "https://brotherhoodtrip.com/",
     "og_type": "website",
     "og_site_name": "Brotherhood Trip",
     "og_locale": "en_US",
     "twitter_card": "summary_large_image",
     "twitter_title": "The Brotherhood Trip | Nov 18–25, 2026",
     "twitter_description": "Berlin → Prague → Vienna. Invite-only. Hosted. Culture + bonding. Zero tour-bus vibes.",
-    "twitter_image": "https://www.vybri.ai/images/app-screenshot.png",
+    "twitter_image": "https://brotherhoodtrip.com/images/app-screenshot.png",
     "twitter_image_width": "1200",
     "twitter_image_height": "630",
     "linkedin_title": "The Brotherhood Trip | Nov 18–25, 2026",
     "linkedin_description": "A private brotherhood week across Berlin, Prague, and Vienna. Join any city. Premium/value hotel options close to each other.",
-    "linkedin_image": "https://www.vybri.ai/images/app-screenshot.png",
+    "linkedin_image": "https://brotherhoodtrip.com/images/app-screenshot.png",
     "reddit_title": "The Brotherhood Trip | Nov 18–25, 2026",
     "reddit_description": "Central Europe men’s reset: Berlin → Prague → Vienna. Shikhin’s 50th. Bring your best stories.",
-    "reddit_image": "https://www.vybri.ai/images/app-screenshot.png"
+    "reddit_image": "https://brotherhoodtrip.com/images/app-screenshot.png"
   },
   "structured_data": {
     "website": {
       "name": "Brotherhood Trip",
-      "url": "https://www.vybri.ai/",
+      "url": "https://brotherhoodtrip.com/",
       "description": "Private, hosted group trips designed for connection, culture, and low-friction logistics (aka: nobody gets stuck planning spreadsheets at midnight).",
-      "search_action_target": "https://www.vybri.ai/?q={search_term_string}",
+      "search_action_target": "https://brotherhoodtrip.com/?q={search_term_string}",
       "same_as": []
     },
     "webpage": {
       "name": "The Brotherhood Trip (Berlin → Prague → Vienna)",
-      "url": "https://www.vybri.ai/",
+      "url": "https://brotherhoodtrip.com/",
       "description": "An invite-only brotherhood week celebrating Shikhin’s 50th across Berlin, Prague, and Vienna. Join any city. Hosted, curated, and intentionally low-drama."
     },
     "software_application": {
@@ -50,59 +50,57 @@
     },
     "organization": {
       "name": "Brotherhood Trip",
-      "url": "https://www.vybri.ai",
-      "logo": "https://www.vybri.ai/images/vybri-logo.png",
+      "url": "https://brotherhoodtrip.com",
+      "logo": "https://brotherhoodtrip.com/images/brotherhood-logo.svg",
       "description": "Invite-only group travel for friends who want the fun part (connection + culture) without the painful part (planning + chaos).",
       "same_as": []
     },
     "faq": [
       {
         "question": "Who is this trip for?",
-        "answer": "Men in their late 40s to 50s (and a few partners if you’re brave/strategic) who want a low-stress, meaningful reset—great food, culture, conversation, and time together—without tour-bus vibes or forced fun."
+        "answer": "This is an invite-only trip for close friends and family celebrating Shikhin's 50th birthday. It's designed for meaningful connection, great conversations, and exploring three incredible European cities together."
       },
       {
         "question": "Can I join for only part of the trip?",
-        "answer": "Yes. Join in Berlin, Prague, or Vienna for any portion of the week. We’ll still like you."
+        "answer": "Absolutely. Join in Berlin, Prague, or Vienna for any portion of the week that works for your schedule. Every moment you can be there counts."
       },
       {
-        "question": "What’s included in the estimated land cost?",
-        "answer": "Central hotels, first-class trains between cities, daily breakfasts, several group dinners, and curated experiences (walking tour, spa, hike, and a Vienna culture night). Flights and personal spending are on you (and your self-control)."
+        "question": "What's the daily schedule like?",
+        "answer": "Each day has one main anchor activity (walking tour, museum visit, group dinner) plus plenty of free time to explore, rest, or do your own thing. Nothing is mandatory—this is about connection, not obligation."
       },
       {
-        "question": "How do I join and communicate?",
-        "answer": "Fill the Google Form to register interest, then all coordination happens in WhatsApp. You’ll choose your cities/dates, hotel tier (premium/value), and room preference (solo/shared)."
+        "question": "How do I join and stay coordinated?",
+        "answer": "Fill out the Google Form to let us know you're interested, then all trip coordination happens via WhatsApp. We'll share hotel options, train schedules, and daily plans there."
+      },
+      {
+        "question": "What should I book on my own?",
+        "answer": "You'll need to arrange your own flights to/from Europe and book your hotel accommodations. We'll share recommended hotels in each city that are close to each other so the group stays together. Train tickets between cities can be coordinated as a group."
+      },
+      {
+        "question": "What's the vibe of this trip?",
+        "answer": "Think: relaxed exploration, great meals, late-night conversations, and zero tour-bus energy. This is about being together in beautiful places, not checking boxes or following rigid schedules."
       }
     ]
   },
   "navigation": {
-    "logo_url": "images/vybri-logo.png",
+    "logo_url": "images/brotherhood-logo.svg",
     "logo_alt": "Brotherhood Trip logo",
     "menu_items": [
       {
-        "label": "Overview",
-        "href": "#value-props"
+        "label": "About",
+        "href": "#problem"
       },
       {
-        "label": "What’s Included",
-        "href": "#features"
+        "label": "Trip Details",
+        "href": "#how-it-works"
       },
       {
         "label": "FAQs",
         "href": "faq.html"
-      },
-      {
-        "label": "Host",
-        "href": "#team"
-      },
-      {
-        "label": "Trip Notes",
-        "href": "resources.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
       }
     ],
     "cta_button": {
-      "text": "Join via Google Form",
+      "text": "Register Interest",
       "href": "#join",
       "target": "_self"
     }
@@ -489,28 +487,28 @@
     "title": "Frequently Asked Questions",
     "cards": [
       {
-        "question": "Can I join in just one city?",
-        "preview": "Yes. Join in Berlin, Prague, or Vienna for any portion of the week. We’ll share exact segment pricing on WhatsApp so you can decide like an adult...:",
+        "question": "Who is this trip for?",
+        "preview": "This is an invite-only trip for close friends and family celebrating Shikhin's 50th birthday. It's designed for meaningful connection, great conversations, and exploring three incredible European cities together...:",
         "link": "faq.html"
       },
       {
-        "question": "How do hotels work?",
-        "preview": "Each city has two hotel options: premium and value—close to each other so the group stays together. Choose your tier per city (no judgment, just facts)...:",
+        "question": "Can I join for only part of the trip?",
+        "preview": "Absolutely. Join in Berlin, Prague, or Vienna for any portion of the week that works for your schedule. Every moment you can be there counts...:",
         "link": "faq.html"
       },
       {
-        "question": "What’s the daily schedule like?",
-        "preview": "Not a tour. Expect one anchor experience most days, a great group dinner most days, and plenty of free time. Nothing is mandatory (including fun)...:",
+        "question": "What's the daily schedule like?",
+        "preview": "Each day has one main anchor activity (walking tour, museum visit, group dinner) plus plenty of free time to explore, rest, or do your own thing. Nothing is mandatory—this is about connection, not obligation...:",
         "link": "faq.html"
       },
       {
-        "question": "How do I reserve?",
-        "preview": "Step 1: Google Form. Step 2: WhatsApp confirmation. A $750 refundable deposit holds your spot while we confirm hotels and trains...:",
+        "question": "How do I join and stay coordinated?",
+        "preview": "Fill out the Google Form to let us know you're interested, then all trip coordination happens via WhatsApp. We'll share hotel options, train schedules, and daily plans there...:",
         "link": "faq.html"
       },
       {
-        "question": "What’s not included?",
-        "preview": "Flights, visas (if needed), travel insurance, and personal spending (drinks, shopping, optional nights out) are not included. We’ll share practical guidance...:",
+        "question": "What should I book on my own?",
+        "preview": "You'll need to arrange your own flights to/from Europe and book your hotel accommodations. We'll share recommended hotels in each city that are close to each other so the group stays together...:",
         "link": "faq.html"
       },
       {
@@ -529,47 +527,21 @@
         "title": "Trip",
         "links": [
           {
-            "label": "What’s Included",
-            "href": "#features"
+            "label": "Trip Details",
+            "href": "#how-it-works"
           },
           {
-            "label": "Pricing",
-            "href": "#pricing"
-          },
-          {
-            "label": "How to Join",
-            "href": "#setup-options"
+            "label": "FAQs",
+            "href": "faq.html"
           }
         ]
       },
       {
-        "title": "Host",
+        "title": "Join",
         "links": [
           {
-            "label": "Coordinator",
-            "href": "#team"
-          }
-        ]
-      },
-      {
-        "title": "Support",
-        "links": [
-          {
-            "label": "Join via Google Form",
-            "href": "#join",
-            "target": "_self"
-          },
-          {
-            "label": "Privacy Policy",
-            "href": "privacy.html",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-          },
-          {
-            "label": "Terms of Service",
-            "href": "terms.html",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
+            "label": "Register Interest",
+            "href": "#join"
           }
         ]
       }
