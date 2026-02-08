@@ -30,10 +30,10 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { name, email, arrivalDate, departureDate, restrictions } = req.body;
+    const { name, email, phone, arrivalDate, departureDate, restrictions } = req.body;
 
     // Validate required fields
-    if (!name || !email || !arrivalDate || !departureDate) {
+    if (!name || !email || !phone || !arrivalDate || !departureDate) {
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
@@ -58,6 +58,7 @@ export default async function handler(req, res) {
       escapeCsvField(timestamp),
       escapeCsvField(name),
       escapeCsvField(email),
+      escapeCsvField(phone),
       escapeCsvField(arrivalDate),
       escapeCsvField(departureDate),
       escapeCsvField(restrictions || '')
@@ -68,7 +69,7 @@ export default async function handler(req, res) {
 
     // Check if file exists, if not create with headers
     if (!fs.existsSync(csvPath)) {
-      const headers = 'Timestamp,Name,Email,Arrival Date,Departure Date,Restrictions\n';
+      const headers = 'Timestamp,Name,Email,Phone,Arrival Date,Departure Date,Restrictions\n';
       fs.writeFileSync(csvPath, headers);
     }
 

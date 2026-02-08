@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = {
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
                 arrivalDate: document.getElementById('arrival-date').value,
                 departureDate: document.getElementById('departure-date').value,
                 restrictions: document.getElementById('restrictions').value
