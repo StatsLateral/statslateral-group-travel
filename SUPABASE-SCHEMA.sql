@@ -9,6 +9,9 @@ CREATE TABLE IF NOT EXISTS registrations (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW() NOT NULL,
   
+  -- Link to Supabase Auth user
+  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  
   -- Basic info (always required)
   name TEXT NOT NULL,
   
@@ -47,9 +50,11 @@ CREATE TABLE IF NOT EXISTS registrations (
 CREATE INDEX IF NOT EXISTS idx_registrations_created_at ON registrations(created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_registrations_cannot_attend ON registrations(cannot_attend);
 CREATE INDEX IF NOT EXISTS idx_registrations_email ON registrations(email) WHERE email IS NOT NULL;
+CREATE INDEX IF NOT EXISTS idx_registrations_user_id ON registrations(user_id) WHERE user_id IS NOT NULL;
 
 -- Add comments for documentation
 COMMENT ON TABLE registrations IS 'Brotherhood Trip registration responses including both attendees and well-wishers';
+COMMENT ON COLUMN registrations.user_id IS 'Link to Supabase Auth user account created during registration';
 COMMENT ON COLUMN registrations.cannot_attend IS 'True if person cannot attend but wants to leave a wish';
 COMMENT ON COLUMN registrations.wish IS 'Message from those who cannot attend';
 COMMENT ON COLUMN registrations.email IS 'Required for attendees, null for non-attendees';

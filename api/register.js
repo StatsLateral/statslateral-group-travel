@@ -25,8 +25,9 @@ export default async function handler(req, res) {
   // Verify Supabase credentials
   const supabaseUrl = process.env.SUPABASE_URL;
   const supabasePublishableKey = process.env.SUPABASE_PUBLISHABLE_KEY;
+  const supabaseSecretKey = process.env.SUPABASE_SECRET_KEY;
   
-  if (!supabaseUrl || !supabasePublishableKey) {
+  if (!supabaseUrl || !supabasePublishableKey || !supabaseSecretKey) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
@@ -54,11 +55,44 @@ export default async function handler(req, res) {
       }
     }
 
-    // Initialize Supabase client
+    // Initialize Supabase clients
     const supabase = createClient(supabaseUrl, supabasePublishableKey);
+    const supabaseAdmin = createClient(supabaseUrl, supabaseSecretKey);
+    
+    let userId = null;
+
+    // Create Supabase Auth user if email is provided
+    if (email) {
+      try {
+        // Generate a random password for the user (they can reset it later if needed)
+        const randomPassword = Math.random().toString(36).slice(-12) + Math.random().toString(36).slice(-12);
+        
+        // Create auth user with email using admin client
+        const { data: authData, error: authError } = await supabaseAdmin.auth.admin.createUser({
+          email: email,
+          password: randomPassword,
+          email_confirm: true, // Auto-confirm email
+          user_metadata: {
+            name: name,
+            registration_type: cannotAttend ? 'well-wisher' : 'attendee'
+          }
+        });
+
+        if (authError) {
+          console.error('Auth user creation error:', authError);
+          // Continue with registration even if auth fails
+        } else if (authData.user) {
+          userId = authData.user.id;
+        }
+      } catch (authException) {
+        console.error('Auth exception:', authException);
+        // Continue with registration even if auth fails
+      }
+    }
 
     // Prepare data for insertion
     const insertData = {
+      user_id: userId,
       name,
       cannot_attend: cannotAttend || false,
       wish: cannotAttend ? (wish || null) : null,
