@@ -80,6 +80,10 @@
     font-size: 0.9em;
 }
 
+.board-header-row .board-cell {
+    text-align: left;
+}
+
 .board-cell {
     color: #fff;
     font-size: 1.1em;
@@ -101,20 +105,52 @@
     width: 0.7em;
     text-align: center;
     position: relative;
-    animation: flip 0.6s ease-in-out;
+    animation: flip 5s ease-in-out;
 }
 
 @keyframes flip {
     0% {
         transform: rotateX(0deg);
-        opacity: 1;
+        opacity: 0.5;
     }
-    50% {
+    10% {
         transform: rotateX(90deg);
         opacity: 0.3;
     }
+    20% {
+        transform: rotateX(180deg);
+        opacity: 0.3;
+    }
+    30% {
+        transform: rotateX(270deg);
+        opacity: 0.3;
+    }
+    40% {
+        transform: rotateX(360deg);
+        opacity: 0.5;
+    }
+    50% {
+        transform: rotateX(450deg);
+        opacity: 0.3;
+    }
+    60% {
+        transform: rotateX(540deg);
+        opacity: 0.3;
+    }
+    70% {
+        transform: rotateX(630deg);
+        opacity: 0.3;
+    }
+    80% {
+        transform: rotateX(720deg);
+        opacity: 0.5;
+    }
+    90% {
+        transform: rotateX(810deg);
+        opacity: 0.7;
+    }
     100% {
-        transform: rotateX(0deg);
+        transform: rotateX(900deg);
         opacity: 1;
     }
 }

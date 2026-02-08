@@ -69,13 +69,14 @@ function animateFlip(element) {
     // Clear existing content
     container.innerHTML = '';
     
-    // Create flip animation for each character
+    // Create flip animation for each character with slower stagger
     const chars = text.split('');
     chars.forEach((char, index) => {
         const span = document.createElement('span');
         span.className = 'flip-char';
         span.textContent = char;
-        span.style.animationDelay = `${index * 0.05}s`;
+        // 0.5s delay between each character for mechanical scroll effect
+        span.style.animationDelay = `${index * 0.5}s`;
         container.appendChild(span);
     });
 }
