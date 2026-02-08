@@ -76,9 +76,9 @@ DROP POLICY IF EXISTS "Allow public inserts" ON registrations;
 DROP POLICY IF EXISTS "Allow service role to read all" ON registrations;
 
 -- Policy 1: Allow anyone to insert registrations (public form submission)
+-- Note: This allows inserts from both anonymous and authenticated users
 CREATE POLICY "Allow public inserts" ON registrations
   FOR INSERT
-  TO anon, authenticated
   WITH CHECK (true);
 
 -- Policy 2: Allow service role to read all registrations (for admin page)
