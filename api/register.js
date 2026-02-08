@@ -1,5 +1,4 @@
-const fs = require('fs');
-const path = require('path');
+const { createClient } = require('@supabase/supabase-js');
 
 // Serverless function to handle registration submissions
 export default async function handler(req, res) {
@@ -23,9 +22,11 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  // Verify the secret key from environment variable
-  const secretKey = process.env.REGISTRATION_SECRET;
-  if (!secretKey) {
+  // Verify Supabase credentials
+  const supabaseUrl = process.env.SUPABASE_URL;
+  const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
+  
+  if (!supabaseUrl || !supabaseAnonKey) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
@@ -43,43 +44,34 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Invalid email format' });
     }
 
-    // Create CSV row (escape commas and quotes in data)
-    const escapeCsvField = (field) => {
-      if (!field) return '';
-      const stringField = String(field);
-      if (stringField.includes(',') || stringField.includes('"') || stringField.includes('\n')) {
-        return `"${stringField.replace(/"/g, '""')}"`;
-      }
-      return stringField;
-    };
+    // Initialize Supabase client
+    const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-    const timestamp = new Date().toISOString();
-    const csvRow = [
-      escapeCsvField(timestamp),
-      escapeCsvField(name),
-      escapeCsvField(email),
-      escapeCsvField(phone),
-      escapeCsvField(arrivalDate),
-      escapeCsvField(departureDate),
-      escapeCsvField(restrictions || '')
-    ].join(',') + '\n';
+    // Insert registration into Supabase
+    const { data, error } = await supabase
+      .from('registrations')
+      .insert([
+        {
+          name,
+          email,
+          phone,
+          arrival_date: arrivalDate,
+          departure_date: departureDate,
+          restrictions: restrictions || null
+        }
+      ])
+      .select();
 
-    // Path to CSV file
-    const csvPath = path.join('/tmp', 'registrations.csv');
-
-    // Check if file exists, if not create with headers
-    if (!fs.existsSync(csvPath)) {
-      const headers = 'Timestamp,Name,Email,Phone,Arrival Date,Departure Date,Restrictions\n';
-      fs.writeFileSync(csvPath, headers);
+    if (error) {
+      console.error('Supabase insert error:', error);
+      return res.status(500).json({ error: 'Failed to save registration' });
     }
-
-    // Append the new registration
-    fs.appendFileSync(csvPath, csvRow);
 
     // Return success response
     return res.status(200).json({ 
       success: true, 
-      message: 'Registration submitted successfully!' 
+      message: 'Registration submitted successfully!',
+      data: data[0]
     });
 
   } catch (error) {

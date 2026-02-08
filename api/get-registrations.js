@@ -1,5 +1,4 @@
-const fs = require('fs');
-const path = require('path');
+const { createClient } = require('@supabase/supabase-js');
 
 // Serverless function to retrieve all registrations (password protected)
 export default async function handler(req, res) {
@@ -23,9 +22,12 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  // Get the secret key from environment variable
+  // Get credentials from environment variables
   const secretKey = process.env.REGISTRATION_SECRET;
-  if (!secretKey) {
+  const supabaseUrl = process.env.SUPABASE_URL;
+  const supabaseServiceKey = process.env.SUPABASE_SERVICE_KEY;
+  
+  if (!secretKey || !supabaseUrl || !supabaseServiceKey) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
@@ -37,71 +39,30 @@ export default async function handler(req, res) {
       return res.status(401).json({ error: 'Invalid password' });
     }
 
-    // Path to CSV file
-    const csvPath = path.join('/tmp', 'registrations.csv');
+    // Initialize Supabase client with service role key (bypasses RLS)
+    const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
-    // Check if file exists
-    if (!fs.existsSync(csvPath)) {
-      // Return empty array if no registrations yet
-      return res.status(200).json({ 
-        success: true, 
-        registrations: [],
-        message: 'No registrations found'
-      });
+    // Fetch all registrations from Supabase
+    const { data, error } = await supabase
+      .from('registrations')
+      .select('*')
+      .order('created_at', { ascending: false });
+
+    if (error) {
+      console.error('Supabase query error:', error);
+      return res.status(500).json({ error: 'Failed to retrieve registrations' });
     }
 
-    // Read the CSV file
-    const csvContent = fs.readFileSync(csvPath, 'utf-8');
-    const lines = csvContent.trim().split('\n');
-    
-    if (lines.length <= 1) {
-      // Only headers, no data
-      return res.status(200).json({ 
-        success: true, 
-        registrations: [],
-        message: 'No registrations found'
-      });
-    }
-
-    // Parse CSV into array of objects
-    const headers = lines[0].split(',').map(h => h.trim());
-    const registrations = [];
-
-    for (let i = 1; i < lines.length; i++) {
-      const line = lines[i];
-      if (!line.trim()) continue;
-
-      // Simple CSV parsing (handles quoted fields)
-      const values = [];
-      let current = '';
-      let inQuotes = false;
-
-      for (let j = 0; j < line.length; j++) {
-        const char = line[j];
-        
-        if (char === '"') {
-          if (inQuotes && line[j + 1] === '"') {
-            current += '"';
-            j++;
-          } else {
-            inQuotes = !inQuotes;
-          }
-        } else if (char === ',' && !inQuotes) {
-          values.push(current.trim());
-          current = '';
-        } else {
-          current += char;
-        }
-      }
-      values.push(current.trim());
-
-      // Create object from headers and values
-      const registration = {};
-      headers.forEach((header, index) => {
-        registration[header] = values[index] || '';
-      });
-      registrations.push(registration);
-    }
+    // Transform data to match expected format for admin page
+    const registrations = data.map(reg => ({
+      Timestamp: reg.created_at,
+      Name: reg.name,
+      Email: reg.email,
+      Phone: reg.phone,
+      'Arrival Date': reg.arrival_date,
+      'Departure Date': reg.departure_date,
+      Restrictions: reg.restrictions || ''
+    }));
 
     return res.status(200).json({ 
       success: true, 
