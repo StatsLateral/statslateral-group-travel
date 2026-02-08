@@ -1,6 +1,45 @@
 // Registration form handler
 document.addEventListener('DOMContentLoaded', function() {
     const registrationForm = document.getElementById('registration-form');
+    const cannotAttendCheckbox = document.getElementById('cannot-attend');
+    const wishField = document.getElementById('wish-field');
+    const attendanceFields = document.getElementById('attendance-fields');
+    
+    // Handle cannot-attend checkbox
+    if (cannotAttendCheckbox) {
+        cannotAttendCheckbox.addEventListener('change', function() {
+            if (this.checked) {
+                // Show wish field
+                wishField.style.display = 'block';
+                
+                // Disable and hide attendance fields
+                attendanceFields.classList.add('disabled');
+                const inputs = attendanceFields.querySelectorAll('input, textarea, select');
+                inputs.forEach(input => {
+                    input.disabled = true;
+                    input.removeAttribute('required');
+                });
+                attendanceFields.style.display = 'none';
+            } else {
+                // Hide wish field
+                wishField.style.display = 'none';
+                document.getElementById('wish').value = '';
+                
+                // Enable and show attendance fields
+                attendanceFields.classList.remove('disabled');
+                const inputs = attendanceFields.querySelectorAll('input, textarea, select');
+                inputs.forEach(input => {
+                    input.disabled = false;
+                    // Re-add required attributes for required fields
+                    if (input.id === 'email' || input.id === 'phone' || 
+                        input.id === 'arrival-date' || input.id === 'departure-date') {
+                        input.setAttribute('required', 'required');
+                    }
+                });
+                attendanceFields.style.display = 'block';
+            }
+        });
+    }
     
     if (registrationForm) {
         registrationForm.addEventListener('submit', async function(e) {
@@ -17,13 +56,16 @@ document.addEventListener('DOMContentLoaded', function() {
             messageDiv.className = 'form-message';
             
             // Get form data
+            const cannotAttend = document.getElementById('cannot-attend').checked;
             const formData = {
                 name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value,
-                arrivalDate: document.getElementById('arrival-date').value,
-                departureDate: document.getElementById('departure-date').value,
-                restrictions: document.getElementById('restrictions').value
+                cannotAttend: cannotAttend,
+                wish: cannotAttend ? document.getElementById('wish').value : null,
+                email: cannotAttend ? null : document.getElementById('email').value,
+                phone: cannotAttend ? null : document.getElementById('phone').value,
+                arrivalDate: cannotAttend ? null : document.getElementById('arrival-date').value,
+                departureDate: cannotAttend ? null : document.getElementById('departure-date').value,
+                restrictions: cannotAttend ? null : document.getElementById('restrictions').value
             };
             
             try {

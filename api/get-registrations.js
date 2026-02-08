@@ -57,10 +57,12 @@ export default async function handler(req, res) {
     const registrations = data.map(reg => ({
       Timestamp: reg.created_at,
       Name: reg.name,
-      Email: reg.email,
-      Phone: reg.phone,
-      'Arrival Date': reg.arrival_date,
-      'Departure Date': reg.departure_date,
+      'Cannot Attend': reg.cannot_attend ? 'Yes' : 'No',
+      Wish: reg.wish || '',
+      Email: reg.email || '',
+      Phone: reg.phone || '',
+      'Arrival Date': reg.arrival_date || '',
+      'Departure Date': reg.departure_date || '',
       Restrictions: reg.restrictions || ''
     }));
 

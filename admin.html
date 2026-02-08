@@ -274,6 +274,8 @@
                         <tr>
                             <th>Timestamp</th>
                             <th>Name</th>
+                            <th>Can Attend?</th>
+                            <th>Wish/Comment</th>
                             <th>Email</th>
                             <th>Phone</th>
                             <th>Arrival</th>
@@ -364,9 +366,12 @@
             tbody.innerHTML = '';
             registrationsData.forEach(reg => {
                 const row = document.createElement('tr');
+                const canAttend = reg['Cannot Attend'] === 'Yes' ? 'No' : 'Yes';
                 row.innerHTML = `
                     <td>${formatDate(reg.Timestamp)}</td>
                     <td>${escapeHtml(reg.Name)}</td>
+                    <td>${canAttend}</td>
+                    <td>${escapeHtml(reg.Wish)}</td>
                     <td>${escapeHtml(reg.Email)}</td>
                     <td>${escapeHtml(reg.Phone)}</td>
                     <td>${escapeHtml(reg['Arrival Date'])}</td>
@@ -399,18 +404,23 @@
                 return;
             }
             
-            const headers = ['Timestamp', 'Name', 'Email', 'Phone', 'Arrival Date', 'Departure Date', 'Restrictions'];
+            const headers = ['Timestamp', 'Name', 'Can Attend', 'Wish/Comment', 'Email', 'Phone', 'Arrival Date', 'Departure Date', 'Restrictions'];
             const csvContent = [
                 headers.join(','),
-                ...registrationsData.map(reg => [
-                    `"${reg.Timestamp || ''}"`,
-                    `"${reg.Name || ''}"`,
-                    `"${reg.Email || ''}"`,
-                    `"${reg.Phone || ''}"`,
-                    `"${reg['Arrival Date'] || ''}"`,
-                    `"${reg['Departure Date'] || ''}"`,
-                    `"${reg.Restrictions || ''}"`
-                ].join(','))
+                ...registrationsData.map(reg => {
+                    const canAttend = reg['Cannot Attend'] === 'Yes' ? 'No' : 'Yes';
+                    return [
+                        `"${reg.Timestamp || ''}"`,
+                        `"${reg.Name || ''}"`,
+                        `"${canAttend}"`,
+                        `"${reg.Wish || ''}"`,
+                        `"${reg.Email || ''}"`,
+                        `"${reg.Phone || ''}"`,
+                        `"${reg['Arrival Date'] || ''}"`,
+                        `"${reg['Departure Date'] || ''}"`,
+                        `"${reg.Restrictions || ''}"`
+                    ].join(',');
+                })
             ].join('\n');
             
             const blob = new Blob([csvContent], { type: 'text/csv' });

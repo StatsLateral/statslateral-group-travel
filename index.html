@@ -605,10 +605,23 @@
                         <input type="text" id="name" name="name" required>
                     </div>
                     
-                    <div class="form-group">
-                        <label for="email">Email Address *</label>
-                        <input type="email" id="email" name="email" required>
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="cannot-attend" name="cannot-attend">
+                            <span>I would love to, but I cannot join the party</span>
+                        </label>
                     </div>
+                    
+                    <div class="form-group" id="wish-field" style="display: none;">
+                        <label for="wish">Leave a wish or comment</label>
+                        <textarea id="wish" name="wish" rows="4" placeholder="We'd love to hear from you..."></textarea>
+                    </div>
+                    
+                    <div id="attendance-fields">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
                     
                     <div class="form-group">
                         <label for="phone">Phone Number (WhatsApp) *</label>
@@ -622,15 +635,16 @@
                         <small>When will you arrive? (Nov 18-25, 2026)</small>
                     </div>
                     
-                    <div class="form-group">
-                        <label for="departure-date">Departure Date *</label>
-                        <input type="date" id="departure-date" name="departure-date" min="2026-11-18" max="2026-11-25" required>
-                        <small>When will you depart? (Nov 18-25, 2026)</small>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="restrictions">Dietary Restrictions / Special Requests</label>
-                        <textarea id="restrictions" name="restrictions" placeholder="Any dietary restrictions, accessibility needs, or special requests we should know about?"></textarea>
+                        <div class="form-group">
+                            <label for="departure-date">Departure Date *</label>
+                            <input type="date" id="departure-date" name="departure-date" min="2026-11-18" max="2026-11-25" required>
+                            <small>When will you depart? (Nov 18-25, 2026)</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="restrictions">Dietary Restrictions / Special Requests</label>
+                            <textarea id="restrictions" name="restrictions" placeholder="Any dietary restrictions, accessibility needs, or special requests we should know about?"></textarea>
+                        </div>
                     </div>
                     
                     <button type="submit" class="form-submit">Submit Registration</button>

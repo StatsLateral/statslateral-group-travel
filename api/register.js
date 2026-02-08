@@ -31,35 +31,48 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { name, email, phone, arrivalDate, departureDate, restrictions } = req.body;
+    const { name, cannotAttend, wish, email, phone, arrivalDate, departureDate, restrictions } = req.body;
 
     // Validate required fields
-    if (!name || !email || !phone || !arrivalDate || !departureDate) {
-      return res.status(400).json({ error: 'Missing required fields' });
+    if (!name) {
+      return res.status(400).json({ error: 'Name is required' });
     }
 
-    // Validate email format
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      return res.status(400).json({ error: 'Invalid email format' });
+    // If cannot attend, only wish is optional
+    if (cannotAttend) {
+      // No additional validation needed for cannot attend case
+    } else {
+      // If can attend, validate attendance fields
+      if (!email || !phone || !arrivalDate || !departureDate) {
+        return res.status(400).json({ error: 'Email, phone, and dates are required for attendees' });
+      }
+
+      // Validate email format
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        return res.status(400).json({ error: 'Invalid email format' });
+      }
     }
 
     // Initialize Supabase client
     const supabase = createClient(supabaseUrl, supabasePublishableKey);
 
+    // Prepare data for insertion
+    const insertData = {
+      name,
+      cannot_attend: cannotAttend || false,
+      wish: cannotAttend ? (wish || null) : null,
+      email: cannotAttend ? null : email,
+      phone: cannotAttend ? null : phone,
+      arrival_date: cannotAttend ? null : arrivalDate,
+      departure_date: cannotAttend ? null : departureDate,
+      restrictions: cannotAttend ? null : (restrictions || null)
+    };
+
     // Insert registration into Supabase
     const { data, error } = await supabase
       .from('registrations')
-      .insert([
-        {
-          name,
-          email,
-          phone,
-          arrival_date: arrivalDate,
-          departure_date: departureDate,
-          restrictions: restrictions || null
-        }
-      ])
+      .insert([insertData])
       .select();
 
     if (error) {
