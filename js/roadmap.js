@@ -71,15 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 "<strong>Travel:</strong> Head back home in time for Thanksgiving",
                 "<strong>Optional:</strong> Stay longer in Europe if you want to keep the magic going"
             ]
-        },
-        8: {
-            title: "Thursday, Nov 25 — Thanksgiving at Home",
-            time: "Back with stories to tell",
-            items: [
-                "<strong>Arrive home:</strong> Just in time for Thanksgiving with family",
-                "<strong>Share stories:</strong> Tell everyone about your incredible brotherhood journey",
-                "<strong>Rest:</strong> Recover from the trip and reflect on the memories made"
-            ]
         }
     };
 

@@ -81,7 +81,6 @@
 .day-bubble:nth-child(5) { animation-delay: 1.6s; }
 .day-bubble:nth-child(6) { animation-delay: 2s; }
 .day-bubble:nth-child(7) { animation-delay: 2.4s; }
-.day-bubble:nth-child(8) { animation-delay: 2.8s; }
 
 .balloon-container {
     position: relative;
@@ -161,7 +160,7 @@
     font-weight: 500;
 }
 
-/* Positioning for 8 bubbles in equally spaced zigzag pattern */
+/* Positioning for 7 bubbles in equally spaced zigzag pattern */
 .day-bubble:nth-child(1) { top: 20px; left: 2%; }
 .day-bubble:nth-child(2) { top: 140px; left: 16%; }
 .day-bubble:nth-child(3) { top: 20px; left: 30%; }
@@ -169,7 +168,6 @@
 .day-bubble:nth-child(5) { top: 20px; left: 58%; }
 .day-bubble:nth-child(6) { top: 140px; left: 72%; }
 .day-bubble:nth-child(7) { top: 20px; left: 86%; }
-.day-bubble:nth-child(8) { top: 140px; left: 98%; transform: translateX(-100%); }
 
 /* Details Section */
 .day-details {
