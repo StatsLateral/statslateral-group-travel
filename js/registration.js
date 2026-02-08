@@ -1,9 +1,34 @@
 // Registration form handler
 document.addEventListener('DOMContentLoaded', async function() {
-    // Check authentication status
-    const session = await checkAuth();
     const authRequired = document.getElementById('auth-required');
     const mainContent = document.getElementById('main-content');
+    
+    // Handle auth callback from magic link
+    const hashParams = new URLSearchParams(window.location.hash.substring(1));
+    const accessToken = hashParams.get('access_token');
+    
+    if (accessToken) {
+        // Magic link callback - exchange token for session
+        try {
+            const client = await window.getSupabaseClient();
+            const { data, error } = await client.auth.setSession({
+                access_token: accessToken,
+                refresh_token: hashParams.get('refresh_token')
+            });
+            
+            if (error) {
+                console.error('Session error:', error);
+            }
+            
+            // Clean up URL hash
+            window.history.replaceState(null, '', window.location.pathname);
+        } catch (error) {
+            console.error('Auth callback error:', error);
+        }
+    }
+    
+    // Check authentication status
+    const session = await checkAuth();
     
     if (!session) {
         // User not authenticated, show auth required message
