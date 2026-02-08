@@ -2,40 +2,40 @@
   "meta": {
     "title": "The Brotherhood Trip: Central Europe (Berlin → Prague → Vienna) | Nov 18–25, 2026",
     "description": "Shikhin turns 50. We celebrate the only responsible way: 3 great cities, 6 nights, and maximum brotherhood with minimal planning stress. Premium or value hotels (close by), first-class trains, great food, and optional everything. Join any city for any portion of the week.",
-    "canonical_url": "https://brotherhoodtrip.com/",
+    "canonical_url": "https://statslateral-group-travel.vercel.app/",
     "og_title": "The Brotherhood Trip | Nov 18–25, 2026",
     "og_description": "Invite-only men’s reset across Berlin, Prague, and Vienna—brotherhood, culture, great food, and logistics handled (so nobody loses their mind).",
-    "og_image": "https://brotherhoodtrip.com/images/app-screenshot.png",
+    "og_image": "https://statslateral-group-travel.vercel.app/images/app-screenshot.png",
     "og_image_width": "1200",
     "og_image_height": "630",
-    "og_url": "https://brotherhoodtrip.com/",
+    "og_url": "https://statslateral-group-travel.vercel.app/",
     "og_type": "website",
     "og_site_name": "Brotherhood Trip",
     "og_locale": "en_US",
     "twitter_card": "summary_large_image",
     "twitter_title": "The Brotherhood Trip | Nov 18–25, 2026",
     "twitter_description": "Berlin → Prague → Vienna. Invite-only. Hosted. Culture + bonding. Zero tour-bus vibes.",
-    "twitter_image": "https://brotherhoodtrip.com/images/app-screenshot.png",
+    "twitter_image": "https://statslateral-group-travel.vercel.app/images/app-screenshot.png",
     "twitter_image_width": "1200",
     "twitter_image_height": "630",
     "linkedin_title": "The Brotherhood Trip | Nov 18–25, 2026",
     "linkedin_description": "A private brotherhood week across Berlin, Prague, and Vienna. Join any city. Premium/value hotel options close to each other.",
-    "linkedin_image": "https://brotherhoodtrip.com/images/app-screenshot.png",
+    "linkedin_image": "https://statslateral-group-travel.vercel.app/images/app-screenshot.png",
     "reddit_title": "The Brotherhood Trip | Nov 18–25, 2026",
     "reddit_description": "Central Europe men’s reset: Berlin → Prague → Vienna. Shikhin’s 50th. Bring your best stories.",
-    "reddit_image": "https://brotherhoodtrip.com/images/app-screenshot.png"
+    "reddit_image": "https://statslateral-group-travel.vercel.app/images/app-screenshot.png"
   },
   "structured_data": {
     "website": {
       "name": "Brotherhood Trip",
-      "url": "https://brotherhoodtrip.com/",
+      "url": "https://statslateral-group-travel.vercel.app/",
       "description": "Private, hosted group trips designed for connection, culture, and low-friction logistics (aka: nobody gets stuck planning spreadsheets at midnight).",
-      "search_action_target": "https://brotherhoodtrip.com/?q={search_term_string}",
+      "search_action_target": "https://statslateral-group-travel.vercel.app/?q={search_term_string}",
       "same_as": []
     },
     "webpage": {
       "name": "The Brotherhood Trip (Berlin → Prague → Vienna)",
-      "url": "https://brotherhoodtrip.com/",
+      "url": "https://statslateral-group-travel.vercel.app/",
       "description": "An invite-only brotherhood week celebrating Shikhin’s 50th across Berlin, Prague, and Vienna. Join any city. Hosted, curated, and intentionally low-drama."
     },
     "software_application": {
@@ -50,8 +50,8 @@
     },
     "organization": {
       "name": "Brotherhood Trip",
-      "url": "https://brotherhoodtrip.com",
-      "logo": "https://brotherhoodtrip.com/images/brotherhood-logo.svg",
+      "url": "https://statslateral-group-travel.vercel.app",
+      "logo": "https://statslateral-group-travel.vercel.app/images/brotherhood-logo.svg",
       "description": "Invite-only group travel for friends who want the fun part (connection + culture) without the painful part (planning + chaos).",
       "same_as": []
     },
