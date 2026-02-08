@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 phone: cannotAttend ? null : document.getElementById('phone').value,
                 arrivalDate: cannotAttend ? null : document.getElementById('arrival-date').value,
                 departureDate: cannotAttend ? null : document.getElementById('departure-date').value,
+                connection: cannotAttend ? null : document.getElementById('connection').value,
                 restrictions: cannotAttend ? null : document.getElementById('restrictions').value
             };
             

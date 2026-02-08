@@ -63,6 +63,7 @@ export default async function handler(req, res) {
       Phone: reg.phone || '',
       'Arrival Date': reg.arrival_date || '',
       'Departure Date': reg.departure_date || '',
+      Connection: reg.connection || '',
       Restrictions: reg.restrictions || ''
     }));
 

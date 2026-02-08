@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS registrations (
   phone TEXT,
   arrival_date DATE,
   departure_date DATE,
+  connection TEXT,
   restrictions TEXT,
   
   -- Constraints to ensure data integrity
@@ -37,6 +38,9 @@ CREATE TABLE IF NOT EXISTS registrations (
   ),
   CONSTRAINT dates_required_if_attending CHECK (
     cannot_attend = TRUE OR (arrival_date IS NOT NULL AND departure_date IS NOT NULL)
+  ),
+  CONSTRAINT connection_required_if_attending CHECK (
+    cannot_attend = TRUE OR (connection IS NOT NULL AND connection != '')
   ),
   CONSTRAINT wish_only_if_not_attending CHECK (
     cannot_attend = TRUE OR wish IS NULL
@@ -61,6 +65,7 @@ COMMENT ON COLUMN registrations.email IS 'Required for attendees, null for non-a
 COMMENT ON COLUMN registrations.phone IS 'WhatsApp number, required for attendees';
 COMMENT ON COLUMN registrations.arrival_date IS 'Trip arrival date (Nov 18-25, 2026)';
 COMMENT ON COLUMN registrations.departure_date IS 'Trip departure date (Nov 18-25, 2026)';
+COMMENT ON COLUMN registrations.connection IS 'How the attendee knows Shikhin, required for attendees';
 COMMENT ON COLUMN registrations.restrictions IS 'Dietary restrictions or special requests';
 
 -- Enable Row Level Security (RLS)

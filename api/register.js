@@ -32,7 +32,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { name, cannotAttend, wish, email, phone, arrivalDate, departureDate, restrictions } = req.body;
+    const { name, cannotAttend, wish, email, phone, arrivalDate, departureDate, connection, restrictions } = req.body;
 
     // Validate required fields
     if (!name) {
@@ -44,8 +44,8 @@ export default async function handler(req, res) {
       // No additional validation needed for cannot attend case
     } else {
       // If can attend, validate attendance fields
-      if (!email || !phone || !arrivalDate || !departureDate) {
-        return res.status(400).json({ error: 'Email, phone, and dates are required for attendees' });
+      if (!email || !phone || !arrivalDate || !departureDate || !connection) {
+        return res.status(400).json({ error: 'Email, phone, dates, and connection are required for attendees' });
       }
 
       // Validate email format
@@ -100,6 +100,7 @@ export default async function handler(req, res) {
       phone: cannotAttend ? null : phone,
       arrival_date: cannotAttend ? null : arrivalDate,
       departure_date: cannotAttend ? null : departureDate,
+      connection: cannotAttend ? null : (connection || null),
       restrictions: cannotAttend ? null : (restrictions || null)
     };
 

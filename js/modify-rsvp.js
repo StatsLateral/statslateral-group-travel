@@ -122,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('edit-phone').value = registration.phone || '';
             document.getElementById('edit-arrival-date').value = registration.arrival_date || '';
             document.getElementById('edit-departure-date').value = registration.departure_date || '';
+            document.getElementById('edit-connection').value = registration.connection || '';
             document.getElementById('edit-restrictions').value = registration.restrictions || '';
         }
     }
@@ -160,6 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 phone: cannotAttend ? null : document.getElementById('edit-phone').value,
                 arrivalDate: cannotAttend ? null : document.getElementById('edit-arrival-date').value,
                 departureDate: cannotAttend ? null : document.getElementById('edit-departure-date').value,
+                connection: cannotAttend ? null : document.getElementById('edit-connection').value,
                 restrictions: cannotAttend ? null : document.getElementById('edit-restrictions').value
             };
             

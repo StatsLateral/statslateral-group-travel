@@ -280,6 +280,7 @@
                             <th>Phone</th>
                             <th>Arrival</th>
                             <th>Departure</th>
+                            <th>Connection</th>
                             <th>Restrictions</th>
                         </tr>
                     </thead>
@@ -376,6 +377,7 @@
                     <td>${escapeHtml(reg.Phone)}</td>
                     <td>${escapeHtml(reg['Arrival Date'])}</td>
                     <td>${escapeHtml(reg['Departure Date'])}</td>
+                    <td>${escapeHtml(reg.Connection)}</td>
                     <td>${escapeHtml(reg.Restrictions)}</td>
                 `;
                 tbody.appendChild(row);
@@ -404,7 +406,7 @@
                 return;
             }
             
-            const headers = ['Timestamp', 'Name', 'Can Attend', 'Wish/Comment', 'Email', 'Phone', 'Arrival Date', 'Departure Date', 'Restrictions'];
+            const headers = ['Timestamp', 'Name', 'Can Attend', 'Wish/Comment', 'Email', 'Phone', 'Arrival Date', 'Departure Date', 'Connection', 'Restrictions'];
             const csvContent = [
                 headers.join(','),
                 ...registrationsData.map(reg => {
@@ -418,6 +420,7 @@
                         `"${reg.Phone || ''}"`,
                         `"${reg['Arrival Date'] || ''}"`,
                         `"${reg['Departure Date'] || ''}"`,
+                        `"${reg.Connection || ''}"`,
                         `"${reg.Restrictions || ''}"`
                     ].join(',');
                 })
