@@ -1,24 +1,8 @@
 // Supabase Auth - Magic Link Sign In
-const SUPABASE_URL = 'YOUR_SUPABASE_URL'; // Will be replaced with env var
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY'; // Will be replaced with env var
-
-// Initialize Supabase client
-const { createClient } = supabase;
-let supabaseClient;
+// Supabase client is initialized via supabase-config.js
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', async function() {
-    // Get Supabase credentials from meta tags (set by server)
-    const supabaseUrl = document.querySelector('meta[name="supabase-url"]')?.content || SUPABASE_URL;
-    const supabaseKey = document.querySelector('meta[name="supabase-key"]')?.content || SUPABASE_ANON_KEY;
-    
-    if (!supabaseUrl || !supabaseKey || supabaseUrl.includes('YOUR_')) {
-        console.error('Supabase credentials not configured');
-        return;
-    }
-    
-    supabaseClient = createClient(supabaseUrl, supabaseKey);
-    
     const authForm = document.getElementById('auth-form');
     
     if (authForm) {
@@ -36,6 +20,9 @@ document.addEventListener('DOMContentLoaded', async function() {
             messageDiv.className = 'form-message';
             
             try {
+                // Get Supabase client from config
+                const supabaseClient = await window.getSupabaseClient();
+                
                 const { data, error } = await supabaseClient.auth.signInWithOtp({
                     email: email,
                     options: {
