@@ -10,7 +10,7 @@
     "og_image_height": "630",
     "og_url": "https://www.vybri.ai/",
     "og_type": "website",
-    "og_site_name": "Carpe Diem Travel",
+    "og_site_name": "Brotherhood Trip",
     "og_locale": "en_US",
     "twitter_card": "summary_large_image",
     "twitter_title": "The Brotherhood Trip | Nov 18–25, 2026",
@@ -27,7 +27,7 @@
   },
   "structured_data": {
     "website": {
-      "name": "Carpe Diem Travel",
+      "name": "Brotherhood Trip",
       "url": "https://www.vybri.ai/",
       "description": "Private, hosted group trips designed for connection, culture, and low-friction logistics (aka: nobody gets stuck planning spreadsheets at midnight).",
       "search_action_target": "https://www.vybri.ai/?q={search_term_string}",
@@ -39,7 +39,7 @@
       "description": "An invite-only brotherhood week celebrating Shikhin’s 50th across Berlin, Prague, and Vienna. Join any city. Hosted, curated, and intentionally low-drama."
     },
     "software_application": {
-      "name": "Carpe Diem Travel",
+      "name": "Brotherhood Trip",
       "application_category": "TravelApplication",
       "operating_system": "Web",
       "price": "0",
@@ -49,7 +49,7 @@
       "keywords": "group travel, mens retreat, brotherhood trip, berlin prague vienna, hosted trips, friends trip, europe trip november"
     },
     "organization": {
-      "name": "Carpe Diem Travel",
+      "name": "Brotherhood Trip",
       "url": "https://www.vybri.ai",
       "logo": "https://www.vybri.ai/images/vybri-logo.png",
       "description": "Invite-only group travel for friends who want the fun part (connection + culture) without the painful part (planning + chaos).",
@@ -76,7 +76,7 @@
   },
   "navigation": {
     "logo_url": "images/vybri-logo.png",
-    "logo_alt": "Carpe Diem Travel logo",
+    "logo_alt": "Brotherhood Trip logo",
     "menu_items": [
       {
         "label": "Overview",
@@ -109,7 +109,7 @@
   },
   "hero": {
     "headline": "An Authentic Heart-to-Heart Trip",
-    "subheadline": "Recently, I realized life is too short for “we should catch up sometime.” So… let’s actually do it—properly, in Central Europe from Nov 18-25, 2026.",
+    "subheadline": "Recently, I realized life is too short for “we should catch up sometime.” So let’s actually do it properly. In Central Europe from Nov 18-25, 2026.",
     "cta_primary": "Join via Google Forms",
     "cta_primary_url": "#join",
     "image_url": "images/hero-travel.png",
@@ -117,7 +117,7 @@
   },
   "problem": {
     "title": "Celebrate Shikhin’s 50th birthday",
-    "subtitle": "Come visit a few of my favorite places in Central Europe—and bond with my favorite people. Think: real conversations, great walks, memorable meals, and just enough nonsense to keep us humble.",
+    "subtitle": "Come visit a few of my favorite places in Central Europe and bond with my favorite people. Think: real conversations, great walks, memorable meals, and just enough nonsense to keep us humble.",
     "items": [
       {
         "title": "Berlin",
@@ -135,7 +135,7 @@
   },
 "solution": {
   "title": "What, When, Where?",
-  "subtitle": "One thoughtfully designed week for brotherhood, culture, and ease — basically the best parts of my favorite trips, without the chaos.",
+  "subtitle": "One thoughtfully designed week for brotherhood, culture, and ease. Basically, the best parts of my favorite trips, without the chaos.",
   "items": [
     {
       "title": "📅 Thursday, Nov 18 → Wednesday, Nov 25, 2026",
@@ -152,7 +152,7 @@
   ]
 },
 "how_it_works": {
-  "title": "How it works",
+  "title": "Trip Details",
   "subtitle": "Seven easy, well-paced days across three cities — designed for great conversations, great walks, and zero logistical headaches.",
   "steps": [
     {
@@ -525,8 +525,8 @@
     ]
   },
   "footer": {
-    "logo_alt": "Carpe Diem Travel logo",
-    "copyright": " 2026 Carpe Diem Travel. All rights reserved.",
+    "logo_alt": "Brotherhood Trip logo",
+    "copyright": " 2026 Brotherhood Trip. All rights reserved.",
     "columns": [
       {
         "title": "Trip",

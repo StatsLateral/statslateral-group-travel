@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/hero-video.css">
     <link rel="stylesheet" href="css/hero-image.css">
     <link rel="stylesheet" href="css/team-section.css">
+    <link rel="stylesheet" href="css/roadmap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -114,52 +115,240 @@
         </div>
     </section>
 
-    <!-- How it Works Section -->
-    <section class="how-it-works-process" id="how-it-works">
+    <!-- How it Works Section - Roadmap -->
+    <section class="roadmap-section" id="how-it-works">
         <div class="container">
             <div class="section-header">
                 <h2 data-content="how_it_works.title"></h2>
                 <p data-content="how_it_works.subtitle"></p>
             </div>
-            <div class="process-steps">
-                <div class="process-step">
-                    <div class="step-number" data-content="how_it_works.steps[0].number"></div>
-                    <div class="step-content">
-                        <h3 data-content="how_it_works.steps[0].title"></h3>
-                        <p class="step-time" data-content="how_it_works.steps[0].time"></p>
-                        <ul class="step-list">
-                            <li data-content="how_it_works.steps[0].items[0]"></li>
-                            <li data-content="how_it_works.steps[0].items[1]"></li>
-                            <li data-content="how_it_works.steps[0].items[2]"></li>
-                            <li data-content="how_it_works.steps[0].items[3]"></li>
-                            <li data-content="how_it_works.steps[0].items[4]"></li>
-                        </ul>
+            
+            <div class="roadmap">
+                <!-- SVG Curved Path -->
+                <svg class="roadmap-path" viewBox="0 0 1200 300" preserveAspectRatio="none">
+                    <path d="M 30 90 L 190 210 L 360 90 L 530 210 L 700 90 L 870 210 L 1040 90 L 1170 210" />
+                </svg>
+
+                <!-- Day Bubbles -->
+                <div class="day-bubbles">
+                    <!-- Day 1: Berlin - Brandenburg Gate Balloon -->
+                    <div class="day-bubble" data-day="1">
+                        <div class="balloon-container">
+                            <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="berlinGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#2C5F7C;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="20" y="80" width="100" height="60" fill="url(#berlinGrad1)" rx="5"/>
+                                <rect x="30" y="90" width="15" height="50" fill="#1A3A4D"/>
+                                <rect x="52" y="90" width="15" height="50" fill="#1A3A4D"/>
+                                <rect x="74" y="90" width="15" height="50" fill="#1A3A4D"/>
+                                <rect x="96" y="90" width="15" height="50" fill="#1A3A4D"/>
+                                <rect x="20" y="70" width="100" height="15" fill="#E8B86D" rx="3"/>
+                                <path d="M 70 40 L 85 70 L 55 70 Z" fill="#E8B86D"/>
+                            </svg>
+                            <div class="balloon-string"></div>
+                            <div class="balloon-label">
+                                <div class="bubble-day">Day 1</div>
+                                <div class="bubble-date">Nov 18</div>
+                                <div class="bubble-city">Berlin</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 2: Berlin - TV Tower Balloon -->
+                    <div class="day-bubble" data-day="2">
+                        <div class="balloon-container">
+                            <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="berlinGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#5BA3E8;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#2C5F7C;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="70" cy="50" r="25" fill="url(#berlinGrad2)"/>
+                                <rect x="62" y="75" width="16" height="70" fill="#1A3A4D" rx="2"/>
+                                <circle cx="70" cy="50" r="15" fill="#E8B86D" opacity="0.3"/>
+                                <rect x="58" y="140" width="24" height="10" fill="#E8B86D" rx="2"/>
+                            </svg>
+                            <div class="balloon-string"></div>
+                            <div class="balloon-label">
+                                <div class="bubble-day">Day 2</div>
+                                <div class="bubble-date">Nov 19</div>
+                                <div class="bubble-city">Berlin</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 3: Prague - Castle Balloon (Birthday) -->
+                    <div class="day-bubble" data-day="3">
+                        <div class="balloon-container">
+                            <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="pragueGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#E8B86D;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#D4A054;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="25" y="90" width="90" height="55" fill="url(#pragueGrad1)" rx="4"/>
+                                <polygon points="70,40 90,75 50,75" fill="#C9302C"/>
+                                <rect x="45" y="75" width="50" height="15" fill="#8B1E1E"/>
+                                <rect x="60" y="110" width="20" height="35" fill="#1A3A4D" rx="2"/>
+                                <circle cx="70" cy="125" r="3" fill="#E8B86D"/>
+                                <text x="70" y="35" font-size="20" text-anchor="middle" fill="#FFD700">🎂</text>
+                            </svg>
+                            <div class="balloon-string"></div>
+                            <div class="balloon-label">
+                                <div class="bubble-day">Day 3</div>
+                                <div class="bubble-date">Nov 20</div>
+                                <div class="bubble-city">🎂 Prague</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 4: Prague - Charles Bridge Balloon -->
+                    <div class="day-bubble" data-day="4">
+                        <div class="balloon-container">
+                            <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="pragueGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="20" y="100" width="100" height="20" fill="url(#pragueGrad2)" rx="3"/>
+                                <rect x="30" y="70" width="10" height="30" fill="#2C5F7C"/>
+                                <rect x="60" y="70" width="10" height="30" fill="#2C5F7C"/>
+                                <rect x="90" y="70" width="10" height="30" fill="#2C5F7C"/>
+                                <circle cx="35" cy="60" r="8" fill="#E8B86D"/>
+                                <circle cx="65" cy="60" r="8" fill="#E8B86D"/>
+                                <circle cx="95" cy="60" r="8" fill="#E8B86D"/>
+                                <path d="M 20 120 Q 40 135, 60 120 T 100 120 T 120 120" stroke="#4A90E2" stroke-width="3" fill="none"/>
+                            </svg>
+                            <div class="balloon-string"></div>
+                            <div class="balloon-label">
+                                <div class="bubble-day">Day 4</div>
+                                <div class="bubble-date">Nov 21</div>
+                                <div class="bubble-city">Prague</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 5: Vienna - St. Stephen's Cathedral Balloon -->
+                    <div class="day-bubble" data-day="5">
+                        <div class="balloon-container">
+                            <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="viennaGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#8B0000;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#5C0000;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="40" y="80" width="60" height="65" fill="url(#viennaGrad1)" rx="3"/>
+                                <polygon points="70,30 85,80 55,80" fill="#2C5F7C"/>
+                                <rect x="60" y="110" width="20" height="35" fill="#1A3A4D" rx="2"/>
+                                <circle cx="70" cy="125" r="4" fill="#E8B86D"/>
+                                <rect x="45" y="90" width="10" height="15" fill="#E8B86D" opacity="0.5"/>
+                                <rect x="85" y="90" width="10" height="15" fill="#E8B86D" opacity="0.5"/>
+                            </svg>
+                            <div class="balloon-string"></div>
+                            <div class="balloon-label">
+                                <div class="bubble-day">Day 5</div>
+                                <div class="bubble-date">Nov 22</div>
+                                <div class="bubble-city">Vienna</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 6: Vienna - Schönbrunn Palace Balloon -->
+                    <div class="day-bubble" data-day="6">
+                        <div class="balloon-container">
+                            <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="viennaGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#E8B86D;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="25" y="85" width="90" height="60" fill="url(#viennaGrad2)" rx="5"/>
+                                <rect x="35" y="95" width="15" height="20" fill="#2C5F7C" rx="2"/>
+                                <rect x="60" y="95" width="20" height="20" fill="#2C5F7C" rx="2"/>
+                                <rect x="90" y="95" width="15" height="20" fill="#2C5F7C" rx="2"/>
+                                <rect x="25" y="75" width="90" height="12" fill="#8B0000" rx="2"/>
+                                <circle cx="70" cy="60" r="12" fill="#2C5F7C"/>
+                            </svg>
+                            <div class="balloon-string"></div>
+                            <div class="balloon-label">
+                                <div class="bubble-day">Day 6</div>
+                                <div class="bubble-date">Nov 23</div>
+                                <div class="bubble-city">Vienna</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 7: Airplane Balloon (Departure) -->
+                    <div class="day-bubble" data-day="7">
+                        <div class="balloon-container">
+                            <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="planeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <ellipse cx="70" cy="90" rx="45" ry="15" fill="url(#planeGrad)"/>
+                                <rect x="50" y="75" width="40" height="30" fill="url(#planeGrad)" rx="5"/>
+                                <polygon points="70,60 85,75 55,75" fill="#2C5F7C"/>
+                                <rect x="30" y="85" width="25" height="8" fill="#E8B86D"/>
+                                <rect x="85" y="85" width="25" height="8" fill="#E8B86D"/>
+                                <circle cx="60" cy="90" r="4" fill="#1A3A4D"/>
+                                <circle cx="80" cy="90" r="4" fill="#1A3A4D"/>
+                            </svg>
+                            <div class="balloon-string"></div>
+                            <div class="balloon-label">
+                                <div class="bubble-day">Day 7</div>
+                                <div class="bubble-date">Nov 24</div>
+                                <div class="bubble-city">Departure</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 8: Home Balloon -->
+                    <div class="day-bubble" data-day="8">
+                        <div class="balloon-container">
+                            <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="homeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#32CD32;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <polygon points="70,50 110,85 30,85" fill="#8B4513"/>
+                                <rect x="45" y="85" width="50" height="55" fill="url(#homeGrad)" rx="3"/>
+                                <rect x="60" y="105" width="20" height="35" fill="#654321" rx="2"/>
+                                <circle cx="70" cy="120" r="2" fill="#E8B86D"/>
+                                <rect x="50" y="95" width="12" height="12" fill="#87CEEB"/>
+                                <rect x="78" y="95" width="12" height="12" fill="#87CEEB"/>
+                                <text x="70" y="75" font-size="18" text-anchor="middle" fill="#FFD700">🏠</text>
+                            </svg>
+                            <div class="balloon-string"></div>
+                            <div class="balloon-label">
+                                <div class="bubble-day">Day 8</div>
+                                <div class="bubble-date">Nov 25</div>
+                                <div class="bubble-city">Home</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="process-step">
-                    <div class="step-number" data-content="how_it_works.steps[1].number"></div>
-                    <div class="step-content">
-                        <h3 data-content="how_it_works.steps[1].title"></h3>
-                        <p class="step-time" data-content="how_it_works.steps[1].time"></p>
-                        <ul class="step-list">
-                            <li data-content="how_it_works.steps[1].items[0]"></li>
-                            <li data-content="how_it_works.steps[1].items[1]"></li>
-                            <li data-content="how_it_works.steps[1].items[2]"></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number" data-content="how_it_works.steps[2].number"></div>
-                    <div class="step-content">
-                        <h3 data-content="how_it_works.steps[2].title"></h3>
-                        <p class="step-time" data-content="how_it_works.steps[2].time"></p>
-                        <ul class="step-list">
-                            <li data-content="how_it_works.steps[2].items[0]"></li>
-                            <li data-content="how_it_works.steps[2].items[1]"></li>
-                            <li data-content="how_it_works.steps[2].items[2]"></li>
-                            <li data-content="how_it_works.steps[2].items[3]"></li>
-                        </ul>
-                    </div>
+            </div>
+
+            <!-- Day Details -->
+            <div class="day-details" id="details-container">
+                <div class="placeholder">
+                    <div class="placeholder-icon">👆</div>
+                    <p>Hover over any day balloon above to see the details</p>
                 </div>
             </div>
         </div>
@@ -539,6 +728,7 @@
     <script src="js/cookie-consent.js"></script>
     <script src="js/analytics.js"></script>
 
+    <script src="js/roadmap.js"></script>
     <script src="js/script.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {

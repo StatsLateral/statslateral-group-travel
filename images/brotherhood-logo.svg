@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#2C5F7C" stroke="#1A3A4D" stroke-width="2"/>
+  
+  <!-- Three figures representing brotherhood -->
+  <!-- Left figure -->
+  <circle cx="70" cy="80" r="12" fill="#F4E4C1"/>
+  <path d="M 70 92 L 70 120 M 60 100 L 80 100 M 70 120 L 60 140 M 70 120 L 80 140" 
+        stroke="#F4E4C1" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Center figure (slightly forward) -->
+  <circle cx="100" cy="75" r="14" fill="#F4E4C1"/>
+  <path d="M 100 89 L 100 125 M 88 105 L 112 105 M 100 125 L 88 148 M 100 125 L 112 148" 
+        stroke="#F4E4C1" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right figure -->
+  <circle cx="130" cy="80" r="12" fill="#F4E4C1"/>
+  <path d="M 130 92 L 130 120 M 120 100 L 140 100 M 130 120 L 120 140 M 130 120 L 140 140" 
+        stroke="#F4E4C1" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Connection arc between figures -->
+  <path d="M 80 105 Q 100 95 120 105" 
+        stroke="#E8B86D" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Text -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="18" font-weight="bold" 
+        fill="#F4E4C1" text-anchor="middle">BROTHERHOOD</text>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="10" 
+        fill="#E8B86D" text-anchor="middle">TRIP</text>
+</svg>
