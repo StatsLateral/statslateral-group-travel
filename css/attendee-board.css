@@ -1,0 +1,223 @@
+/* Airport-style Attendee Board */
+.attendee-board-section {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.attendee-board-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        repeating-linear-gradient(
+            0deg,
+            rgba(255,255,255,0.03) 0px,
+            rgba(255,255,255,0.03) 1px,
+            transparent 1px,
+            transparent 2px
+        );
+    pointer-events: none;
+}
+
+.board-header {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.board-header h2 {
+    color: #E8B86D;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.board-header p {
+    color: rgba(255,255,255,0.7);
+    font-size: 1.1em;
+}
+
+.departure-board {
+    background: #0f0f1e;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 
+        0 10px 40px rgba(0,0,0,0.5),
+        inset 0 1px 0 rgba(255,255,255,0.1);
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.board-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    align-items: center;
+}
+
+.board-row:last-child {
+    border-bottom: none;
+}
+
+.board-header-row {
+    background: rgba(232, 184, 109, 0.1);
+    border-radius: 8px;
+    font-weight: 600;
+    color: #E8B86D;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+
+.board-cell {
+    color: #fff;
+    font-size: 1.1em;
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+}
+
+.flip-container {
+    display: inline-block;
+    position: relative;
+    height: 1.5em;
+    overflow: hidden;
+}
+
+.flip-char {
+    display: inline-block;
+    width: 0.7em;
+    text-align: center;
+    position: relative;
+    animation: flip 0.6s ease-in-out;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: rotateX(90deg);
+        opacity: 0.3;
+    }
+    100% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+.city-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.city-berlin {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.city-prague {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+}
+
+.city-vienna {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+}
+
+.date-cell {
+    color: #E8B86D;
+    font-weight: 600;
+}
+
+.loading-board {
+    text-align: center;
+    padding: 60px 20px;
+    color: rgba(255,255,255,0.5);
+}
+
+.loading-spinner {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(232, 184, 109, 0.2);
+    border-top-color: #E8B86D;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.no-attendees {
+    text-align: center;
+    padding: 60px 20px;
+    color: rgba(255,255,255,0.7);
+    font-size: 1.1em;
+}
+
+.board-footer {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.board-footer .btn {
+    margin: 0 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .board-header h2 {
+        font-size: 1.8em;
+    }
+    
+    .departure-board {
+        padding: 20px 15px;
+    }
+    
+    .board-row {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 15px;
+    }
+    
+    .board-header-row {
+        display: none;
+    }
+    
+    .board-cell {
+        font-size: 1em;
+    }
+    
+    .board-cell::before {
+        content: attr(data-label);
+        display: block;
+        color: #E8B86D;
+        font-size: 0.8em;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}

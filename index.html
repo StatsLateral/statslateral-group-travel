@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/hero-image.css">
     <link rel="stylesheet" href="css/team-section.css">
     <link rel="stylesheet" href="css/roadmap.css">
-    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/attendee-board.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
                     <li><a href="faq.html" data-content="navigation.menu_items[2].label"></a></li>
                     <li><a href="#team" data-content="navigation.menu_items[3].label"></a></li>
                     <li><a href="resources.html" target="_blank" rel="noopener noreferrer" data-content="navigation.menu_items[4].label"></a></li>
-                    <li><a href="#join" class="btn btn-primary" data-content="navigation.cta_button.text"></a></li>
+                    <li><a href="rsvp.html" class="btn btn-primary">RSVP Here</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -52,7 +52,8 @@
                     <h1 data-content="hero.headline"></h1>
                     <p data-content="hero.subheadline"></p>
                     <div class="cta-buttons">
-                        <a href="#join" class="btn btn-primary" data-content="hero.cta_primary"></a>
+                        <a href="rsvp.html" class="btn btn-primary">RSVP Here</a>
+                        <a href="modify-rsvp.html" class="btn btn-secondary">Modify RSVP</a>
                     </div>
                 </div>
                 <div class="hero-video">
@@ -593,64 +594,35 @@
         </div>
     </section>
 
-    <section class="registration-section" id="join">
+    <section class="attendee-board-section" id="join">
         <div class="container">
-            <div class="registration-container">
-                <h2>Register Your Interest</h2>
-                <p class="subtitle">Let us know you're interested in joining The Brotherhood Trip. We'll coordinate details via WhatsApp.</p>
+            <div class="board-header">
+                <h2>Who's Coming</h2>
+                <p>See who's joining The Brotherhood Trip</p>
+            </div>
+            
+            <div class="departure-board">
+                <div class="board-row board-header-row">
+                    <div class="board-cell">Name</div>
+                    <div class="board-cell">City</div>
+                    <div class="board-cell">Arrival</div>
+                </div>
                 
-                <form id="registration-form">
-                    <div class="form-group">
-                        <label for="name">Full Name *</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    
-                    <div id="attendance-fields">
-                        <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="cannot-attend" name="cannot-attend">
-                                <span>I would love to, but I cannot join the party. Leave it unchecked if you plan to join the trip.</span>
-                            </label>
-                        </div>
-                        
-                        <div class="form-group" id="wish-field" style="display: none;">
-                            <label for="wish">Leave a wish or comment</label>
-                            <textarea id="wish" name="wish" rows="4" placeholder="We'd love to hear from you..."></textarea>
-                        </div>
-                    
-                    <div class="form-group">
-                        <label for="phone">Phone Number (WhatsApp) *</label>
-                        <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900" required>
-                        <small>Include country code for WhatsApp coordination</small>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="arrival-date">Arrival Date *</label>
-                        <input type="date" id="arrival-date" name="arrival-date" min="2026-11-18" max="2026-11-25" required>
-                        <small>When will you arrive? (Nov 18-25, 2026)</small>
-                    </div>
-                    
-                        <div class="form-group">
-                            <label for="departure-date">Departure Date *</label>
-                            <input type="date" id="departure-date" name="departure-date" min="2026-11-18" max="2026-11-25" required>
-                            <small>When will you depart? (Nov 18-25, 2026)</small>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="restrictions">Dietary Restrictions / Special Requests</label>
-                            <textarea id="restrictions" name="restrictions" placeholder="Any dietary restrictions, accessibility needs, or special requests we should know about?"></textarea>
-                        </div>
-                    </div>
-                    
-                    <button type="submit" class="form-submit">Submit Registration</button>
-                    
-                    <div id="form-message" class="form-message"></div>
-                </form>
+                <div id="board-loading" class="loading-board">
+                    <div class="loading-spinner"></div>
+                    <p>Loading attendees...</p>
+                </div>
+                
+                <div id="no-attendees" class="no-attendees" style="display: none;">
+                    No attendees yet. Be the first to RSVP!
+                </div>
+                
+                <div id="attendee-board-body"></div>
+            </div>
+            
+            <div class="board-footer">
+                <a href="rsvp.html" class="btn btn-primary">RSVP Here</a>
+                <a href="modify-rsvp.html" class="btn btn-secondary">Modify RSVP</a>
             </div>
         </div>
     </section>
@@ -695,7 +667,7 @@
     <script src="js/analytics.js"></script>
 
     <script src="js/roadmap.js"></script>
-    <script src="js/registration.js"></script>
+    <script src="js/attendee-board.js"></script>
     <script src="js/script.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {

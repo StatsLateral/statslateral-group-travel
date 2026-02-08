@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP - The Brotherhood Trip</title>
+    <meta name="description" content="RSVP for The Brotherhood Trip - Berlin, Prague, Vienna | Nov 18-25, 2026">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/brotherhood-logo.svg" alt="Brotherhood Trip logo"></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html#problem">About</a></li>
+                    <li><a href="index.html#how-it-works">Trip Details</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="rsvp.html" class="btn btn-primary">RSVP Here</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="registration-section" style="padding-top: 140px;">
+        <div class="container">
+            <div class="registration-container">
+                <h2>RSVP for The Brotherhood Trip</h2>
+                <p class="subtitle">Let us know you're interested in joining The Brotherhood Trip. We'll coordinate details via WhatsApp.</p>
+                
+                <form id="registration-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div id="attendance-fields">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="cannot-attend" name="cannot-attend">
+                                <span>I would love to, but I cannot join the party. Leave it unchecked if you plan to join the trip.</span>
+                            </label>
+                        </div>
+                        
+                        <div class="form-group" id="wish-field" style="display: none;">
+                            <label for="wish">Leave a wish or comment</label>
+                            <textarea id="wish" name="wish" rows="4" placeholder="We'd love to hear from you..."></textarea>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="phone">Phone Number (WhatsApp) *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900" required>
+                            <small>Include country code for WhatsApp coordination</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="arrival-date">Arrival Date *</label>
+                            <input type="date" id="arrival-date" name="arrival-date" min="2026-11-18" max="2026-11-25" required>
+                            <small>When will you arrive? (Nov 18-25, 2026)</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="departure-date">Departure Date *</label>
+                            <input type="date" id="departure-date" name="departure-date" min="2026-11-18" max="2026-11-25" required>
+                            <small>When will you depart? (Nov 18-25, 2026)</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="restrictions">Dietary Restrictions / Special Requests</label>
+                            <textarea id="restrictions" name="restrictions" placeholder="Any dietary restrictions, accessibility needs, or special requests we should know about?"></textarea>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">Submit RSVP</button>
+                    
+                    <div id="form-message" class="form-message"></div>
+                </form>
+                
+                <p style="text-align: center; margin-top: 20px;">
+                    <a href="modify-rsvp.html" style="color: #2C5F7C;">Need to modify your RSVP?</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/brotherhood-logo.svg" alt="Brotherhood Trip logo" loading="lazy">
+                    <p>© 2026 Brotherhood Trip. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/registration.js"></script>
+</body>
+</html>
