@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/hero-image.css">
     <link rel="stylesheet" href="css/team-section.css">
     <link rel="stylesheet" href="css/roadmap.css">
+    <link rel="stylesheet" href="css/registration.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -592,13 +593,44 @@
         </div>
     </section>
 
-    <section class="cta-section">
+    <section class="registration-section" id="join">
         <div class="container">
-            <div class="cta-content">
-                <h2 data-content="cta.title"></h2>
-                <p data-content="cta.description"></p>
-                <a href="https://calendly.com/statslateral/vybri_provider" target="_blank" class="btn btn-primary" data-content="cta.button_text"></a>
-                <p class="cta-small" data-content="cta.small_text"></p>
+            <div class="registration-container">
+                <h2>Register Your Interest</h2>
+                <p class="subtitle">Let us know you're interested in joining The Brotherhood Trip. We'll coordinate details via WhatsApp.</p>
+                
+                <form id="registration-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="arrival-date">Arrival Date *</label>
+                        <input type="date" id="arrival-date" name="arrival-date" min="2026-11-18" max="2026-11-25" required>
+                        <small>When will you arrive? (Nov 18-25, 2026)</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="departure-date">Departure Date *</label>
+                        <input type="date" id="departure-date" name="departure-date" min="2026-11-18" max="2026-11-25" required>
+                        <small>When will you depart? (Nov 18-25, 2026)</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="restrictions">Dietary Restrictions / Special Requests</label>
+                        <textarea id="restrictions" name="restrictions" placeholder="Any dietary restrictions, accessibility needs, or special requests we should know about?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">Submit Registration</button>
+                    
+                    <div id="form-message" class="form-message"></div>
+                </form>
             </div>
         </div>
     </section>
@@ -643,6 +675,7 @@
     <script src="js/analytics.js"></script>
 
     <script src="js/roadmap.js"></script>
+    <script src="js/registration.js"></script>
     <script src="js/script.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
