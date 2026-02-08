@@ -32,11 +32,16 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { name, cannotAttend, wish, email, phone, arrivalDate, departureDate, connection, restrictions } = req.body;
+    const { name, cannotAttend, wish, email, phone, arrivalDate, departureDate, connection, restrictions, userId } = req.body;
 
     // Validate required fields
     if (!name) {
       return res.status(400).json({ error: 'Name is required' });
+    }
+
+    // Validate user_id is provided (user must be authenticated)
+    if (!userId) {
+      return res.status(401).json({ error: 'User must be authenticated to register' });
     }
 
     // If cannot attend, only wish is optional
@@ -55,40 +60,8 @@ export default async function handler(req, res) {
       }
     }
 
-    // Initialize Supabase clients
-    const supabase = createClient(supabaseUrl, supabasePublishableKey);
+    // Initialize Supabase client with secret key for admin operations
     const supabaseAdmin = createClient(supabaseUrl, supabaseSecretKey);
-    
-    let userId = null;
-
-    // Create Supabase Auth user if email is provided
-    if (email) {
-      try {
-        // Generate a random password for the user (they can reset it later if needed)
-        const randomPassword = Math.random().toString(36).slice(-12) + Math.random().toString(36).slice(-12);
-        
-        // Create auth user with email using admin client
-        const { data: authData, error: authError } = await supabaseAdmin.auth.admin.createUser({
-          email: email,
-          password: randomPassword,
-          email_confirm: true, // Auto-confirm email
-          user_metadata: {
-            name: name,
-            registration_type: cannotAttend ? 'well-wisher' : 'attendee'
-          }
-        });
-
-        if (authError) {
-          console.error('Auth user creation error:', authError);
-          // Continue with registration even if auth fails
-        } else if (authData.user) {
-          userId = authData.user.id;
-        }
-      } catch (authException) {
-        console.error('Auth exception:', authException);
-        // Continue with registration even if auth fails
-      }
-    }
 
     // Prepare data for insertion
     const insertData = {
@@ -104,8 +77,8 @@ export default async function handler(req, res) {
       restrictions: cannotAttend ? null : (restrictions || null)
     };
 
-    // Insert registration into Supabase
-    const { data, error } = await supabase
+    // Insert registration into Supabase using admin client
+    const { data, error } = await supabaseAdmin
       .from('registrations')
       .insert([insertData])
       .select();

@@ -112,9 +112,20 @@ document.addEventListener('DOMContentLoaded', async function() {
             messageDiv.textContent = '';
             messageDiv.className = 'form-message';
             
+            // Get authenticated user
+            const user = await getCurrentUser();
+            if (!user) {
+                messageDiv.textContent = 'Authentication error. Please sign in again.';
+                messageDiv.className = 'form-message error';
+                submitButton.disabled = false;
+                submitButton.textContent = originalButtonText;
+                return;
+            }
+            
             // Get form data
             const cannotAttend = document.getElementById('cannot-attend').checked;
             const formData = {
+                userId: user.id,
                 name: document.getElementById('name').value,
                 cannotAttend: cannotAttend,
                 wish: cannotAttend ? document.getElementById('wish').value : null,
