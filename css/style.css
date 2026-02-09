@@ -1358,6 +1358,16 @@ ul {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+    
+    .problem-item,
+    .solution-item {
+        padding: 20px;
+    }
+    
+    .problem-section,
+    .solution-section {
+        padding: 40px 0;
+    }
 }
 
 /* Problem Section */
@@ -1380,6 +1390,9 @@ ul {
     box-shadow: var(--box-shadow);
     transition: var(--transition);
     border-left: 4px solid #dc3545;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 
 .problem-item:hover {
@@ -1417,6 +1430,9 @@ ul {
     box-shadow: var(--box-shadow);
     transition: var(--transition);
     border-left: 4px solid var(--primary-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 
 .solution-item:hover {
