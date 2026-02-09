@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "The Brotherhood Trip: Central Europe (Berlin → Prague → Vienna) | Nov 18–25, 2026",
-    "description": "Join my brotherhood trip, RSVP here",
+    "description": "You are invited to the brotherhood trip. Checkout and RSVP.",
     "canonical_url": "https://statslateral-group-travel.vercel.app/",
     "og_title": "The Brotherhood Trip | Nov 18–25, 2026",
-    "og_description": "Join my brotherhood trip, RSVP here",
+    "og_description": "You are invited to the brotherhood trip. Checkout and RSVP.",
     "og_image": "https://statslateral-group-travel.vercel.app/images/app-screenshot.png",
     "og_image_width": "1200",
     "og_image_height": "630",
@@ -14,15 +14,15 @@
     "og_locale": "en_US",
     "twitter_card": "summary_large_image",
     "twitter_title": "The Brotherhood Trip | Nov 18–25, 2026",
-    "twitter_description": "Join my brotherhood trip, RSVP here",
+    "twitter_description": "You are invited to the brotherhood trip. Checkout and RSVP.",
     "twitter_image": "https://statslateral-group-travel.vercel.app/images/app-screenshot.png",
     "twitter_image_width": "1200",
     "twitter_image_height": "630",
     "linkedin_title": "The Brotherhood Trip | Nov 18–25, 2026",
-    "linkedin_description": "Join my brotherhood trip, RSVP here",
+    "linkedin_description": "You are invited to the brotherhood trip. Checkout and RSVP.",
     "linkedin_image": "https://statslateral-group-travel.vercel.app/images/app-screenshot.png",
     "reddit_title": "The Brotherhood Trip | Nov 18–25, 2026",
-    "reddit_description": "Join my brotherhood trip, RSVP here",
+    "reddit_description": "You are invited to the brotherhood trip. Checkout and RSVP.",
     "reddit_image": "https://statslateral-group-travel.vercel.app/images/app-screenshot.png"
   },
   "structured_data": {
@@ -141,7 +141,7 @@
       },
       {
         "title": "🎂 The main birthday moment: Saturday, Nov 20",
-        "description": "This is the heart of the trip. We’ll be together in Prague, cutting the ‘cake,’ raising a glass.Celebrate life and friendships."
+        "description": "This is the heart of the trip. We’ll be together in Prague, cutting the ‘cake,’ raising a glass. Celebrate life and friendships."
       },
       {
         "title": "✈️ Flexible travel dates",
