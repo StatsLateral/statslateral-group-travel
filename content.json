@@ -131,202 +131,106 @@
       }
     ]
   },
-"solution": {
-  "title": "What, When, Where?",
-  "subtitle": "One thoughtfully designed week for brotherhood, culture, and ease. Basically, the best parts of my favorite trips, without the chaos.",
-  "items": [
-    {
-      "title": "📅 Thursday, Nov 18 → Wednesday, Nov 25, 2026",
-      "description": "Ideally, arrive on Thursday and leave on following Wednesday just in time to be back before Thanksgiving."
-    },
-    {
-      "title": "🎂 The main birthday moment: Saturday, Nov 20",
-      "description": "This is the heart of the trip. We’ll be together in Prague, cutting the ‘cake,’ raising a glass.Celebrate life and friendships."
-    },
-    {
-      "title": "✈️ Flexible travel dates",
-      "description": "Come for the full week, or just part of it. Join in Berlin, Prague, or Vienna. Leave when life calls. You join for what you can and would love to see you."
-    }
-  ]
-},
-"how_it_works": {
-  "title": "Trip Details",
-  "subtitle": "Seven easy, well-paced days across three cities — designed for great conversations, great walks, and zero logistical headaches.",
-  "steps": [
-    {
-      "number": "Day 1",
-      "title": "Thursday, Nov 18 — Arrival in Berlin",
-      "time": "Land, decompress, and ease into the week",
-      "items": [
-        "Morning: Arrivals into Berlin (from wherever you’re coming from)",
-        "Daytime: Check in, stretch your legs, light wandering or napping",
-        "Afternoon: Decompress together at Vabali Spa (optional but highly recommended)",
-        "Evening: Welcome dinner at a great immigrant-run Berlin restaurant",
-        "Suggested hotel options: Premium Berlin Hotel or Value Berlin Hotel (both central and walkable)"
-      ]
-    },
-    {
-      "number": "Day 2",
-      "title": "Friday, Nov 19 — Berlin, Culture & Conversation",
-      "time": "History, walking, and finding our rhythm",
-      "items": [
-        "Morning: Guided Berlin walking tour (history + neighborhoods, not a lecture)",
-        "Daytime: Free time for cafés, shopping, museums, or just wandering",
-        "Late afternoon: A visit to Futurium (my favorite museum)",
-        "Evening: Dinner TBD",
-        "Late night (optional): Cocktail lounge or Berlin nightlife"
-      ]
-    },
-    {
-      "number": "Day 3",
-      "title": "Saturday, Nov 20 — Berlin → Prague (Birthday Day)",
-      "time": "Travel day + the heart of the celebration",
-      "items": [
-        "Morning: Easy Berlin morning, coffee and packing",
-        "Midday: Noon train from Berlin to Prague (approx. 4 hours)",
-        "Afternoon: Check into Prague hotels and settle in",
-        "Evening: Main birthday dinner and toasts in Prague",
-        "Late night (optional): Prague nightlife",
-        "Suggested hotel options: Premium Prague Hotel or Value Prague Hotel"
-      ]
-    },
-    {
-      "number": "Day 4",
-      "title": "Sunday, Nov 21 — Prague, Nature & Old Town",
-      "time": "Fresh air, beauty, and deep conversations",
-      "items": [
-        "Late morning: Hike across the river for city views",
-        "Afternoon: Rest, café hopping, or Old Town wandering",
-        "Evening: Group dinner in Prague’s main square or historic district",
-        "Late night (optional): Rest"
-      ]
-    },
-    {
-      "number": "Day 5",
-      "title": "Monday, Nov 22 — Prague → Vienna",
-      "time": "Transition into elegance",
-      "items": [
-        "Morning: Easy breakfast and check-out",
-        "Late morning: Noon train from Prague to Vienna (approx. 4 hours)",
-        "Afternoon: Check into Vienna hotels and walk the city center",
-        "Evening: Dinner at my favorite Schnitzel place",
-        "Suggested hotel options: Premium Vienna Hotel or Value Vienna Hotel"
-      ]
-    },
-    {
-      "number": "Day 6",
-      "title": "Tuesday, Nov 23 — Vienna, Art & Café Culture",
-      "time": "Slow, beautiful, and reflective",
-      "items": [
-        "Morning: Vienna café breakfast together at my favorite museum cafe",
-        "Daytime: Hunterwasser museum",
-        "Afternoon: Free time for shopping, walks, or people-watching",
-        "Evening: Final group dinner in Vienna",
-        "Late night (optional): Rest"
-      ]
-    },
-    {
-      "number": "Day 7",
-      "title": "Wednesday, Nov 24 — Return Home",
-      "time": "Head back refreshed",
-      "items": [
-        "Morning: Departures from Vienna. Travel back home in time for Thanksgiving"
-      ]
-    }
-  ]
-},
-  "features": {
-    "title": "What’s Included",
-    "subtitle": "Enough structure to feel special. Enough freedom to feel like a reset. Zero “mandatory fun.”",
-    "categories": [
+  "solution": {
+    "title": "What, When, Where?",
+    "subtitle": "One thoughtfully designed week for brotherhood, culture, and ease. Basically, the best parts of my favorite trips, without the chaos.",
+    "items": [
       {
-        "category_title": "Hotels (Two Options in Each City)",
+        "title": "📅 Thursday, Nov 18 → Wednesday, Nov 25, 2026",
+        "description": "Ideally, arrive on Thursday and leave on following Wednesday just in time to be back before Thanksgiving."
+      },
+      {
+        "title": "🎂 The main birthday moment: Saturday, Nov 20",
+        "description": "This is the heart of the trip. We’ll be together in Prague, cutting the ‘cake,’ raising a glass.Celebrate life and friendships."
+      },
+      {
+        "title": "✈️ Flexible travel dates",
+        "description": "Come for the full week, or just part of it. Join in Berlin, Prague, or Vienna. Leave when life calls. You join for what you can and would love to see you."
+      }
+    ]
+  },
+  "how_it_works": {
+    "title": "Trip Details",
+    "subtitle": "Seven easy, well-paced days across three cities — designed for great conversations, great walks, and zero logistical headaches.",
+    "steps": [
+      {
+        "number": "Day 1",
+        "title": "Thursday, Nov 18 — Arrival in Berlin",
+        "time": "Land, decompress, and ease into the week",
         "items": [
-          {
-            "title": "Berlin (Mitte / City Center)",
-            "description": "Premium: Hotel Luc, Autograph Collection. Value: Motel One Berlin–Spittelmarkt. Close enough that nobody needs a taxi diplomacy summit."
-          },
-          {
-            "title": "Prague (New Town / Old Town access)",
-            "description": "Premium: BoHo Prague Hotel. Value: Pytloun Boutique Hotel Prague (Wenceslas Square). Both central, both easy."
-          },
-          {
-            "title": "Vienna (1st District / Innere Stadt)",
-            "description": "Premium: Boutique Hotel am Stephansplatz. Value: Hollmann Beletage. Elegant either way—choose your level of pampering."
-          }
+          "Morning: Arrivals into Berlin (from wherever you’re coming from)",
+          "Daytime: Check in, stretch your legs, light wandering or napping",
+          "Afternoon: Decompress together at Vabali Spa (optional but highly recommended)",
+          "Evening: Welcome dinner at a great immigrant-run Berlin restaurant",
+          "Suggested hotel options: Premium Berlin Hotel or Value Berlin Hotel (both central and walkable)"
         ]
       },
       {
-        "category_title": "Core Logistics",
+        "number": "Day 2",
+        "title": "Friday, Nov 19 — Berlin, Culture & Conversation",
+        "time": "History, walking, and finding our rhythm",
         "items": [
-          {
-            "title": "Central hotels (two tiers per city)",
-            "description": "Premium + value options, close to each other, in walkable neighborhoods (because we’re not wasting the trip on commuting)."
-          },
-          {
-            "title": "First-class trains between cities",
-            "description": "Berlin → Prague (Sat) and Prague → Vienna (Mon). Relaxed travel that counts as part of the experience."
-          },
-          {
-            "title": "Daily breakfast",
-            "description": "Start easy. No morning scramble. Coffee will be handled (Vienna takes this personally)."
-          }
+          "Morning: Guided Berlin walking tour (history + neighborhoods, not a lecture)",
+          "Daytime: Free time for cafés, shopping, museums, or just wandering",
+          "Late afternoon: A visit to Futurium (my favorite museum)",
+          "Evening: Dinner TBD",
+          "Late night (optional): Cocktail lounge or Berlin nightlife"
         ]
       },
       {
-        "category_title": "Curated Shared Moments",
+        "number": "Day 3",
+        "title": "Saturday, Nov 20 — Berlin → Prague (Birthday Day)",
+        "time": "Travel day + the heart of the celebration",
         "items": [
-          {
-            "title": "Berlin walking tour",
-            "description": "A 2–3 hour guided walk for history + neighborhoods—without turning the trip into a documentary marathon."
-          },
-          {
-            "title": "Vabali Spa (Berlin)",
-            "description": "Decompression time after travel. Your nervous system will send a thank-you note."
-          },
-          {
-            "title": "Prague nature hike",
-            "description": "A late-morning/afternoon hike across the river for views and fresh air. Yes, it’s worth it."
-          }
+          "Morning: Easy Berlin morning, coffee and packing",
+          "Midday: Noon train from Berlin to Prague (approx. 4 hours)",
+          "Afternoon: Check into Prague hotels and settle in",
+          "Evening: Main birthday dinner and toasts in Prague",
+          "Late night (optional): Prague nightlife",
+          "Suggested hotel options: Premium Prague Hotel or Value Prague Hotel"
         ]
       },
       {
-        "category_title": "Food & Conversation",
+        "number": "Day 4",
+        "title": "Sunday, Nov 21 — Prague, Nature & Old Town",
+        "time": "Fresh air, beauty, and deep conversations",
         "items": [
-          {
-            "title": "4–5 group dinners",
-            "description": "A mix of excellent local and immigrant-run restaurants—built for long conversations and high laughter-per-minute."
-          },
-          {
-            "title": "Optional nights out",
-            "description": "Bars, jazz, music, nightlife—opt-in only. Nobody is forced to “send it.”"
-          }
+          "Late morning: Hike across the river for city views",
+          "Afternoon: Rest, café hopping, or Old Town wandering",
+          "Evening: Group dinner in Prague’s main square or historic district",
+          "Late night (optional): Rest"
         ]
       },
       {
-        "category_title": "Vienna Culture Night",
+        "number": "Day 5",
+        "title": "Monday, Nov 22 — Prague → Vienna",
+        "time": "Transition into elegance",
         "items": [
-          {
-            "title": "Classical music or museum experience",
-            "description": "Concert/opera (if available) or a museum visit—chosen for vibe, not for bragging rights."
-          },
-          {
-            "title": "Café culture morning",
-            "description": "A slow Vienna breakfast/café start to close the trip well. Pastries will happen."
-          }
+          "Morning: Easy breakfast and check-out",
+          "Late morning: Noon train from Prague to Vienna (approx. 4 hours)",
+          "Afternoon: Check into Vienna hotels and walk the city center",
+          "Evening: Dinner at my favorite Schnitzel place",
+          "Suggested hotel options: Premium Vienna Hotel or Value Vienna Hotel"
         ]
       },
       {
-        "category_title": "Flexibility Built In",
+        "number": "Day 6",
+        "title": "Tuesday, Nov 23 — Vienna, Art & Café Culture",
+        "time": "Slow, beautiful, and reflective",
         "items": [
-          {
-            "title": "Join any city",
-            "description": "Arrive in Berlin, Prague, or Vienna and travel with the group for any portion of the week."
-          },
-          {
-            "title": "Opt-in pace",
-            "description": "One anchor per day plus free time—no rigid schedules, no whistles, no matching hats."
-          }
+          "Morning: Vienna café breakfast together at my favorite museum cafe",
+          "Daytime: Hunterwasser museum",
+          "Afternoon: Free time for shopping, walks, or people-watching",
+          "Evening: Final group dinner in Vienna",
+          "Late night (optional): Rest"
+        ]
+      },
+      {
+        "number": "Day 7",
+        "title": "Wednesday, Nov 24 — Return Home",
+        "time": "Head back refreshed",
+        "items": [
+          "Morning: Departures from Vienna. Travel back home in time for Thanksgiving"
         ]
       }
     ]
