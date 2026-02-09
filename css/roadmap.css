@@ -267,33 +267,70 @@
     .roadmap-section .section-header h2 {
         font-size: 1.8em;
     }
+    
+    .roadmap-section {
+        padding: 40px 0;
+    }
+    
+    /* Hide the curved path on mobile */
+    .roadmap-path {
+        display: none;
+    }
+    
+    /* Vertical layout for mobile */
+    .roadmap {
+        min-height: auto;
+        padding: 20px 0;
+    }
+    
+    .day-bubbles {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
 
     .day-bubble {
-        width: 100px;
+        position: relative !important;
+        width: 120px;
+        top: auto !important;
+        left: auto !important;
+        animation: none;
+    }
+    
+    .day-bubble:hover {
+        transform: scale(1.05);
     }
 
     .balloon-monument {
-        width: 90px;
-        height: 110px;
+        width: 100px;
+        height: 120px;
     }
 
     .balloon-label {
-        padding: 6px 10px;
-        font-size: 0.85em;
+        padding: 8px 12px;
+        font-size: 0.9em;
     }
 
     .balloon-label .bubble-date {
-        font-size: 0.9em;
+        font-size: 0.95em;
     }
 
     .balloon-label .bubble-day,
     .balloon-label .bubble-city {
-        font-size: 0.7em;
+        font-size: 0.75em;
     }
 
     .day-details {
-        margin-top: 60px;
+        margin-top: 40px;
         padding: 20px;
+        min-height: auto;
+    }
+
+    .details-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
     }
 
     .details-header h2 {
@@ -304,5 +341,10 @@
         width: 60px;
         height: 60px;
         font-size: 1.2em;
+    }
+    
+    .details-items li {
+        padding: 12px 15px;
+        font-size: 0.95em;
     }
 }
