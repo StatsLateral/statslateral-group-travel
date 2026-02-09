@@ -52,6 +52,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         function showDayDetails(day) {
             const data = dayData[day];
             
+            if (!data) {
+                console.error(`No data found for day ${day}. Available days:`, Object.keys(dayData));
+                return;
+            }
+            
             const html = `
                 <div class="details-header">
                     <div class="details-icon">Day ${day}</div>
@@ -68,5 +73,8 @@ document.addEventListener('DOMContentLoaded', async function() {
             detailsContainer.innerHTML = html;
             detailsContainer.classList.add('active');
         }
+        
+        // Log loaded data for debugging
+        console.log('Roadmap data loaded:', dayData);
     }
 });
