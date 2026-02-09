@@ -172,7 +172,7 @@
       "items": [
         "Morning: Guided Berlin walking tour (history + neighborhoods, not a lecture)",
         "Daytime: Free time for cafés, shopping, museums, or just wandering",
-        "Late afternoon: TBD",
+        "Late afternoon: A visit to Futurium (my favorite museum)",
         "Evening: Dinner TBD",
         "Late night (optional): Cocktail lounge or Berlin nightlife"
       ]
@@ -235,24 +235,6 @@
     }
   ]
 },
-  "why_vybri": {
-    "title": "Why this trip works",
-    "subtitle": "Designed for men with real lives—limited time, high standards, and no patience for chaos.",
-    "steps": [
-      {
-        "title": "Brotherhood without pressure",
-        "description": "Shared anchors (meals, trains, key experiences) plus freedom to opt out anytime without awkwardness. Introverts: we respect you."
-      },
-      {
-        "title": "Curated, central, and walkable",
-        "description": "Hotels and experiences chosen for vibe: cafés, bars, culture, and easy evenings—no one is commuting 45 minutes to have dinner."
-      },
-      {
-        "title": "Hosted logistics",
-        "description": "Reservations, timing, and coordination are handled—so the group can focus on the experience (and on roasting Shikhin affectionately)."
-      }
-    ]
-  },
   "features": {
     "title": "What’s Included",
     "subtitle": "Enough structure to feel special. Enough freedom to feel like a reset. Zero “mandatory fun.”",
