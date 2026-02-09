@@ -253,48 +253,6 @@
       }
     ]
   },
-  "setup_options": {
-    "title": "How To Join",
-    "subtitle": "Step 1: Google Form. Step 2: WhatsApp. Step 3: show up and pretend you’re not excited.",
-    "options": [
-      {
-        "option_title": "Option 1: Join the Full Week",
-        "steps": [
-          {
-            "title": "Confirm your dates",
-            "description": "Nov 18–25, 2026 (depart US Wed night; return Wed)."
-          },
-          {
-            "title": "Choose hotel tier per city",
-            "description": "Premium or value in Berlin, Prague, and Vienna (close by, so we’re still together)."
-          },
-          {
-            "title": "Reserve with deposit",
-            "description": "Deposit holds your spot while we finalize group bookings."
-          },
-          {
-            "title": "Receive trip brief",
-            "description": "A simple itinerary, neighborhood notes, and practical guidance so nobody has to “research” at 1am."
-          }
-        ],
-        "cta": "Join via Google Form",
-        "cta_url": "#join"
-      },
-      {
-        "option_title": "Option 2: Join for Part of the Week",
-        "description": "Prefer a shorter commitment? We support your adult responsibilities.",
-        "steps": [
-          "Start in Berlin, Prague, or Vienna—whatever fits your schedule.",
-          "Travel with the group for 2–7 nights.",
-          "Same hotel-tier choices and included experiences for your segment.",
-          "Perfect for busy calendars and soft commitments."
-        ],
-        "footnote": "*Exact segment pricing is shared on WhatsApp based on your dates and hotel tier.",
-        "cta": "Message Your Cities",
-        "cta_url": "#join"
-      }
-    ]
-  },
   "features": {
     "title": "What’s Included",
     "subtitle": "Enough structure to feel special. Enough freedom to feel like a reset. Zero “mandatory fun.”",
