@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     const bubbles = document.querySelectorAll('.day-bubble');
     const detailsContainer = document.getElementById('details-container');
+    const breadcrumbBtns = document.querySelectorAll('.breadcrumb-btn');
 
     if (bubbles.length > 0 && detailsContainer) {
         bubbles.forEach(bubble => {
@@ -46,6 +47,36 @@ document.addEventListener('DOMContentLoaded', async function() {
                 
                 // Show details
                 showDayDetails(day);
+            });
+        });
+        
+        // Add click handlers for breadcrumb buttons
+        breadcrumbBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const day = this.getAttribute('data-day');
+                
+                // Remove active class from all breadcrumbs
+                breadcrumbBtns.forEach(b => b.classList.remove('active'));
+                
+                // Add active class to clicked breadcrumb
+                this.classList.add('active');
+                
+                // Remove active class from all bubbles
+                bubbles.forEach(b => b.classList.remove('active'));
+                
+                // Add active class to corresponding bubble
+                const correspondingBubble = document.querySelector(`.day-bubble[data-day="${day}"]`);
+                if (correspondingBubble) {
+                    correspondingBubble.classList.add('active');
+                }
+                
+                // Show details
+                showDayDetails(day);
+                
+                // Scroll to details section on mobile
+                if (window.innerWidth <= 768) {
+                    detailsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             });
         });
 

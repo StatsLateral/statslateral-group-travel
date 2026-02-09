@@ -169,9 +169,47 @@
 .day-bubble:nth-child(6) { top: 140px; left: 72%; }
 .day-bubble:nth-child(7) { top: 20px; left: 86%; }
 
+/* Day Breadcrumbs Navigation */
+.day-breadcrumbs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.breadcrumb-btn {
+    background: white;
+    border: 2px solid #E8B86D;
+    color: #2C5F7C;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.breadcrumb-btn:hover {
+    background: #E8B86D;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(232,184,109,0.4);
+}
+
+.breadcrumb-btn.active {
+    background: #2C5F7C;
+    color: white;
+    border-color: #2C5F7C;
+}
+
 /* Details Section */
 .day-details {
-    margin-top: 80px;
+    margin-top: 20px;
     padding: 40px;
     background: white;
     border-radius: 12px;
@@ -321,8 +359,20 @@
         font-size: 0.75em;
     }
 
+    .day-breadcrumbs {
+        margin-top: 30px;
+        gap: 8px;
+        padding: 0 10px;
+    }
+    
+    .breadcrumb-btn {
+        padding: 8px 16px;
+        font-size: 0.85em;
+        min-width: 70px;
+    }
+
     .day-details {
-        margin-top: 40px;
+        margin-top: 20px;
         padding: 20px;
         min-height: auto;
     }
