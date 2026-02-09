@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         const content = await response.json();
         
         // Transform content.json roadmap data into the format needed for display
-        if (content.roadmap && content.roadmap.days) {
-            content.roadmap.days.forEach((day, index) => {
+        if (content.how_it_works && content.how_it_works.steps) {
+            content.how_it_works.steps.forEach((day, index) => {
                 const dayNumber = index + 1;
                 dayData[dayNumber] = {
                     title: day.title,
