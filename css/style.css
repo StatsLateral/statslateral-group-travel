@@ -117,11 +117,13 @@ ul {
 .btn-secondary {
     background-color: transparent;
     color: var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .btn-secondary:hover {
     background-color: rgba(67, 97, 238, 0.1);
     color: var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .btn-outline {
