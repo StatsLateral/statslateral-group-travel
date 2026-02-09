@@ -28,6 +28,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/attendee-board.css" />
 
   <script type="application/ld+json">
   {
@@ -71,10 +72,39 @@
     </section>
   </main>
 
-  <section class="cta-section">
+  <section class="attendee-board-section" id="join">
     <div class="container">
-      <div class="cta-content">
-        <img src="images/whos-coming-screenshot.png" alt="Who's coming - See who's joining The Brotherhood Trip" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+      <div class="board-header">
+        <h2>Who's coming</h2>
+        <p>See who's joining The Brotherhood Trip</p>
+      </div>
+      
+      <div class="departure-board">
+        <div id="board-loading" class="loading-board">
+          <div class="loading-spinner"></div>
+          <p>Loading attendees...</p>
+        </div>
+        
+        <div id="no-attendees" class="no-attendees" style="display: none;">
+          No attendees yet. Be the first to RSVP!
+        </div>
+        
+        <table class="board-table" id="attendee-board-table" style="display: none;">
+          <thead>
+            <tr>
+              <th>Full Name</th>
+              <th>City</th>
+              <th>Arrival</th>
+            </tr>
+          </thead>
+          <tbody id="attendee-board-body">
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="board-footer">
+        <a href="auth.html" class="btn btn-primary">RSVP Here</a>
+        <a href="modify-rsvp.html" class="btn btn-secondary">Modify RSVP</a>
       </div>
     </div>
   </section>
@@ -121,5 +151,6 @@
   <script src="js/cookie-consent.js"></script>
   <script src="js/analytics.js"></script>
   <script src="js/faq.js"></script>
+  <script src="js/attendee-board.js"></script>
 </body>
 </html>
