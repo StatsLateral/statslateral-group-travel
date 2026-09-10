@@ -9,10 +9,11 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  // If a CRON_SECRET is configured, require it. Vercel Cron automatically
-  // sends "Authorization: Bearer <CRON_SECRET>" when the env var is set.
+  // Require CRON_SECRET. Vercel Cron automatically sends
+  // "Authorization: Bearer <CRON_SECRET>" when the env var is set. Fail
+  // closed: if the secret is missing or does not match, reject.
   const cronSecret = process.env.CRON_SECRET;
-  if (cronSecret && req.headers.authorization !== `Bearer ${cronSecret}`) {
+  if (!cronSecret || req.headers.authorization !== `Bearer ${cronSecret}`) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
