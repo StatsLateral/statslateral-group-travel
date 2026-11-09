@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/hero-image.css">
     <link rel="stylesheet" href="css/team-section.css">
     <link rel="stylesheet" href="css/roadmap.css">
-    <link rel="stylesheet" href="css/attendee-board.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -29,11 +28,9 @@
                     <a href="#"><img data-src="navigation.logo_url" data-alt="navigation.logo_alt"></a>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="#value-props" data-content="navigation.menu_items[0].label"></a></li>
-                    <li><a href="#features" data-content="navigation.menu_items[1].label"></a></li>
-                    <li><a href="faq.html" data-content="navigation.menu_items[2].label"></a></li>
-                    <li><a href="#team" data-content="navigation.menu_items[3].label"></a></li>
-                    <li><a href="resources.html" target="_blank" rel="noopener noreferrer" data-content="navigation.menu_items[4].label"></a></li>
+                    <li><a href="#problem" data-content="navigation.menu_items[0].label"></a></li>
+                    <li><a href="#how-it-works" data-content="navigation.menu_items[1].label"></a></li>
+                    <li><a href="#hotels" data-content="navigation.menu_items[2].label"></a></li>
                     <li><a href="auth.html" class="btn btn-primary">RSVP Here</a></li>
                 </ul>
                 <div class="hamburger">
@@ -83,10 +80,6 @@
                     <h3 data-content="problem.items[1].title"></h3>
                     <p data-content="problem.items[1].description"></p>
                 </div>
-                <div class="problem-item">
-                    <h3 data-content="problem.items[2].title"></h3>
-                    <p data-content="problem.items[2].description"></p>
-                </div>
             </div>
         </div>
     </section>
@@ -133,7 +126,7 @@
 
                 <!-- Day Bubbles -->
                 <div class="day-bubbles">
-                    <!-- Day 1: Berlin - Brandenburg Gate Balloon -->
+                    <!-- Day 1: Porto - Ribeira Balloon -->
                     <div class="day-bubble" data-day="1">
                         <div class="balloon-container">
                             <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
@@ -155,12 +148,12 @@
                             <div class="balloon-label">
                                 <div class="bubble-day">Day 1</div>
                                 <div class="bubble-date">Nov 18</div>
-                                <div class="bubble-city">Berlin</div>
+                                <div class="bubble-city">Porto</div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Day 2: Berlin - TV Tower Balloon -->
+                    <!-- Day 2: Porto - Tower Balloon -->
                     <div class="day-bubble" data-day="2">
                         <div class="balloon-container">
                             <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
@@ -179,12 +172,12 @@
                             <div class="balloon-label">
                                 <div class="bubble-day">Day 2</div>
                                 <div class="bubble-date">Nov 19</div>
-                                <div class="bubble-city">Berlin</div>
+                                <div class="bubble-city">Porto</div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Day 3: Prague - Castle Balloon (Birthday) -->
+                    <!-- Day 3: Porto - Birthday Balloon (Birthday) -->
                     <div class="day-bubble" data-day="3">
                         <div class="balloon-container">
                             <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
@@ -205,12 +198,12 @@
                             <div class="balloon-label">
                                 <div class="bubble-day">Day 3</div>
                                 <div class="bubble-date">Nov 20</div>
-                                <div class="bubble-city">🎂 Prague</div>
+                                <div class="bubble-city">🎂 Porto</div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Day 4: Prague - Charles Bridge Balloon -->
+                    <!-- Day 4: Porto - Bridge Balloon -->
                     <div class="day-bubble" data-day="4">
                         <div class="balloon-container">
                             <svg class="balloon-monument" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
@@ -233,7 +226,7 @@
                             <div class="balloon-label">
                                 <div class="bubble-day">Day 4</div>
                                 <div class="bubble-date">Nov 21</div>
-                                <div class="bubble-city">Prague</div>
+                                <div class="bubble-city">Porto</div>
                             </div>
                         </div>
                     </div>
@@ -284,7 +277,7 @@
                             <div class="balloon-string"></div>
                             <div class="balloon-label">
                                 <div class="bubble-day">Day 6</div>
-                                <div class="bubble-date">Nov 23</div>
+                                <div class="bubble-date">Nov 23–24</div>
                                 <div class="bubble-city">Vienna</div>
                             </div>
                         </div>
@@ -311,7 +304,7 @@
                             <div class="balloon-string"></div>
                             <div class="balloon-label">
                                 <div class="bubble-day">Day 7</div>
-                                <div class="bubble-date">Nov 24</div>
+                                <div class="bubble-date">Nov 25</div>
                                 <div class="bubble-city">Departure</div>
                             </div>
                         </div>
@@ -530,70 +523,38 @@
         </div>
     </section>
 
-    <!-- FAQs Preview Section -->
-    <section class="faq-preview" id="faqs">
+    <!-- Hotels Section -->
+    <section class="hotels-section" id="hotels">
         <div class="container">
             <div class="section-header">
-                <h2 data-content="faq_preview.title"></h2>
+                <h2 data-content="hotels.title"></h2>
+                <p data-content="hotels.subtitle"></p>
             </div>
-            <div class="faq-cards">
-                <a class="faq-card" href="faq.html">
-                    <h3 data-content="faq_preview.cards[0].question"></h3>
-                    <p data-content="faq_preview.cards[0].preview"></p>
-                </a>
-                <a class="faq-card" href="faq.html">
-                    <h3 data-content="faq_preview.cards[1].question"></h3>
-                    <p data-content="faq_preview.cards[1].preview"></p>
-                </a>
-                <a class="faq-card" href="faq.html">
-                    <h3 data-content="faq_preview.cards[2].question"></h3>
-                    <p data-content="faq_preview.cards[2].preview"></p>
-                </a>
-                <a class="faq-card" href="faq.html">
-                    <h3 data-content="faq_preview.cards[3].question"></h3>
-                    <p data-content="faq_preview.cards[3].preview"></p>
-                </a>
-                <a class="faq-card" href="faq.html">
-                    <h3 data-content="faq_preview.cards[4].question"></h3>
-                    <p data-content="faq_preview.cards[4].preview"></p>
-                </a>
-                <a class="faq-card see-more" href="faq.html">
-                    <h3 data-content="faq_preview.cards[5].question"></h3>
-                </a>
+            <div class="problem-grid">
+                <div class="problem-item">
+                    <h3 data-content="hotels.items[0].city"></h3>
+                    <p><strong data-content="hotels.items[0].name"></strong><br><span data-content="hotels.items[0].address"></span></p>
+                    <p><strong data-content="hotels.items[0].price"></strong></p>
+                    <p data-content="hotels.items[0].note"></p>
+                    <p><a href="https://www.ihg.com/crowneplaza/hotels/gb/en/porto/opocp/hoteldetail" target="_blank" rel="noopener noreferrer">Check live rates on IHG →</a></p>
+                </div>
+                <div class="problem-item">
+                    <h3 data-content="hotels.items[1].city"></h3>
+                    <p><strong data-content="hotels.items[1].name"></strong><br><span data-content="hotels.items[1].address"></span></p>
+                    <p><strong data-content="hotels.items[1].price"></strong></p>
+                    <p data-content="hotels.items[1].note"></p>
+                    <p><a href="https://www.ihg.com/crowneplaza/hotels/us/en/vienna/vievm/hoteldetail" target="_blank" rel="noopener noreferrer">Check live rates on IHG →</a></p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="attendee-board-section" id="join">
+    <section class="join-section" id="join" style="padding: 60px 0; text-align: center;">
         <div class="container">
-            <div class="board-header">
-                <h2>Who's coming</h2>
-                <p>See who's joining The Brotherhood Trip</p>
+            <div class="section-header">
+                <h2 data-content="cta.title"></h2>
+                <p data-content="cta.description"></p>
             </div>
-            
-            <div class="departure-board">
-                <div id="board-loading" class="loading-board">
-                    <div class="loading-spinner"></div>
-                    <p>Loading attendees...</p>
-                </div>
-                
-                <div id="no-attendees" class="no-attendees" style="display: none;">
-                    No attendees yet. Be the first to RSVP!
-                </div>
-                
-                <table class="board-table" id="attendee-board-table" style="display: none;">
-                    <thead>
-                        <tr>
-                            <th>Full Name</th>
-                            <th>City</th>
-                            <th>Arrival</th>
-                        </tr>
-                    </thead>
-                    <tbody id="attendee-board-body">
-                    </tbody>
-                </table>
-            </div>
-            
             <div class="board-footer">
                 <a href="auth.html" class="btn btn-primary">RSVP Here</a>
                 <a href="modify-rsvp.html" class="btn btn-secondary">Modify RSVP</a>
@@ -641,7 +602,6 @@
     <script src="js/analytics.js"></script>
 
     <script src="js/roadmap.js"></script>
-    <script src="js/attendee-board.js"></script>
     <script src="js/script.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {

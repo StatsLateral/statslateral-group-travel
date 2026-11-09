@@ -51,18 +51,18 @@ export default async function handler(req, res) {
     const attendees = data.map(attendee => {
       const arrivalDate = new Date(attendee.arrival_date);
       const cityMap = {
-        '2026-11-18': 'Berlin',
-        '2026-11-19': 'Berlin',
-        '2026-11-20': 'Berlin',
-        '2026-11-21': 'Prague',
-        '2026-11-22': 'Prague',
+        '2026-11-18': 'Porto',
+        '2026-11-19': 'Porto',
+        '2026-11-20': 'Porto',
+        '2026-11-21': 'Porto',
+        '2026-11-22': 'Porto',
         '2026-11-23': 'Vienna',
         '2026-11-24': 'Vienna',
         '2026-11-25': 'Vienna'
       };
       
       const dateStr = attendee.arrival_date;
-      const city = cityMap[dateStr] || 'Berlin';
+      const city = cityMap[dateStr] || 'Porto';
       
       return {
         name: attendee.name,

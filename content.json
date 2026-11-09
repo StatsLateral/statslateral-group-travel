@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "The Brotherhood Trip: Central Europe (Berlin → Prague → Vienna) | Nov 18–25, 2026",
+    "title": "The Brotherhood Trip: Porto → Vienna | Nov 18–25, 2026",
     "description": "You are invited to the brotherhood trip. Checkout and RSVP.",
     "canonical_url": "https://statslateral-group-travel.vercel.app/",
     "og_title": "The Brotherhood Trip | Nov 18–25, 2026",
@@ -34,9 +34,9 @@
       "same_as": []
     },
     "webpage": {
-      "name": "The Brotherhood Trip (Berlin → Prague → Vienna)",
+      "name": "The Brotherhood Trip (Porto → Vienna)",
       "url": "https://statslateral-group-travel.vercel.app/",
-      "description": "An invite-only brotherhood week celebrating Shikhin’s 50th across Berlin, Prague, and Vienna. Join any city. Hosted, curated, and intentionally low-drama."
+      "description": "An invite-only brotherhood week celebrating Shikhin’s 50th in Porto, Portugal (Nov 18–22) and Vienna, Austria (Nov 22–25). Join either city. Hosted, curated, and intentionally low-drama."
     },
     "software_application": {
       "name": "Brotherhood Trip",
@@ -46,7 +46,7 @@
       "price_currency": "USD",
       "availability": "https://schema.org/OnlineOnly",
       "description": "A simple landing page + WhatsApp coordination for invite-only group travel (because we’re adults and nobody wants another app).",
-      "keywords": "group travel, mens retreat, brotherhood trip, berlin prague vienna, hosted trips, friends trip, europe trip november"
+      "keywords": "group travel, mens retreat, brotherhood trip, porto vienna, hosted trips, friends trip, europe trip november"
     },
     "organization": {
       "name": "Brotherhood Trip",
@@ -54,33 +54,7 @@
       "logo": "https://statslateral-group-travel.vercel.app/images/brotherhood-logo.svg",
       "description": "Invite-only group travel for friends who want the fun part (connection + culture) without the painful part (planning + chaos).",
       "same_as": []
-    },
-    "faq": [
-      {
-        "question": "Who is this trip for?",
-        "answer": "This is an invite-only trip for close friends and family celebrating Shikhin's 50th birthday. It's designed for meaningful connection, great conversations, and exploring three incredible European cities together."
-      },
-      {
-        "question": "Can I join for only part of the trip?",
-        "answer": "Absolutely. Join in Berlin, Prague, or Vienna for any portion of the week that works for your schedule. Every moment you can be there counts."
-      },
-      {
-        "question": "What's the daily schedule like?",
-        "answer": "Each day has one main anchor activity (walking tour, museum visit, group dinner) plus plenty of free time to explore, rest, or do your own thing. Nothing is mandatory—this is about connection, not obligation."
-      },
-      {
-        "question": "How do I join and stay coordinated?",
-        "answer": "Fill out the Google Form to let us know you're interested, then all trip coordination happens via WhatsApp. We'll share hotel options, train schedules, and daily plans there."
-      },
-      {
-        "question": "What should I book on my own?",
-        "answer": "You'll need to arrange your own flights to/from Europe and book your hotel accommodations. We'll share recommended hotels in each city that are close to each other so the group stays together. Train tickets between cities can be coordinated as a group."
-      },
-      {
-        "question": "What's the vibe of this trip?",
-        "answer": "Think: relaxed exploration, great meals, late-night conversations, and zero tour-bus energy. This is about being together in beautiful places, not checking boxes or following rigid schedules."
-      }
-    ]
+    }
   },
   "navigation": {
     "logo_url": "images/brotherhood-logo.svg",
@@ -95,8 +69,8 @@
         "href": "#how-it-works"
       },
       {
-        "label": "FAQs",
-        "href": "faq.html"
+        "label": "Hotels",
+        "href": "#hotels"
       }
     ],
     "cta_button": {
@@ -107,26 +81,22 @@
   },
   "hero": {
     "headline": "An Authentic Heart-to-Heart Trip",
-    "subheadline": "Recently, I realized life is too short for “we should catch up sometime.” So let’s actually do it properly. In Central Europe from Nov 18-25, 2026.",
+    "subheadline": "Recently, I realized life is too short for “we should catch up sometime.” So let’s actually do it properly. In Porto and Vienna from Nov 18-25, 2026.",
     "cta_primary": "Join via Google Forms",
     "cta_primary_url": "#join",
     "image_url": "images/hero-travel.png",
-    "image_alt": "Central Europe Travel - Berlin, Prague, Vienna"
+    "image_alt": "Porto and Vienna Travel"
   },
   "problem": {
     "title": "Celebrate Shikhin’s 50th birthday",
-    "subtitle": "Come visit a few of my favorite places in Central Europe and bond with my favorite people. Think: real conversations, great walks, memorable meals, and just enough nonsense to keep us humble.",
+    "subtitle": "Come visit two of my favorite places in Europe and bond with my favorite people. Think: real conversations, great walks, memorable meals, and just enough nonsense to keep us humble.",
     "items": [
       {
-        "title": "Berlin",
-        "description": "My favorite city—where my first love story began via a client in the early StatsLateral days. Yes, I’m counting consulting as romance. Don’t @ me."
+        "title": "Porto, Portugal · Nov 18–22",
+        "description": "Steep cobbled streets, river views, tiled facades, and port wine on the Douro. The perfect backdrop for the main birthday celebration."
       },
       {
-        "title": "Prague",
-        "description": "I fell for Prague in 2015 on a solo EU trip: stunning, walkable, and somehow still a great deal—like finding a five-star vibe at a three-star price."
-      },
-      {
-        "title": "Vienna",
+        "title": "Vienna, Austria · Nov 22–25",
         "description": "Vienna is where I discovered the kind of art I actually love—and the kind I hope to pursue one day. Also: coffee so good it feels judgmental."
       }
     ]
@@ -136,86 +106,84 @@
     "subtitle": "One thoughtfully designed week for brotherhood, culture, and ease. Basically, the best parts of my favorite trips, without the chaos.",
     "items": [
       {
-        "title": "📅 Thursday, Nov 18 → Wednesday, Nov 25, 2026",
-        "description": "Ideally, arrive on Thursday and leave on following Wednesday just in time to be back before Thanksgiving."
+        "title": "📅 Wednesday, Nov 18 → Wednesday, Nov 25, 2026",
+        "description": "Porto Nov 18–22, then Vienna Nov 22–25. Ideally arrive Nov 18 and leave Nov 25 just in time to be back before Thanksgiving."
       },
       {
         "title": "🎂 The main birthday moment: Saturday, Nov 20",
-        "description": "This is the heart of the trip. We’ll be together in Prague, cutting the ‘cake,’ raising a glass. Celebrate life and friendships."
+        "description": "This is the heart of the trip. We’ll be together in Porto, cutting the ‘cake,’ raising a glass. Celebrate life and friendships."
       },
       {
         "title": "✈️ Flexible travel dates",
-        "description": "Come for the full week, or just part of it. Join in Berlin, Prague, or Vienna. Leave when life calls. You join for what you can and would love to see you."
+        "description": "Come for the full week, or just part of it. Join in Porto or Vienna. Leave when life calls. You join for what you can and would love to see you."
       }
     ]
   },
   "how_it_works": {
     "title": "Trip Details",
-    "subtitle": "Seven easy, well-paced days across three cities — designed for great conversations, great walks, and zero logistical headaches.",
+    "subtitle": "Seven easy, well-paced days across two cities — designed for great conversations, great walks, and zero logistical headaches.",
     "steps": [
       {
         "number": "Day 1",
-        "title": "Thursday, Nov 18 — Arrival in Berlin",
+        "title": "Wednesday, Nov 18 — Arrival in Porto",
         "time": "Land, decompress, and ease into the week",
         "items": [
-          "Morning: Arrivals into Berlin (from wherever you’re coming from)",
+          "Morning: Arrivals into Porto (OPO) from wherever you’re coming from",
           "Daytime: Check in, stretch your legs, light wandering or napping",
-          "Afternoon: Decompress together at Vabali Spa (optional but highly recommended)",
-          "Evening: Welcome dinner at a great immigrant-run Berlin restaurant",
-          "Suggested hotel options: Premium Berlin Hotel or Value Berlin Hotel (both central and walkable)"
+          "Afternoon: Walk down to the Ribeira riverfront",
+          "Evening: Welcome dinner at a great local Porto restaurant",
+          "Hotel: Crowne Plaza Porto (Av. da Boavista) — see Hotels section for pricing"
         ]
       },
       {
         "number": "Day 2",
-        "title": "Friday, Nov 19 — Berlin, Culture & Conversation",
+        "title": "Thursday, Nov 19 — Porto, Culture & Conversation",
         "time": "History, walking, and finding our rhythm",
         "items": [
-          "Morning: Guided Berlin walking tour (history + neighborhoods, not a lecture)",
-          "Daytime: Free time for cafés, shopping, museums, or just wandering",
-          "Late afternoon: A visit to Futurium (my favorite museum)",
+          "Morning: Guided Porto walking tour (history + neighborhoods, not a lecture)",
+          "Daytime: Free time for cafés, shopping, bookstores, or just wandering",
+          "Late afternoon: Port wine tasting across the river in Vila Nova de Gaia",
           "Evening: Dinner TBD",
-          "Late night (optional): Cocktail lounge or Berlin nightlife"
+          "Late night (optional): Cocktail lounge or Porto nightlife"
         ]
       },
       {
         "number": "Day 3",
-        "title": "Saturday, Nov 20 — Berlin → Prague (Birthday Day)",
-        "time": "Travel day + the heart of the celebration",
+        "title": "Friday, Nov 20 — Porto (Birthday Day)",
+        "time": "The heart of the celebration",
         "items": [
-          "Morning: Easy Berlin morning, coffee and packing",
-          "Midday: Noon train from Berlin to Prague (approx. 4 hours)",
-          "Afternoon: Check into Prague hotels and settle in",
-          "Evening: Main birthday dinner and toasts in Prague",
-          "Late night (optional): Prague nightlife",
-          "Suggested hotel options: Premium Prague Hotel or Value Prague Hotel"
+          "Morning: Easy morning, coffee and pastéis de nata",
+          "Daytime: Free time or optional Douro riverside stroll",
+          "Evening: Main birthday dinner and toasts in Porto",
+          "Late night (optional): Porto nightlife"
         ]
       },
       {
         "number": "Day 4",
-        "title": "Sunday, Nov 21 — Prague, Nature & Old Town",
+        "title": "Saturday, Nov 21 — Porto, Nature & Old Town",
         "time": "Fresh air, beauty, and deep conversations",
         "items": [
-          "Late morning: Hike across the river for city views",
-          "Afternoon: Rest, café hopping, or Old Town wandering",
-          "Evening: Group dinner in Prague’s main square or historic district",
-          "Late night (optional): Late evening drink at the Old Town Square"
+          "Late morning: Walk the Dom Luís I Bridge for city views",
+          "Afternoon: Rest, café hopping, or Ribeira wandering",
+          "Evening: Group dinner in Porto’s historic district",
+          "Late night (optional): Late evening drink by the river"
         ]
       },
       {
         "number": "Day 5",
-        "title": "Monday, Nov 22 — Prague → Vienna",
+        "title": "Sunday, Nov 22 — Porto → Vienna",
         "time": "Transition into elegance",
         "items": [
           "Morning: Easy breakfast and check-out",
-          "Late morning: Noon train from Prague to Vienna (approx. 4 hours)",
-          "Afternoon: Check into Vienna hotels and walk the city center",
+          "Midday: Flight from Porto to Vienna (flight times to be shared on WhatsApp)",
+          "Afternoon: Check into Vienna hotel and walk the city center",
           "Evening: Dinner at my favorite Schnitzel place",
-          "Suggested hotel options: Premium Vienna Hotel or Value Vienna Hotel"
+          "Hotel: Crowne Plaza Vienna — see Hotels section for pricing"
         ]
       },
       {
         "number": "Day 6",
-        "title": "Tuesday, Nov 23 — Vienna, Art & Café Culture",
+        "title": "Monday–Tuesday, Nov 23–24 — Vienna, Art & Café Culture",
         "time": "Slow, beautiful, and reflective",
         "items": [
           "Morning: Vienna café breakfast at my favorite bakery",
@@ -227,7 +195,7 @@
       },
       {
         "number": "Day 7",
-        "title": "Wednesday, Nov 24 — Return Home",
+        "title": "Wednesday, Nov 25 — Return Home",
         "time": "Head back refreshed",
         "items": [
           "Morning: Departures from Vienna. Travel back home in time for Thanksgiving"
@@ -247,22 +215,20 @@
   },
   "cta": {
     "title": "Join the Trip",
-    "description": "Step 1: Fill the Google Form to register interest. Step 2: Confirm details in WhatsApp: (1) cities you’ll join, (2) hotel tier (premium/value), and (3) solo/shared room. We’ll send exact pricing and next steps.",
+    "description": "Step 1: RSVP on this site. Step 2: Confirm details in WhatsApp: (1) cities you’ll join (Porto, Vienna, or both) and (2) solo/shared room. We’ll send next steps.",
     "button_text": "Join via Google Form",
     "small_text": "Invite-only group • Target: 10–15 travelers • Capacity is real • Your indecision is respected (until it isn’t)."
   },
   "pricing_client_engagement": {
     "title": "Estimated Cost (Land Only)",
-    "subtitle": "Hotels + trains + breakfasts + group dinners + curated experiences",
-    "price": "$2,200–$2,900 per person",
-    "tagline": "Depends on hotel tier and how many cities you join. Flights and personal spending not included (including your questionable souvenir choices).",
+    "subtitle": "Hotels + group dinners + curated experiences",
+    "price": "Hotel: ~€100–€150 per night (Crowne Plaza)",
+    "tagline": "Based on public Crowne Plaza rates. Flights and personal spending not included.",
     "features": [
-      "Two hotel tiers per city (premium/value), close-by neighborhoods",
-      "First-class trains between Berlin → Prague → Vienna",
-      "Daily breakfast",
+      "Crowne Plaza in Porto and Vienna",
+      "Daily breakfast (confirm with rate)",
       "4–5 group dinners",
-      "Berlin walking tour + Vabali Spa",
-      "Prague nature hike",
+      "Porto walking tour + port tasting",
       "Vienna culture night (concert/opera if available, or museum)"
     ],
     "cta": "Get Your Exact Price on WhatsApp",
@@ -290,8 +256,8 @@
         "price": "Deposit applies",
         "tagline": "Prefer a shorter segment? We’ll still count you as family.",
         "features": [
-          "Berlin-only / Prague-only / Vienna-only segments possible",
-          "Berlin + Prague or Prague + Vienna are popular options",
+          "Porto-only / Vienna-only segments possible",
+          "Porto + Vienna for the full week",
           "Same hotel-tier choices",
           "Exact segment pricing shared on WhatsApp"
         ],
@@ -308,7 +274,7 @@
         "name": "Trip Host (Invite-Only Group)",
         "photo": "images/Shik-headshot-2022-large.jpg",
         "title": "Coordinator",
-        "description": "Curates hotels, trains, and shared experiences.<br>Handles reservations and group coordination via WhatsApp.<br>Will politely remind you of deadlines (multiple times).",
+        "description": "Curates hotels and shared experiences.<br>Handles reservations and group coordination via WhatsApp.<br>Will politely remind you of deadlines (multiple times).",
         "linkedin": "https://www.linkedin.com/in/shikhin"
       },
       {
@@ -327,42 +293,6 @@
       }
     ]
   },
-  "faq_preview": {
-    "title": "Frequently Asked Questions",
-    "cards": [
-      {
-        "question": "Who is this trip for?",
-        "preview": "This is an invite-only trip for close friends and family celebrating Shikhin's 50th birthday. It's designed for meaningful connection, great conversations, and exploring three incredible European cities together...:",
-        "link": "faq.html"
-      },
-      {
-        "question": "Can I join for only part of the trip?",
-        "preview": "Absolutely. Join in Berlin, Prague, or Vienna for any portion of the week that works for your schedule. Every moment you can be there counts...:",
-        "link": "faq.html"
-      },
-      {
-        "question": "What's the daily schedule like?",
-        "preview": "Each day has one main anchor activity (walking tour, museum visit, group dinner) plus plenty of free time to explore, rest, or do your own thing. Nothing is mandatory—this is about connection, not obligation...:",
-        "link": "faq.html"
-      },
-      {
-        "question": "How do I join and stay coordinated?",
-        "preview": "Fill out the Google Form to let us know you're interested, then all trip coordination happens via WhatsApp. We'll share hotel options, train schedules, and daily plans there...:",
-        "link": "faq.html"
-      },
-      {
-        "question": "What should I book on my own?",
-        "preview": "You'll need to arrange your own flights to/from Europe and book your hotel accommodations. We'll share recommended hotels in each city that are close to each other so the group stays together...:",
-        "link": "faq.html"
-      },
-      {
-        "question": "See More FAQs",
-        "preview": "",
-        "link": "faq.html",
-        "is_see_more": true
-      }
-    ]
-  },
   "footer": {
     "logo_alt": "Brotherhood Trip logo",
     "copyright": " 2026 Brotherhood Trip. All rights reserved.",
@@ -375,8 +305,8 @@
             "href": "#how-it-works"
           },
           {
-            "label": "FAQs",
-            "href": "faq.html"
+            "label": "Hotels",
+            "href": "#hotels"
           }
         ]
       },
@@ -388,6 +318,28 @@
             "href": "#join"
           }
         ]
+      }
+    ]
+  },
+  "hotels": {
+    "title": "Hotels: Crowne Plaza",
+    "subtitle": "Our group hotel in both cities. Book directly with IHG and mention the Brotherhood Trip on WhatsApp so we can keep everyone together. Rates below are indicative, taken from public booking sites; confirm live rates for your dates on IHG before booking.",
+    "items": [
+      {
+        "city": "Porto · Nov 18–22 (4 nights)",
+        "name": "Crowne Plaza Porto",
+        "address": "Av. da Boavista, Porto",
+        "price": "From ~€110 / night (avg ~€150)",
+        "note": "Roughly €440–€600 for 4 nights per room. Check-in 2:00 PM, check-out 12:00 PM.",
+        "url": "https://www.ihg.com/crowneplaza/hotels/gb/en/porto/opocp/hoteldetail"
+      },
+      {
+        "city": "Vienna · Nov 22–25 (3 nights)",
+        "name": "Crowne Plaza Vienna",
+        "address": "Vienna, Austria",
+        "price": "From ~€100 / night",
+        "note": "Roughly €300+ for 3 nights per room depending on room type. November rates have been seen near €102/night for a standard room.",
+        "url": "https://www.ihg.com/crowneplaza/hotels/us/en/vienna/vievm/hoteldetail"
       }
     ]
   }
