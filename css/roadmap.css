@@ -161,13 +161,22 @@
 }
 
 /* Positioning for 7 bubbles in equally spaced zigzag pattern */
-.day-bubble:nth-child(1) { top: 20px; left: 2%; }
-.day-bubble:nth-child(2) { top: 140px; left: 16%; }
-.day-bubble:nth-child(3) { top: 20px; left: 30%; }
-.day-bubble:nth-child(4) { top: 140px; left: 44%; }
-.day-bubble:nth-child(5) { top: 20px; left: 58%; }
-.day-bubble:nth-child(6) { top: 140px; left: 72%; }
-.day-bubble:nth-child(7) { top: 20px; left: 86%; }
+/* Bubble centers run 8% → 92% (step 14%), so the row is centered in the container */
+.day-bubble:nth-child(1) { top: 20px; left: calc(8% - 80px); }
+.day-bubble:nth-child(2) { top: 140px; left: calc(22% - 80px); }
+.day-bubble:nth-child(3) { top: 20px; left: calc(36% - 80px); }
+.day-bubble:nth-child(4) { top: 140px; left: calc(50% - 80px); }
+.day-bubble:nth-child(5) { top: 20px; left: calc(64% - 80px); }
+.day-bubble:nth-child(6) { top: 140px; left: calc(78% - 80px); }
+.day-bubble:nth-child(7) { top: 20px; left: calc(92% - 80px); }
+
+.hotels-section { padding: 80px 0; text-align: center; }
+.hotels-section .section-header p { max-width: 800px; margin: 0 auto; }
+.hotels-section .problem-item { border-left: none; border-top: 4px solid #E8B86D; text-align: center; }
+.hotels-section .problem-item p { margin-bottom: 10px; }
+.hotels-section .problem-grid { grid-template-columns: repeat(2, 1fr); max-width: 900px; margin-left: auto; margin-right: auto; }
+.hotels-section .hotel-links { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 15px; }
+@media (max-width: 768px) { .hotels-section .problem-grid { grid-template-columns: 1fr; } }
 
 /* Day Breadcrumbs Navigation */
 .day-breadcrumbs {
